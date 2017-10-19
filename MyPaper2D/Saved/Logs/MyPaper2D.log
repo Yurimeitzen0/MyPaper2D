@@ -1,0 +1,844 @@
+﻿Log file open, 10/18/17 22:45:52
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: MyPaper2D
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1677052269) SRandInit(1677052269).
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.153930
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.19-00.45.53:658][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.19-00.45.53:658][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.19-00.45.53:711][  0]LogInit: Computer: WELTALL
+[2017.10.19-00.45.53:711][  0]LogInit: User: YuriMeitzen
+[2017.10.19-00.45.53:711][  0]LogInit: CPU Page size=4096, Cores=3
+[2017.10.19-00.45.53:712][  0]LogInit: High frequency timer resolution =3.433666 MHz
+[2017.10.19-00.45.53:712][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.10.19-00.45.53:712][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.19-00.45.53:712][  0]LogMemory: Process Physical Memory: 278.00 MB used, 278.00 MB peak
+[2017.10.19-00.45.53:712][  0]LogMemory: Process Virtual Memory: 279.91 MB used, 279.91 MB peak
+[2017.10.19-00.45.53:712][  0]LogMemory: Physical Memory: 4767.44 MB used,  3383.14 MB free, 8150.58 MB total
+[2017.10.19-00.45.53:712][  0]LogMemory: Virtual Memory: 673.12 MB used,  3383.14 MB free, 134217728.00 MB total
+[2017.10.19-00.45.53:890][  0]LogInit: Using OS detected language (en-US).
+[2017.10.19-00.45.53:890][  0]LogInit: Using OS detected locale (pt-BR).
+[2017.10.19-00.45.53:893][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.19-00.45.54:761][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.19-00.45.54:788][  0]LogD3D11RHI:    0. 'AMD Radeon R7 200 Series' (Feature Level 11_0)
+[2017.10.19-00.45.54:788][  0]LogD3D11RHI:       2024/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.10.19-00.45.54:791][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.19-00.45.54:791][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.19-00.45.54:791][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.19-00.45.54:803][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.19-00.45.54:803][  0]LogD3D11RHI:     GPU DeviceId: 0x6658 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.19-00.45.54:803][  0]LogWindows: EnumDisplayDevices:
+[2017.10.19-00.45.54:804][  0]LogWindows:    0. 'AMD Radeon R7 200 Series' (P:1 D:1)
+[2017.10.19-00.45.54:804][  0]LogWindows:    1. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.10.19-00.45.54:805][  0]LogWindows:    2. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.10.19-00.45.54:805][  0]LogWindows:    3. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.10.19-00.45.54:805][  0]LogWindows:    4. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.10.19-00.45.54:806][  0]LogWindows:    5. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.10.19-00.45.54:806][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.10.19-00.45.54:806][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 200 Series
+[2017.10.19-00.45.54:806][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7.2 (internal:22.19.662.4, unified:22.19.662.4)
+[2017.10.19-00.45.54:806][  0]LogD3D11RHI:      Driver Date: 7-20-2017
+[2017.10.19-00.45.54:806][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.19-00.45.54:843][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.19-00.45.54:857][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.10.19-00.45.54:857][  0]LogD3D11RHI: HDR output is supported on display 0 (AMD Device: 0x0, Display: 0x0).
+[2017.10.19-00.45.54:858][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Intermediate/Shaders/WorkingDirectory/7872/).
+[2017.10.19-00.45.54:858][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Yuri Meitzen/AppData/Local/Temp/UnrealShaderWorkingDir/BC188F5246D46522E1A87FAB5FA9580B/'.
+[2017.10.19-00.45.54:858][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.19-00.45.56:392][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.19-00.45.56:461][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.19-00.45.56:534][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.19-00.45.56:622][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.19-00.45.56:715][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.19-00.45.56:815][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.19-00.45.56:910][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.19-00.45.57:008][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.19-00.45.57:085][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.19-00.45.57:172][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.19-00.45.57:258][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.19-00.45.57:338][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.19-00.45.57:419][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.19-00.45.57:486][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.19-00.45.57:546][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.19-00.45.57:674][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.19-00.45.57:674][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.19-00.45.57:720][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.19-00.45.57:825][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.19-00.45.57:864][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.19-00.45.57:925][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.19-00.45.57:985][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.19-00.45.58:047][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.19-00.45.58:107][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.19-00.45.58:107][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.19-00.45.58:719][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.19-00.45.58:915][  0]LogDerivedDataCache: Loaded boot cache 0.20s 93MB C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.19-00.45.58:915][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.19-00.45.58:915][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.19-00.45.58:915][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.19-00.45.58:915][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.19-00.45.58:915][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.19-00.45.58:939][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.19-00.45.58:952][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.19-00.45.58:971][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.19-00.45.58:971][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.19-00.45.58:972][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.19-00.45.58:972][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.19-00.45.59:346][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
+[2017.10.19-00.45.59:560][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.19-00.46.00:171][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.19-00.46.00:234][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.19-00.46.00:234][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.19-00.46.00:234][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.19-00.46.00:234][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.19-00.46.00:234][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.19-00.46.00:237][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.19-00.46.00:848][  0]LogNetVersion: MyPaper2D , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 640952014)
+[2017.10.19-00.46.01:105][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.049214 seconds
+[2017.10.19-00.46.01:114][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.19-00.46.01:114][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.19-00.46.01:114][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.19-00.46.01:190][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.19-00.46.04:846][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.19-00.46.04:908][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.19-00.46.05:649][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.19-00.46.06:130][  0]SourceControl: Source control is disabled
+[2017.10.19-00.46.06:130][  0]SourceControl: Source control is disabled
+[2017.10.19-00.46.06:186][  0]SourceControl: Source control is disabled
+[2017.10.19-00.46.06:244][  0]SourceControl: Source control is disabled
+[2017.10.19-00.46.06:938][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.19-00.46.07:239][  0]LogOcInput: OculusInput pre-init called
+[2017.10.19-00.46.07:547][  0]LogEngine: Initializing Engine...
+[2017.10.19-00.46.07:550][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.19-00.46.07:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.19-00.46.07:896][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.19-00.46.08:153][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.19-00.46.08:194][  0]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.19-00.46.08:222][  0]LogInit: FAudioDevice initialized.
+[2017.10.19-00.46.09:396][  0]LogDerivedDataCache: Saved boot cache 1.17s 93MB C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.19-00.46.09:421][  0]LogInit: Texture streaming: Enabled
+[2017.10.19-00.46.09:561][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.19-00.46.09:824][  0]LogInit: Transaction tracking system initialized
+[2017.10.19-00.46.10:185][  0]BlueprintLog: New page: Editor Load
+[2017.10.19-00.46.11:332][  0]LocalizationService: Localization service is disabled
+[2017.10.19-00.46.12:164][  0]LogConsoleResponse: Display: 
+[2017.10.19-00.46.12:396][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/' took 0.01s
+[2017.10.19-00.46.12:396][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.19-00.46.12:396][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.19-00.46.12:396][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.19-00.46.13:978][  0]SourceControl: Source control is disabled
+[2017.10.19-00.46.13:979][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.19-00.46.13:980][  0]LightingResults: New page: Lighting Build
+[2017.10.19-00.46.14:056][  0]MapCheck: New page: Map Check
+[2017.10.19-00.46.14:056][  0]LightingResults: New page: Lighting Build
+[2017.10.19-00.46.14:425][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.19-00.46.14:433][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.19-00.46.14:459][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.19-00.46.14:518][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 58,954ms to complete.
+[2017.10.19-00.46.14:518][  0]LogFileHelpers: Loading map 'Template_Default' took 0.540
+[2017.10.19-00.46.14:610][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.19-00.46.15:649][  0]LogCollectionManager: Loaded 0 collections in 0.001560 seconds
+[2017.10.19-00.46.16:024][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/Collections/' took 0.01s
+[2017.10.19-00.46.16:024][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Developers/YuriMeitzen/Collections/' took 0.01s
+[2017.10.19-00.46.16:024][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Collections/' took 0.01s
+[2017.10.19-00.46.16:024][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.19-00.46.16:081][  0]LogContentBrowser: Native class hierarchy populated in 0.0294 seconds. Added 2386 classes and 500 folders.
+[2017.10.19-00.46.16:314][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0207 seconds. Added 0 classes and 0 folders.
+[2017.10.19-00.46.19:671][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.19-00.46.19:883][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.10.19-00.46.22:477][  0]LogSlate: Took 0.000661 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.19-00.46.22:490][  0]LogSlate: Took 0.000349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.19-00.46.22:598][  0]LogSlate: Took 0.024984 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.19-00.46.23:142][  0]LogRenderer: Reallocating scene render targets to support 1036x576 Format 9 NumSamples 1 (Frame:1).
+[2017.10.19-00.46.24:561][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.10.19-00.46.24:561][  0]LogLoad: (Engine Initialization) Total time: 32.72 seconds
+[2017.10.19-00.46.24:561][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.19-00.46.24:561][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.19-00.46.24:561][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.19-00.46.24:617][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.10.19-00.46.30:412][557]LogAssetRegistry: Asset discovery search completed in 31.0875 seconds
+[2017.10.19-00.46.30:414][557]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.19-00.46.30:414][557]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000065 seconds (updated 0 objects)
+[2017.10.19-00.58.55:461][892]LightingResults: New page: Lighting Build
+[2017.10.19-00.58.55:462][892]MapCheck: New page: Map Check
+[2017.10.19-00.58.55:462][892]LightingResults: New page: Lighting Build
+[2017.10.19-00.58.55:482][892]LogAIModule: Creating AISystem for world Untitled
+[2017.10.19-00.58.55:593][892]LoadErrors: New page: New Map
+[2017.10.19-00.58.55:650][894]LogEditorViewport: Clicking Background
+[2017.10.19-00.59.05:061][379]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.19-00.59.05:877][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2DMap" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.19-00.59.05:939][379]LogSavePackage: Save=35.78ms
+[2017.10.19-00.59.05:939][379]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/My2DMapEEA061374933A0213F2668B57F079A09.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap'
+[2017.10.19-00.59.05:940][379]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap
+[2017.10.19-00.59.06:021][379]LogFileHelpers: Saving map 'My2DMap' took 1.048
+[2017.10.19-00.59.06:024][379]Cmd: MAP LOAD FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.19-00.59.06:058][379]LightingResults: New page: Lighting Build
+[2017.10.19-00.59.06:060][379]LoadErrors: New page: Loading map: My2DMap.umap
+[2017.10.19-00.59.06:064][379]MapCheck: New page: Map Check
+[2017.10.19-00.59.06:064][379]LightingResults: New page: Lighting Build
+[2017.10.19-00.59.06:098][379]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.19-00.59.06:264][379]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.19-00.59.06:323][379]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.19-00.59.06:387][379]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63,28ms to complete.
+[2017.10.19-00.59.06:387][379]LogFileHelpers: Loading map 'My2DMap' took 0.366
+[2017.10.19-00.59.06:531][385]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.19-01.01.55:454][371]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Yuri Meitzen\Desktop\paper2D\2DBackgroundTile.TGA)
+[2017.10.19-01.01.55:531][371]LogTexture: Display: Building textures: 2DBackgroundTile (AutoDXT, 256X256)
+[2017.10.19-01.01.55:701][371]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Yuri Meitzen\Desktop\paper2D\2DCharacter_IdleAnimAtlas.TGA)
+[2017.10.19-01.01.55:741][371]LogTexture: Display: Building textures: 2DCharacter_IdleAnimAtlas (AutoDXT, 1024X1024)
+[2017.10.19-01.01.56:213][371]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Yuri Meitzen\Desktop\paper2D\2DCharacter_RunAnimAtlas.TGA)
+[2017.10.19-01.01.56:252][371]LogTexture: Display: Building textures: 2DCharacter_RunAnimAtlas (AutoDXT, 1024X1024)
+[2017.10.19-01.01.56:670][371]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Yuri Meitzen\Desktop\paper2D\CharacterJumping.png)
+[2017.10.19-01.01.56:679][371]LogTexture: Display: Building textures: CharacterJumping (AutoDXT, 256X256)
+[2017.10.19-01.01.56:758][371]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Yuri Meitzen\Desktop\paper2D\PrototypeTexture.png)
+[2017.10.19-01.01.56:764][371]LogTexture: Display: Building textures: PrototypeTexture (AutoDXT, 256X256)
+[2017.10.19-01.01.56:867][371]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Yuri Meitzen\Desktop\paper2D\2DBackground.TGA)
+[2017.10.19-01.01.56:877][371]LogTexture: Display: Building textures: 2DBackground (AutoDXT, 512X512)
+[2017.10.19-01.01.57:051][371]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Yuri Meitzen\Desktop\paper2D\2DBackgroundBlockAtlas.TGA)
+[2017.10.19-01.01.57:087][371]LogTexture: Display: Building textures: 2DBackgroundBlockAtlas (AutoDXT, 1024X1024)
+[2017.10.19-01.02.03:619][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/2DBackgroundBlockAtlas" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/2DBackgroundBlockAtlas.uasset" SILENT=true
+[2017.10.19-01.02.03:699][746]LogSavePackage: Save=76.98ms
+[2017.10.19-01.02.03:699][746]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DBackgroundBlockAtlas0C6D521F48600A3D8C351793D2128E4B.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/2DBackgroundBlockAtlas.uasset'
+[2017.10.19-01.02.03:705][746]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/2DBackgroundBlockAtlas.uasset
+[2017.10.19-01.02.03:720][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/2DBackground" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/2DBackground.uasset" SILENT=true
+[2017.10.19-01.02.03:756][746]LogSavePackage: Save=33.52ms
+[2017.10.19-01.02.03:756][746]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DBackground771575F7468A5B660221219171650C0A.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/2DBackground.uasset'
+[2017.10.19-01.02.03:759][746]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/2DBackground.uasset
+[2017.10.19-01.02.03:773][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/PrototypeTexture" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/PrototypeTexture.uasset" SILENT=true
+[2017.10.19-01.02.03:798][746]LogSavePackage: Save=22.18ms
+[2017.10.19-01.02.03:798][746]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/PrototypeTexture28D14D964E2DEE9D0FACFC9E476EFA64.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/PrototypeTexture.uasset'
+[2017.10.19-01.02.03:801][746]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/PrototypeTexture.uasset
+[2017.10.19-01.02.03:815][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/CharacterJumping" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/CharacterJumping.uasset" SILENT=true
+[2017.10.19-01.02.03:832][746]LogSavePackage: Save=14.79ms
+[2017.10.19-01.02.03:832][746]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/CharacterJumping5A0475504F0356223A037B8443356F94.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/CharacterJumping.uasset'
+[2017.10.19-01.02.03:835][746]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/CharacterJumping.uasset
+[2017.10.19-01.02.03:850][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/2DCharacter_RunAnimAtlas" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/2DCharacter_RunAnimAtlas.uasset" SILENT=true
+[2017.10.19-01.02.03:940][746]LogSavePackage: Save=87.45ms
+[2017.10.19-01.02.03:940][746]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacter_RunAnimAtlas8A30619341E860AB01D9B381FBE51B3F.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/2DCharacter_RunAnimAtlas.uasset'
+[2017.10.19-01.02.03:943][746]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/2DCharacter_RunAnimAtlas.uasset
+[2017.10.19-01.02.03:958][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/2DCharacter_IdleAnimAtlas" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/2DCharacter_IdleAnimAtlas.uasset" SILENT=true
+[2017.10.19-01.02.04:033][746]LogSavePackage: Save=72.81ms
+[2017.10.19-01.02.04:033][746]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacter_IdleAnimAtlasA9A3A8B4499E966C0BF420A7463B3EBE.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/2DCharacter_IdleAnimAtlas.uasset'
+[2017.10.19-01.02.04:036][746]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/2DCharacter_IdleAnimAtlas.uasset
+[2017.10.19-01.02.04:051][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/2DBackgroundTile" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/2DBackgroundTile.uasset" SILENT=true
+[2017.10.19-01.02.04:068][746]LogSavePackage: Save=14.59ms
+[2017.10.19-01.02.04:068][746]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DBackgroundTile2F38F4A24F4127AEA8D0CFA89403BD57.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/2DBackgroundTile.uasset'
+[2017.10.19-01.02.04:071][746]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Textures/2DBackgroundTile.uasset
+[2017.10.19-01.03.14:298][793]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2017.10.19-01.03.14:349][793]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.03.14:771][793]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.03.14:983][793]LogSlate: Took 0.121906 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.19-01.03.18:600][985]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/LevelPrototype" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Materials/LevelPrototype.uasset" SILENT=true
+[2017.10.19-01.03.18:626][985]LogSavePackage: Save=22.66ms
+[2017.10.19-01.03.18:626][985]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/LevelPrototype2ADDFC1C4347F316D1CC899ADF02462B.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Materials/LevelPrototype.uasset'
+[2017.10.19-01.03.18:630][985]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Materials/LevelPrototype.uasset
+[2017.10.19-01.03.19:528][ 77]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.19-01.03.19:528][ 77]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.19-01.03.19:528][ 77]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.19-01.04.59:694][247]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.04.59:836][248]LogSlate: Took 0.019136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.19-01.05.02:361][389]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.19-01.05.02:361][389]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.19-01.05.02:361][389]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.19-01.05.24:938][905]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.05.24:969][905]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.05.27:764][ 12]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.19-01.05.27:764][ 12]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.19-01.05.27:764][ 12]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.19-01.05.38:698][434]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.05.39:426][486]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.05.41:587][576]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.19-01.05.41:587][576]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.19-01.05.41:587][576]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.19-01.06.10:388][802]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.06.12:898][891]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.19-01.06.12:899][891]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.19-01.06.12:899][891]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.19-01.06.18:521][121]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.06.18:561][121]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.06.20:621][268]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.19-01.06.20:621][268]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.19-01.06.20:621][268]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.19-01.06.39:632][604]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.06.41:210][714]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.06.43:644][856]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.19-01.06.43:644][856]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.19-01.06.43:644][856]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.19-01.07.00:517][389]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.07.02:121][499]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.07.03:935][636]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.19-01.07.03:935][636]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.19-01.07.03:935][636]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.19-01.07.08:659][ 98]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.07.10:438][231]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.19-01.07.10:438][231]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.19-01.07.10:438][231]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.19-01.07.11:544][338]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.07.13:397][474]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.19-01.07.13:397][474]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.19-01.07.13:397][474]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.19-01.07.14:430][575]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.07.16:411][725]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.07.18:524][761]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.19-01.07.18:524][761]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.19-01.07.18:524][761]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.19-01.08.03:386][ 30]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.08.05:597][180]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.19-01.08.05:597][180]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.19-01.08.05:597][180]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.19-01.08.07:223][330]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.08.09:839][529]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.08.12:151][603]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.19-01.08.12:151][603]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.19-01.08.12:152][603]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.19-01.08.58:097][525]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.08.58:111][525]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.19-01.09.00:337][586]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.19-01.09.00:337][586]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.19-01.09.00:338][586]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.19-01.09.33:153][612]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.09.33:174][612]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.19-01.09.35:893][725]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.19-01.09.35:893][725]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.19-01.09.35:893][725]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.19-01.10.29:452][366]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.10.32:457][592]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.10.34:945][773]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.19-01.10.34:945][773]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.19-01.10.34:945][773]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.19-01.10.43:478][108]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.10.43:497][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.19-01.10.45:595][242]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.10.45:620][242]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.19-01.10.47:771][379]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.10.49:885][412]MaterialEditorStats: Base pass shader: 78 instructions
+[2017.10.19-01.10.49:885][412]MaterialEditorStats: Vertex shader: 29 instructions
+[2017.10.19-01.10.49:885][412]MaterialEditorStats: Texture samplers: 1/16
+[2017.10.19-01.11.25:295][707]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.11.25:329][707]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.11.29:467][937]MaterialEditorStats: Base pass shader: 44 instructions
+[2017.10.19-01.11.29:467][937]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.10.19-01.11.29:467][937]MaterialEditorStats: Texture samplers: 4/16
+[2017.10.19-01.11.46:793][210]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.11.50:190][261]MaterialEditorStats: Base pass shader: 48 instructions
+[2017.10.19-01.11.50:190][261]MaterialEditorStats: Vertex shader: 123 instructions
+[2017.10.19-01.11.50:190][261]MaterialEditorStats: Texture samplers: 4/16
+[2017.10.19-01.12.31:036][600]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.12.34:925][875]MaterialEditorStats: Base pass shader: 51 instructions
+[2017.10.19-01.12.34:925][875]MaterialEditorStats: Vertex shader: 123 instructions
+[2017.10.19-01.12.34:925][875]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.19-01.13.27:926][471]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.19-01.13.29:636][600]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.13.29:659][600]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.19-01.13.33:301][829]MaterialEditorStats: Base pass shader: 51 instructions
+[2017.10.19-01.13.33:301][829]MaterialEditorStats: Vertex shader: 123 instructions
+[2017.10.19-01.13.33:301][829]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.19-01.13.33:487][843]LogMaterialEditor: Saving and Compiling material LevelPrototype
+[2017.10.19-01.13.34:199][843]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.13.34:285][843]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.13.34:324][843]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.13.34:403][843]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LevelPrototype, compiling. 
+[2017.10.19-01.13.36:940][843]TextureStreamingBuild: Display: Compiling optional shaders took 2.569 seconds.
+[2017.10.19-01.13.40:108][843]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.19-01.13.40:136][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/LevelPrototype" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Materials/LevelPrototype.uasset" SILENT=true
+[2017.10.19-01.13.40:168][843]LogSavePackage: Save=22.53ms
+[2017.10.19-01.13.40:168][843]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/LevelPrototypeCB15F87D4197FF0C4715C88BE1B3A860.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Materials/LevelPrototype.uasset'
+[2017.10.19-01.13.40:171][843]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Materials/LevelPrototype.uasset
+[2017.10.19-01.16.45:349][556]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2017.10.19-01.16.50:478][158]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2017.10.19-01.26.04:515][565]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.10.19-01.26.23:422][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/2DBackground_Sprite" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Sprites/2DBackground_Sprite.uasset" SILENT=true
+[2017.10.19-01.26.23:437][521]LogSavePackage: Save=12.55ms
+[2017.10.19-01.26.23:437][521]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DBackground_Sprite134433404AA0F91D0A0EBF88892A5382.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Sprites/2DBackground_Sprite.uasset'
+[2017.10.19-01.26.23:440][521]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Sprites/2DBackground_Sprite.uasset
+[2017.10.19-01.32.05:087][794]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.19-01.32.08:492][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2DMap" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/Autosaves/Game/My2DMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.10.19-01.32.08:514][162]LogSavePackage: Save=13.66ms
+[2017.10.19-01.32.08:514][162]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/My2DMap_Auto13BF0A85246014C6E3E67DBA7CB7EB95D.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/Autosaves/Game/My2DMap_Auto1.umap'
+[2017.10.19-01.32.08:515][162]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/Autosaves/Game/My2DMap_Auto1.umap
+[2017.10.19-01.32.08:518][162]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2DMap' took 0.073
+[2017.10.19-01.32.08:518][162]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.073
+[2017.10.19-01.33.19:638][525]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/PrototypeTexture_Sprite" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Sprites/PrototypeTexture_Sprite.uasset" SILENT=true
+[2017.10.19-01.33.19:656][525]LogSavePackage: Save=15.96ms
+[2017.10.19-01.33.19:656][525]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/PrototypeTexture_Sprite8723C73841FE39F56D50ACA28CE4E12E.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Sprites/PrototypeTexture_Sprite.uasset'
+[2017.10.19-01.33.19:659][525]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Sprites/PrototypeTexture_Sprite.uasset
+[2017.10.19-01.33.44:640][976]LogRenderer: Reallocating scene render targets to support 1528x920 Format 9 NumSamples 1 (Frame:1).
+[2017.10.19-01.34.56:592][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2DMap" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.19-01.34.56:634][325]LogSavePackage: Save=15.62ms
+[2017.10.19-01.34.56:634][325]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/My2DMapC1B368E54B35A6CF7AB8E3A0C562F49F.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap'
+[2017.10.19-01.34.56:637][325]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap
+[2017.10.19-01.34.56:667][325]LogFileHelpers: Saving map 'My2DMap' took 0.138
+[2017.10.19-01.34.56:683][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/PrototypeTexture_Sprite" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Sprites/PrototypeTexture_Sprite.uasset" SILENT=true
+[2017.10.19-01.34.56:708][325]LogSavePackage: Save=16.43ms
+[2017.10.19-01.34.56:708][325]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/PrototypeTexture_SpriteF395B04648B3E605535FF79CBB30F950.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Sprites/PrototypeTexture_Sprite.uasset'
+[2017.10.19-01.34.56:712][325]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Sprites/PrototypeTexture_Sprite.uasset
+[2017.10.19-01.35.02:124][857]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.19-01.35.02:219][857]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.19-01.35.02:242][857]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.19-01.35.02:307][857]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.19-01.35.07:220][116]MaterialEditorStats: Base pass shader: 51 instructions
+[2017.10.19-01.35.07:220][116]MaterialEditorStats: Vertex shader: 123 instructions
+[2017.10.19-01.35.07:220][116]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.19-01.35.11:694][442]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.19-01.35.15:019][639]MaterialEditorStats: Base pass shader: 51 instructions
+[2017.10.19-01.35.15:019][639]MaterialEditorStats: Vertex shader: 123 instructions
+[2017.10.19-01.35.15:019][639]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.19-01.37.57:669][412]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.19-01.38.02:269][935]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.19-01.38.18:041][732]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.19-01.39.09:911][365]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.19-01.39.34:036][232]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.19-01.41.28:806][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2DMap" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.19-01.41.28:864][961]LogSavePackage: Save=23.07ms
+[2017.10.19-01.41.28:864][961]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/My2DMapEFFBB3904342D30CD370F78C05BCDE10.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap'
+[2017.10.19-01.41.28:867][961]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap
+[2017.10.19-01.41.28:915][961]LogFileHelpers: Saving map 'My2DMap' took 0.173
+[2017.10.19-01.42.59:350][257]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.19-01.43.00:348][367]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.19-01.43.17:116][281]Cmd: TRANSACTION UNDO
+[2017.10.19-01.43.17:116][281]LogEditorTransaction: Undo Scale Actors
+[2017.10.19-01.43.17:171][281]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.19-01.43.18:213][350]LogEditorViewport: Clicking Background
+[2017.10.19-01.43.19:870][528]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.19-01.43.20:390][570]Cmd: TRANSACTION UNDO
+[2017.10.19-01.43.20:390][570]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.19-01.43.20:396][570]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.19-01.43.21:539][662]Cmd: TRANSACTION UNDO
+[2017.10.19-01.43.21:539][662]LogEditorTransaction: Undo Clicking Background
+[2017.10.19-01.43.21:565][662]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.19-01.43.22:675][758]Cmd: TRANSACTION UNDO
+[2017.10.19-01.43.22:675][758]LogEditorTransaction: Undo Marquee Select
+[2017.10.19-01.43.22:686][758]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.19-01.43.23:388][820]Cmd: TRANSACTION UNDO
+[2017.10.19-01.43.23:388][820]LogEditorTransaction: Undo Marquee Select
+[2017.10.19-01.43.23:415][820]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.19-01.43.24:501][913]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite2)
+[2017.10.19-01.43.25:231][974]LogEditorViewport: Clicking Background
+[2017.10.19-01.43.25:811][ 34]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite2)
+[2017.10.19-01.43.26:793][117]MaterialEditorStats: Base pass shader: 51 instructions
+[2017.10.19-01.43.26:793][117]MaterialEditorStats: Vertex shader: 123 instructions
+[2017.10.19-01.43.26:793][117]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.19-01.44.03:383][381]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite2)
+[2017.10.19-01.44.04:587][522]Cmd: EDIT COPY
+[2017.10.19-01.44.08:790][994]Cmd: TRANSACTION UNDO
+[2017.10.19-01.44.08:790][994]LogEditorTransaction: Undo Move Actors
+[2017.10.19-01.44.08:794][994]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.19-01.44.12:218][250]MaterialEditorStats: Base pass shader: 51 instructions
+[2017.10.19-01.44.12:218][250]MaterialEditorStats: Vertex shader: 123 instructions
+[2017.10.19-01.44.12:218][250]MaterialEditorStats: Texture samplers: 5/16
+[2017.10.19-01.44.14:750][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2DMap" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.19-01.44.14:798][536]LogSavePackage: Save=23.07ms
+[2017.10.19-01.44.14:798][536]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/My2DMapE0D9B11F4657B3B8E8BA3E849FBB3C24.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap'
+[2017.10.19-01.44.14:801][536]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap
+[2017.10.19-01.44.14:836][536]LogFileHelpers: Saving map 'My2DMap' took 0.149
+[2017.10.19-01.45.02:834][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/PrototypeTexture_Sprite" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Sprites/PrototypeTexture_Sprite.uasset" SILENT=true
+[2017.10.19-01.45.02:851][807]LogSavePackage: Save=7.92ms
+[2017.10.19-01.45.02:851][807]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/PrototypeTexture_SpriteAC4FEAB641128A80DA234ABBBD033382.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Sprites/PrototypeTexture_Sprite.uasset'
+[2017.10.19-01.45.02:854][807]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Sprites/PrototypeTexture_Sprite.uasset
+[2017.10.19-01.45.07:032][895]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.10.19-01.45.07:115][895]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.45.07:154][895]LogMaterial: Missing cached shader map for material LevelPrototype, compiling. 
+[2017.10.19-01.45.07:210][895]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LevelPrototype, compiling. 
+[2017.10.19-01.45.10:001][895]TextureStreamingBuild: Display: Compiling optional shaders took 2.798 seconds.
+[2017.10.19-01.45.12:161][ 71]LogEditorViewport: Clicking Background
+[2017.10.19-01.45.12:611][115]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.19-01.45.13:863][218]LogEditorViewport: Clicking Background
+[2017.10.19-01.45.14:207][255]Cmd: TRANSACTION UNDO
+[2017.10.19-01.45.14:207][255]LogEditorTransaction: Undo Clicking Background
+[2017.10.19-01.45.14:841][285]Cmd: TRANSACTION UNDO
+[2017.10.19-01.45.14:841][285]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.19-01.45.17:356][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/LevelPrototype" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Materials/LevelPrototype.uasset" SILENT=true
+[2017.10.19-01.45.17:391][573]LogSavePackage: Save=25.97ms
+[2017.10.19-01.45.17:391][573]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/LevelPrototypeFB791D024F63786BFF1D4F9363B5523C.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Materials/LevelPrototype.uasset'
+[2017.10.19-01.45.17:394][573]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Materials/LevelPrototype.uasset
+[2017.10.19-01.45.18:826][724]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.19-01.45.19:327][725]Cmd: QUIT_EDITOR
+[2017.10.19-01.45.19:369][725]LogExit: Preparing to exit.
+[2017.10.19-01.45.20:313][725]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/' was aborted.
+[2017.10.19-01.45.20:431][725]LogExit: Editor shut down
+[2017.10.19-01.45.20:469][725]LogExit: Transaction tracking system shut down
+[2017.10.19-01.45.20:648][725]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.19-01.45.20:648][725]LogDirectoryWatcher: A directory notification for '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/' was aborted.
+[2017.10.19-01.45.20:648][725]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.19-01.45.20:648][725]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.10.19-01.45.20:648][725]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.10.19-01.45.20:858][725]LogExit: Object subsystem successfully closed.
+[2017.10.19-01.45.20:903][725]LogD3D11RHI: Shutdown
+[2017.10.19-01.45.20:903][725]LogD3D11RHI: CleanupD3DDevice
+[2017.10.19-01.45.21:118][725]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.19-01.45.21:133][725]LogModuleManager: Shutting down and abandoning module TextureEditor (536)
+[2017.10.19-01.45.21:133][725]LogModuleManager: Shutting down and abandoning module MaterialEditor (534)
+[2017.10.19-01.45.21:133][725]LogModuleManager: Shutting down and abandoning module NewLevelDialog (532)
+[2017.10.19-01.45.21:133][725]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.10.19-01.45.21:133][725]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.10.19-01.45.21:147][725]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.10.19-01.45.21:154][725]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.10.19-01.45.21:170][725]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.10.19-01.45.21:170][725]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.10.19-01.45.21:170][725]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.10.19-01.45.21:170][725]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Collections/' was aborted.
+[2017.10.19-01.45.21:170][725]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Developers/YuriMeitzen/Collections/' was aborted.
+[2017.10.19-01.45.21:171][725]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/Collections/' was aborted.
+[2017.10.19-01.45.21:171][725]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.10.19-01.45.21:171][725]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.10.19-01.45.21:171][725]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.10.19-01.45.21:171][725]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.10.19-01.45.21:171][725]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.10.19-01.45.21:171][725]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.10.19-01.45.21:171][725]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.10.19-01.45.21:171][725]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.10.19-01.45.21:171][725]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.10.19-01.45.21:171][725]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.10.19-01.45.21:171][725]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.10.19-01.45.21:171][725]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.10.19-01.45.21:171][725]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.10.19-01.45.21:171][725]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.10.19-01.45.21:171][725]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.10.19-01.45.21:172][725]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.10.19-01.45.21:173][725]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.10.19-01.45.21:173][725]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.10.19-01.45.21:173][725]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.10.19-01.45.21:178][725]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.10.19-01.45.21:178][725]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.10.19-01.45.21:178][725]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.10.19-01.45.21:178][725]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.10.19-01.45.21:178][725]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.10.19-01.45.21:178][725]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.10.19-01.45.21:178][725]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.10.19-01.45.21:179][725]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.10.19-01.45.21:179][725]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.10.19-01.45.21:179][725]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.10.19-01.45.21:179][725]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.10.19-01.45.21:179][725]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.10.19-01.45.21:179][725]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.10.19-01.45.21:179][725]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.10.19-01.45.21:179][725]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.10.19-01.45.21:179][725]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.10.19-01.45.21:179][725]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.10.19-01.45.21:179][725]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.10.19-01.45.21:179][725]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.10.19-01.45.21:179][725]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.10.19-01.45.21:180][725]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.10.19-01.45.21:180][725]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.10.19-01.45.21:180][725]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.10.19-01.45.21:180][725]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.10.19-01.45.21:232][725]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.10.19-01.45.21:232][725]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.10.19-01.45.21:232][725]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.10.19-01.45.21:232][725]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.10.19-01.45.21:232][725]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.10.19-01.45.21:232][725]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.10.19-01.45.21:232][725]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.10.19-01.45.21:232][725]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.10.19-01.45.21:232][725]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.10.19-01.45.21:232][725]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.10.19-01.45.21:233][725]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.10.19-01.45.21:233][725]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.10.19-01.45.21:233][725]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.10.19-01.45.21:233][725]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.10.19-01.45.21:233][725]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.10.19-01.45.21:233][725]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.10.19-01.45.21:233][725]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.10.19-01.45.21:233][725]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.10.19-01.45.21:233][725]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.10.19-01.45.21:233][725]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.10.19-01.45.21:233][725]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.10.19-01.45.21:234][725]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.10.19-01.45.21:234][725]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.10.19-01.45.21:234][725]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.10.19-01.45.21:234][725]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.10.19-01.45.21:234][725]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.10.19-01.45.21:234][725]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.10.19-01.45.21:234][725]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.10.19-01.45.21:234][725]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.10.19-01.45.21:234][725]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.10.19-01.45.21:234][725]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.10.19-01.45.21:306][725]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.10.19-01.45.21:307][725]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.10.19-01.45.21:307][725]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.10.19-01.45.21:313][725]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.10.19-01.45.21:314][725]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.10.19-01.45.21:314][725]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.10.19-01.45.21:314][725]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.10.19-01.45.21:314][725]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.10.19-01.45.21:314][725]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.10.19-01.45.21:314][725]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.10.19-01.45.21:314][725]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.10.19-01.45.21:314][725]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.10.19-01.45.21:314][725]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.10.19-01.45.21:314][725]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.10.19-01.45.21:415][725]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.10.19-01.45.21:516][725]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.10.19-01.45.21:516][725]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.10.19-01.45.21:516][725]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.10.19-01.45.21:516][725]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.10.19-01.45.21:516][725]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.10.19-01.45.21:516][725]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.10.19-01.45.21:518][725]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.10.19-01.45.21:518][725]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.10.19-01.45.21:518][725]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.10.19-01.45.21:518][725]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.10.19-01.45.21:518][725]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.10.19-01.45.21:518][725]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.10.19-01.45.21:518][725]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.10.19-01.45.21:518][725]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.10.19-01.45.21:518][725]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.10.19-01.45.21:518][725]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.10.19-01.45.21:518][725]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.10.19-01.45.21:519][725]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.10.19-01.45.21:519][725]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.10.19-01.45.21:519][725]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.10.19-01.45.21:519][725]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.10.19-01.45.21:519][725]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.10.19-01.45.21:519][725]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.10.19-01.45.21:519][725]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.10.19-01.45.21:519][725]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.10.19-01.45.21:519][725]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.10.19-01.45.21:519][725]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.10.19-01.45.21:519][725]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.10.19-01.45.21:519][725]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.10.19-01.45.21:519][725]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.10.19-01.45.21:522][725]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.10.19-01.45.21:522][725]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.10.19-01.45.21:522][725]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.10.19-01.45.21:522][725]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.10.19-01.45.21:522][725]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.10.19-01.45.21:522][725]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.10.19-01.45.21:522][725]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.10.19-01.45.21:522][725]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.10.19-01.45.21:522][725]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.10.19-01.45.21:522][725]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.10.19-01.45.21:522][725]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.10.19-01.45.21:522][725]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.10.19-01.45.21:523][725]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.10.19-01.45.21:523][725]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.10.19-01.45.21:523][725]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.10.19-01.45.21:523][725]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.10.19-01.45.21:531][725]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.19-01.45.21:597][725]LogDerivedDataCache: Shutdown
+[2017.10.19-01.45.21:597][725]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.19-01.45.21:598][725]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.19-01.45.21:599][725]LogOnline: Display: Unloading online subsystem: NULL
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.19-01.45.21:599][725]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.19-01.45.21:599][725]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.19-01.45.21:599][725]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE4BA78F8-4215-B2CA-DD2E-42A1BA2C6EBA%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=4d336c304cb600f3833bee9ec6324b6b%7C97e6c6ec20b34e1681bb9ded12457367%7Cea9e9fd9-3d7e-4d9a-8813-872780a612b3&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.19-01.45.21:610][725]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.19-01.45.21:613][725]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.10.19-01.45.21:613][725]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.10.19-01.45.21:613][725]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.10.19-01.45.21:613][725]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.10.19-01.45.21:614][725]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.10.19-01.45.21:614][725]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.10.19-01.45.21:614][725]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.10.19-01.45.21:617][725]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.10.19-01.45.21:617][725]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.10.19-01.45.21:617][725]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.10.19-01.45.21:617][725]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.10.19-01.45.21:617][725]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.10.19-01.45.21:617][725]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.10.19-01.45.21:617][725]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.10.19-01.45.21:617][725]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.10.19-01.45.21:617][725]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.19-01.45.21:617][725]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.19-01.45.21:618][725]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.19-01.45.21:620][725]LogExit: Exiting.
+[2017.10.19-01.45.21:641][725]Log file closed, 10/18/17 23:45:21
