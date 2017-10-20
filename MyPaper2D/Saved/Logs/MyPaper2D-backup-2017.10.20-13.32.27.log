@@ -1,0 +1,1291 @@
+﻿Log file open, 10/20/17 12:11:45
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: MyPaper2D
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(563913751) SRandInit(563913751).
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.302499
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.20-14.11.46:946][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.20-14.11.46:946][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.20-14.11.47:052][  0]LogInit: Computer: WELTALL
+[2017.10.20-14.11.47:052][  0]LogInit: User: YuriMeitzen
+[2017.10.20-14.11.47:052][  0]LogInit: CPU Page size=4096, Cores=3
+[2017.10.20-14.11.47:052][  0]LogInit: High frequency timer resolution =3.433666 MHz
+[2017.10.20-14.11.47:052][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.10.20-14.11.47:052][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.20-14.11.47:052][  0]LogMemory: Process Physical Memory: 277.59 MB used, 277.59 MB peak
+[2017.10.20-14.11.47:052][  0]LogMemory: Process Virtual Memory: 279.71 MB used, 279.71 MB peak
+[2017.10.20-14.11.47:052][  0]LogMemory: Physical Memory: 3891.93 MB used,  4258.65 MB free, 8150.58 MB total
+[2017.10.20-14.11.47:052][  0]LogMemory: Virtual Memory: 673.12 MB used,  4258.65 MB free, 134217728.00 MB total
+[2017.10.20-14.11.47:805][  0]LogInit: Using OS detected language (en-US).
+[2017.10.20-14.11.47:805][  0]LogInit: Using OS detected locale (pt-BR).
+[2017.10.20-14.11.47:903][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.20-14.11.53:999][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.20-14.11.54:051][  0]LogD3D11RHI:    0. 'AMD Radeon R7 200 Series' (Feature Level 11_0)
+[2017.10.20-14.11.54:051][  0]LogD3D11RHI:       2024/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.10.20-14.11.54:053][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.20-14.11.54:053][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.20-14.11.54:053][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.20-14.11.54:062][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.20-14.11.54:062][  0]LogD3D11RHI:     GPU DeviceId: 0x6658 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.20-14.11.54:062][  0]LogWindows: EnumDisplayDevices:
+[2017.10.20-14.11.54:062][  0]LogWindows:    0. 'AMD Radeon R7 200 Series' (P:1 D:1)
+[2017.10.20-14.11.54:062][  0]LogWindows:    1. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.10.20-14.11.54:063][  0]LogWindows:    2. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.10.20-14.11.54:063][  0]LogWindows:    3. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.10.20-14.11.54:063][  0]LogWindows:    4. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.10.20-14.11.54:064][  0]LogWindows:    5. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.10.20-14.11.54:064][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.10.20-14.11.54:064][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 200 Series
+[2017.10.20-14.11.54:064][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7.2 (internal:22.19.662.4, unified:22.19.662.4)
+[2017.10.20-14.11.54:064][  0]LogD3D11RHI:      Driver Date: 7-20-2017
+[2017.10.20-14.11.54:064][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.20-14.11.54:092][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.20-14.11.54:105][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.10.20-14.11.54:105][  0]LogD3D11RHI: HDR output is supported on display 0 (AMD Device: 0x0, Display: 0x0).
+[2017.10.20-14.11.54:106][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Intermediate/Shaders/WorkingDirectory/5580/).
+[2017.10.20-14.11.54:106][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Yuri Meitzen/AppData/Local/Temp/UnrealShaderWorkingDir/FB03448D4C6CEF3F4579ADB2B07272A9/'.
+[2017.10.20-14.11.54:106][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.20-14.11.59:270][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.20-14.11.59:337][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.20-14.11.59:401][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.20-14.11.59:466][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.20-14.11.59:548][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.20-14.11.59:616][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.20-14.11.59:693][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.20-14.11.59:765][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.20-14.11.59:819][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.20-14.11.59:906][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.20-14.11.59:972][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.20-14.12.00:061][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.20-14.12.00:138][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.20-14.12.00:240][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.20-14.12.00:326][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.20-14.12.00:470][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.20-14.12.00:470][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.20-14.12.00:524][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.20-14.12.00:761][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.20-14.12.00:808][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.20-14.12.00:881][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.20-14.12.00:954][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.20-14.12.01:023][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.20-14.12.01:107][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.20-14.12.01:107][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.20-14.12.02:731][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.20-14.12.03:755][  0]LogDerivedDataCache: Loaded boot cache 1.02s 93MB C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.20-14.12.03:755][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.20-14.12.03:755][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.20-14.12.03:755][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.20-14.12.03:755][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.20-14.12.03:755][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.20-14.12.03:866][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.20-14.12.03:879][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.20-14.12.03:899][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.20-14.12.03:899][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.20-14.12.03:961][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.20-14.12.03:961][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.20-14.12.14:205][  0]LogAssetRegistry: FAssetRegistry took 0.0287 seconds to start up
+[2017.10.20-14.12.14:406][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.20-14.12.16:116][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.20-14.12.16:160][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.20-14.12.16:160][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.20-14.12.16:160][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.20-14.12.16:161][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.20-14.12.16:161][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.20-14.12.16:192][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.20-14.12.17:126][  0]LogNetVersion: MyPaper2D , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 640952014)
+[2017.10.20-14.12.17:666][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.073535 seconds
+[2017.10.20-14.12.17:676][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.20-14.12.17:676][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.20-14.12.17:676][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.20-14.12.17:773][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.20-14.12.40:668][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.20-14.12.40:711][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.20-14.12.41:919][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.20-14.12.42:570][  0]SourceControl: Source control is disabled
+[2017.10.20-14.12.42:570][  0]SourceControl: Source control is disabled
+[2017.10.20-14.12.42:627][  0]SourceControl: Source control is disabled
+[2017.10.20-14.12.42:685][  0]SourceControl: Source control is disabled
+[2017.10.20-14.12.43:658][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.20-14.12.43:926][  0]LogOcInput: OculusInput pre-init called
+[2017.10.20-14.12.44:317][  0]LogEngine: Initializing Engine...
+[2017.10.20-14.12.44:319][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.20-14.12.44:799][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.20-14.12.44:799][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.20-14.12.44:962][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.20-14.12.44:984][  0]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.12.45:000][  0]LogInit: FAudioDevice initialized.
+[2017.10.20-14.12.45:352][  0]LogDerivedDataCache: Saved boot cache 0.35s 93MB C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.20-14.12.45:390][  0]LogInit: Texture streaming: Enabled
+[2017.10.20-14.12.45:543][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.20-14.12.45:885][  0]LogInit: Transaction tracking system initialized
+[2017.10.20-14.12.46:248][  0]BlueprintLog: New page: Editor Load
+[2017.10.20-14.12.47:300][  0]LocalizationService: Localization service is disabled
+[2017.10.20-14.12.48:222][  0]LogConsoleResponse: Display: 
+[2017.10.20-14.12.50:579][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.20-14.12.50:580][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.20-14.12.50:580][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.20-14.12.51:628][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/' took 0.02s
+[2017.10.20-14.12.52:658][  0]SourceControl: Source control is disabled
+[2017.10.20-14.12.52:659][  0]Cmd: MAP LOAD FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.20-14.12.52:660][  0]LightingResults: New page: Lighting Build
+[2017.10.20-14.12.52:707][  0]MapCheck: New page: Map Check
+[2017.10.20-14.12.52:707][  0]LightingResults: New page: Lighting Build
+[2017.10.20-14.12.53:500][  0]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.12.53:526][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.20-14.12.53:548][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.20-14.12.53:609][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60,791ms to complete.
+[2017.10.20-14.12.53:609][  0]LogFileHelpers: Loading map 'My2DMap' took 0.950
+[2017.10.20-14.12.53:948][  0]LogCollectionManager: Loaded 0 collections in 0.001372 seconds
+[2017.10.20-14.12.54:034][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/Collections/' took 0.01s
+[2017.10.20-14.12.54:034][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Developers/YuriMeitzen/Collections/' took 0.01s
+[2017.10.20-14.12.54:034][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Collections/' took 0.01s
+[2017.10.20-14.12.54:034][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.10.20-14.12.54:049][  0]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2386 classes and 500 folders.
+[2017.10.20-14.12.54:129][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.20-14.12.56:108][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.10.20-14.12.56:180][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2017.10.20-14.12.56:302][  0]LogSlate: Took 0.005017 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.20-14.12.56:325][  0]LogSlate: Took 0.018807 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.20-14.12.56:344][  0]LogSlate: Took 0.012265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.20-14.12.56:507][  0]LogRenderer: Reallocating scene render targets to support 1036x576 Format 9 NumSamples 1 (Frame:1).
+[2017.10.20-14.12.56:578][  0]LogSlate: Took 0.004949 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.20-14.12.56:782][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.10.20-14.12.56:782][  0]LogLoad: (Engine Initialization) Total time: 78.11 seconds
+[2017.10.20-14.12.56:782][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.20-14.12.56:783][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.20-14.12.56:783][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.20-14.12.57:143][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.10.20-14.12.57:797][  2]LogAssetRegistry: Asset discovery search completed in 43.6144 seconds
+[2017.10.20-14.12.57:799][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.20-14.12.57:799][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000069 seconds (updated 0 objects)
+[2017.10.20-14.13.01:594][202]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.13.01:672][202]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.13.01:673][202]PIE: New page: PIE session: My2DMap (20/10/2017 10:13:01)
+[2017.10.20-14.13.01:673][202]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.13.01:676][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002533s)
+[2017.10.20-14.13.01:677][202]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.13.01:677][202]LogPlayLevel: PIE: World Init took: (0.001675s)
+[2017.10.20-14.13.01:678][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004782s)
+[2017.10.20-14.13.01:741][202]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.13.01:764][202]LogInit: FAudioDevice initialized.
+[2017.10.20-14.13.01:813][202]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.13.01:816][202]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.13.01
+[2017.10.20-14.13.01:817][202]LogWorld: Bringing up level for play took: 0.001601
+[2017.10.20-14.13.01:865][202]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.10.20-14.13.01:866][202]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,954
+[2017.10.20-14.13.11:654][162]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.13.11:680][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.13.11:680][162]PIE: New page: PIE session: My2DMap (20/10/2017 10:13:11)
+[2017.10.20-14.13.11:680][162]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.13.11:683][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002752s)
+[2017.10.20-14.13.11:684][162]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.13.11:685][162]LogPlayLevel: PIE: World Init took: (0.001439s)
+[2017.10.20-14.13.11:685][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004581s)
+[2017.10.20-14.13.11:716][162]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.13.11:725][162]LogInit: FAudioDevice initialized.
+[2017.10.20-14.13.11:756][162]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.13.11:758][162]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.13.11
+[2017.10.20-14.13.11:758][162]LogWorld: Bringing up level for play took: 0.001372
+[2017.10.20-14.13.11:759][162]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,846
+[2017.10.20-14.13.53:248][598]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.20-14.14.20:112][421]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plataform2)
+[2017.10.20-14.14.25:200][  1]Cmd: TRANSACTION UNDO
+[2017.10.20-14.14.25:200][  1]LogEditorTransaction: Undo Scale Actors
+[2017.10.20-14.14.25:223][  1]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.20-14.14.25:776][ 32]Cmd: TRANSACTION UNDO
+[2017.10.20-14.14.25:776][ 32]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.20-14.14.27:665][200]Cmd: TRANSACTION UNDO
+[2017.10.20-14.14.27:666][200]LogEditorTransaction: Undo Scale Actors
+[2017.10.20-14.14.28:223][249]Cmd: TRANSACTION UNDO
+[2017.10.20-14.14.28:224][249]LogEditorTransaction: Undo Scale Actors
+[2017.10.20-14.14.29:006][320]Cmd: TRANSACTION UNDO
+[2017.10.20-14.14.29:006][320]LogEditorTransaction: Undo Scale Actors
+[2017.10.20-14.14.33:343][742]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.20-14.14.36:949][133]Cmd: TRANSACTION UNDO
+[2017.10.20-14.14.36:949][133]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.20-14.14.39:634][322]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plataform2)
+[2017.10.20-14.14.40:891][454]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-14.14.42:543][638]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-14.14.43:416][737]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-14.14.45:664][973]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.20-14.14.46:167][973]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.20-14.14.46:278][973]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 113 classes and 0 folders.
+[2017.10.20-14.14.47:551][973]LogSlate: Took 0.024821 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.20-14.14.47:730][974]LogSlate: Took 0.014660 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.20-14.14.58:721][677]BlueprintLog: New page: Compile 2DCharacter
+[2017.10.20-14.15.00:530][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/2DCharacter" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset" SILENT=true
+[2017.10.20-14.15.00:608][780]LogSavePackage: Save=61.91ms
+[2017.10.20-14.15.00:608][780]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacterB7360E524AC3581F90DB7894A01AF88F.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset'
+[2017.10.20-14.15.00:613][780]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset
+[2017.10.20-14.16.18:907][512]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.16.18:947][512]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.16.18:947][512]PIE: New page: PIE session: My2DMap (20/10/2017 10:16:18)
+[2017.10.20-14.16.18:947][512]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.16.18:949][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002542s)
+[2017.10.20-14.16.18:950][512]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.16.18:951][512]LogPlayLevel: PIE: World Init took: (0.001238s)
+[2017.10.20-14.16.18:951][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004204s)
+[2017.10.20-14.16.19:004][512]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.16.19:013][512]LogInit: FAudioDevice initialized.
+[2017.10.20-14.16.19:049][512]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.16.19:050][512]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.16.19
+[2017.10.20-14.16.19:051][512]LogWorld: Bringing up level for play took: 0.001437
+[2017.10.20-14.16.19:052][512]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,139
+[2017.10.20-14.16.42:129][931]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.16.42:156][931]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.16.42:156][931]PIE: New page: PIE session: My2DMap (20/10/2017 10:16:42)
+[2017.10.20-14.16.42:156][931]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.16.42:159][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003156s)
+[2017.10.20-14.16.42:161][931]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.16.42:161][931]LogPlayLevel: PIE: World Init took: (0.001334s)
+[2017.10.20-14.16.42:161][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004909s)
+[2017.10.20-14.16.42:228][931]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.16.42:238][931]LogInit: FAudioDevice initialized.
+[2017.10.20-14.16.42:274][931]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.16.42:276][931]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.16.42
+[2017.10.20-14.16.42:277][931]LogWorld: Bringing up level for play took: 0.001433
+[2017.10.20-14.16.42:278][931]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,635
+[2017.10.20-14.17.30:358][682]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-14.17.32:809][945]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-14.17.33:768][ 52]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.20-14.17.34:862][171]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plataform2)
+[2017.10.20-14.17.35:398][226]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-14.17.36:494][345]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plataform)
+[2017.10.20-14.17.37:144][411]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-14.17.41:622][789]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-14.17.53:548][ 61]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.17.53:576][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.17.53:576][ 61]PIE: New page: PIE session: My2DMap (20/10/2017 10:17:53)
+[2017.10.20-14.17.53:576][ 61]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.17.53:579][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002837s)
+[2017.10.20-14.17.53:580][ 61]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.17.53:581][ 61]LogPlayLevel: PIE: World Init took: (0.001401s)
+[2017.10.20-14.17.53:581][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004645s)
+[2017.10.20-14.17.53:630][ 61]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.17.53:640][ 61]LogInit: FAudioDevice initialized.
+[2017.10.20-14.17.53:672][ 61]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.17.53:674][ 61]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.17.53
+[2017.10.20-14.17.53:674][ 61]LogWorld: Bringing up level for play took: 0.001629
+[2017.10.20-14.17.53:676][ 61]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,763
+[2017.10.20-14.17.59:992][781]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.18.00:024][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.18.00:024][781]PIE: New page: PIE session: My2DMap (20/10/2017 10:18:00)
+[2017.10.20-14.18.00:024][781]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.18.00:027][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002817s)
+[2017.10.20-14.18.00:028][781]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.18.00:028][781]LogPlayLevel: PIE: World Init took: (0.001299s)
+[2017.10.20-14.18.00:029][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004523s)
+[2017.10.20-14.18.00:090][781]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.18.00:101][781]LogInit: FAudioDevice initialized.
+[2017.10.20-14.18.00:132][781]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.18.00:134][781]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.18.00
+[2017.10.20-14.18.00:134][781]LogWorld: Bringing up level for play took: 0.001583
+[2017.10.20-14.18.00:136][781]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,777
+[2017.10.20-14.18.06:391][497]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.18.06:417][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.18.06:418][497]PIE: New page: PIE session: My2DMap (20/10/2017 10:18:06)
+[2017.10.20-14.18.06:418][497]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.18.06:421][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002760s)
+[2017.10.20-14.18.06:422][497]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.18.06:422][497]LogPlayLevel: PIE: World Init took: (0.001398s)
+[2017.10.20-14.18.06:422][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004538s)
+[2017.10.20-14.18.06:480][497]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.18.06:490][497]LogInit: FAudioDevice initialized.
+[2017.10.20-14.18.06:521][497]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.18.06:523][497]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.18.06
+[2017.10.20-14.18.06:523][497]LogWorld: Bringing up level for play took: 0.001396
+[2017.10.20-14.18.06:525][497]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,388
+[2017.10.20-14.18.16:506][658]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.18.16:532][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.18.16:533][658]PIE: New page: PIE session: My2DMap (20/10/2017 10:18:16)
+[2017.10.20-14.18.16:533][658]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.18.16:536][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002950s)
+[2017.10.20-14.18.16:537][658]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.18.16:537][658]LogPlayLevel: PIE: World Init took: (0.001088s)
+[2017.10.20-14.18.16:537][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004398s)
+[2017.10.20-14.18.16:586][658]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.18.16:596][658]LogInit: FAudioDevice initialized.
+[2017.10.20-14.18.16:632][658]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.18.16:634][658]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.18.16
+[2017.10.20-14.18.16:634][658]LogWorld: Bringing up level for play took: 0.001511
+[2017.10.20-14.18.16:636][658]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,277
+[2017.10.20-14.18.36:769][ 16]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.18.36:796][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.18.36:796][ 16]PIE: New page: PIE session: My2DMap (20/10/2017 10:18:36)
+[2017.10.20-14.18.36:796][ 16]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.18.36:799][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003051s)
+[2017.10.20-14.18.36:800][ 16]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.18.36:801][ 16]LogPlayLevel: PIE: World Init took: (0.001059s)
+[2017.10.20-14.18.36:801][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004493s)
+[2017.10.20-14.18.36:842][ 16]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.18.36:851][ 16]LogInit: FAudioDevice initialized.
+[2017.10.20-14.18.36:885][ 16]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.18.36:887][ 16]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.18.36
+[2017.10.20-14.18.36:887][ 16]LogWorld: Bringing up level for play took: 0.001376
+[2017.10.20-14.18.36:888][ 16]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,025
+[2017.10.20-14.18.53:296][954]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.18.53:322][954]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.18.53:322][954]PIE: New page: PIE session: My2DMap (20/10/2017 10:18:53)
+[2017.10.20-14.18.53:322][954]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.18.53:325][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002713s)
+[2017.10.20-14.18.53:326][954]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.18.53:326][954]LogPlayLevel: PIE: World Init took: (0.001499s)
+[2017.10.20-14.18.53:327][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004671s)
+[2017.10.20-14.18.53:376][954]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.18.53:385][954]LogInit: FAudioDevice initialized.
+[2017.10.20-14.18.53:422][954]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.18.53:424][954]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.18.53
+[2017.10.20-14.18.53:424][954]LogWorld: Bringing up level for play took: 0.001419
+[2017.10.20-14.18.53:425][954]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,512
+[2017.10.20-14.19.44:550][ 16]BlueprintLog: New page: Compile 2DCharacter
+[2017.10.20-14.19.46:836][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2DMap" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.20-14.19.46:936][133]LogSavePackage: Save=40.54ms
+[2017.10.20-14.19.46:936][133]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/My2DMap5BF3B7C148AFCEE41974478103C3C7A3.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap'
+[2017.10.20-14.19.46:941][133]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap
+[2017.10.20-14.19.46:997][133]LogFileHelpers: Saving map 'My2DMap' took 0.225
+[2017.10.20-14.19.52:429][494]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.19.52:457][494]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.19.52:457][494]PIE: New page: PIE session: My2DMap (20/10/2017 10:19:52)
+[2017.10.20-14.19.52:457][494]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.19.52:460][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003174s)
+[2017.10.20-14.19.52:462][494]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.19.52:462][494]LogPlayLevel: PIE: World Init took: (0.001543s)
+[2017.10.20-14.19.52:462][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.005192s)
+[2017.10.20-14.19.52:505][494]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.19.52:515][494]LogInit: FAudioDevice initialized.
+[2017.10.20-14.19.52:546][494]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.19.52:548][494]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.19.52
+[2017.10.20-14.19.52:549][494]LogWorld: Bringing up level for play took: 0.001554
+[2017.10.20-14.19.52:550][494]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,363
+[2017.10.20-14.20.05:363][908]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.10.20-14.20.18:901][183]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plataform2)
+[2017.10.20-14.20.22:712][504]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2017.10.20-14.20.24:374][692]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite2)
+[2017.10.20-14.20.27:332][ 21]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.20.28:534][155]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plataform2)
+[2017.10.20-14.20.30:111][333]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.20.34:409][716]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite2)
+[2017.10.20-14.20.38:667][ 73]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.20.40:060][227]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.20-14.20.42:176][467]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite2)
+[2017.10.20-14.20.42:209][467]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2017.10.20-14.20.46:616][855]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.20.50:384][168]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.20-14.21.22:900][662]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite2)
+[2017.10.20-14.21.51:628][877]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.20-14.21.54:752][206]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.22.00:109][743]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.20-14.22.04:014][125]Cmd: TRANSACTION UNDO
+[2017.10.20-14.22.04:014][125]LogEditorTransaction: Undo Edit Render CustomDepth Pass
+[2017.10.20-14.22.04:581][157]Cmd: TRANSACTION UNDO
+[2017.10.20-14.22.04:581][157]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.20-14.22.05:797][275]Cmd: TRANSACTION UNDO
+[2017.10.20-14.22.05:797][275]LogEditorTransaction: Undo Edit Render CustomDepth Pass
+[2017.10.20-14.22.07:077][402]Cmd: TRANSACTION UNDO
+[2017.10.20-14.22.07:077][402]LogEditorTransaction: Undo Edit Render CustomDepth Pass
+[2017.10.20-14.22.07:937][487]Cmd: TRANSACTION UNDO
+[2017.10.20-14.22.07:937][487]LogEditorTransaction: Undo Edit Render CustomDepth Pass
+[2017.10.20-14.22.10:866][776]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite2)
+[2017.10.20-14.22.17:256][445]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.22.19:896][709]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.20-14.22.22:745][961]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.22.25:466][228]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite2)
+[2017.10.20-14.22.29:206][611]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.20-14.22.30:525][760]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.22.31:692][890]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (PrototypeTexture_Sprite2)
+[2017.10.20-14.22.32:370][960]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.20-14.22.47:823][473]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.20-14.22.52:201][958]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.22.53:673][115]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (PrototypeTexture_Sprite2)
+[2017.10.20-14.22.59:252][687]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-14.22.59:865][751]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.23.19:223][424]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-14.23.20:186][527]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.26.19:374][ 53]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.26.19:407][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.26.19:407][ 53]PIE: New page: PIE session: My2DMap (20/10/2017 10:26:19)
+[2017.10.20-14.26.19:407][ 53]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.26.19:410][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003038s)
+[2017.10.20-14.26.19:411][ 53]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.26.19:411][ 53]LogPlayLevel: PIE: World Init took: (0.001334s)
+[2017.10.20-14.26.19:412][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004768s)
+[2017.10.20-14.26.19:457][ 53]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.26.19:468][ 53]LogInit: FAudioDevice initialized.
+[2017.10.20-14.26.19:502][ 53]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.26.19:505][ 53]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.26.19
+[2017.10.20-14.26.19:505][ 53]LogWorld: Bringing up level for play took: 0.001737
+[2017.10.20-14.26.19:507][ 53]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,594
+[2017.10.20-14.27.26:973][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2DMap" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.20-14.27.27:069][217]LogSavePackage: Save=41.80ms
+[2017.10.20-14.27.27:070][217]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/My2DMap34C67F344591BD8CBF27DEBC9AC02371.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap'
+[2017.10.20-14.27.27:074][217]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap
+[2017.10.20-14.27.27:128][217]LogFileHelpers: Saving map 'My2DMap' took 0.217
+[2017.10.20-14.27.27:132][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/2DCharacter" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset" SILENT=true
+[2017.10.20-14.27.27:207][217]LogSavePackage: Save=63.62ms
+[2017.10.20-14.27.27:207][217]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacterE12C76124843E2624CD96787197BB59E.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset'
+[2017.10.20-14.27.27:209][217]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset
+[2017.10.20-14.27.27:728][247]BlueprintLog: New page: Compile 2DCharacter
+[2017.10.20-14.27.30:518][463]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.27.30:546][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.27.30:546][463]PIE: New page: PIE session: My2DMap (20/10/2017 10:27:30)
+[2017.10.20-14.27.30:546][463]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.27.30:549][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002786s)
+[2017.10.20-14.27.30:550][463]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.27.30:550][463]LogPlayLevel: PIE: World Init took: (0.001200s)
+[2017.10.20-14.27.30:551][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004449s)
+[2017.10.20-14.27.30:602][463]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.27.30:612][463]LogInit: FAudioDevice initialized.
+[2017.10.20-14.27.30:647][463]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.27.30:649][463]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.27.30
+[2017.10.20-14.27.30:649][463]LogWorld: Bringing up level for play took: 0.001488
+[2017.10.20-14.27.30:651][463]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,262
+[2017.10.20-14.29.40:111][356]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plataform2)
+[2017.10.20-14.29.44:447][800]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plataform)
+[2017.10.20-14.29.45:843][947]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-14.29.47:132][ 89]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.20-14.29.49:161][291]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.30.11:614][733]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.20-14.31.32:745][854]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.31.32:777][854]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.31.32:777][854]PIE: New page: PIE session: My2DMap (20/10/2017 10:31:32)
+[2017.10.20-14.31.32:777][854]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.31.32:780][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002957s)
+[2017.10.20-14.31.32:782][854]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.31.32:782][854]LogPlayLevel: PIE: World Init took: (0.001796s)
+[2017.10.20-14.31.32:783][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.005192s)
+[2017.10.20-14.31.32:827][854]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.31.32:838][854]LogInit: FAudioDevice initialized.
+[2017.10.20-14.31.32:871][854]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.31.32:873][854]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.31.32
+[2017.10.20-14.31.32:873][854]LogWorld: Bringing up level for play took: 0.001613
+[2017.10.20-14.31.32:875][854]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,038
+[2017.10.20-14.31.50:705][243]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.31.50:734][243]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.31.50:734][243]PIE: New page: PIE session: My2DMap (20/10/2017 10:31:50)
+[2017.10.20-14.31.50:734][243]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.31.50:737][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002811s)
+[2017.10.20-14.31.50:738][243]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.31.50:738][243]LogPlayLevel: PIE: World Init took: (0.001070s)
+[2017.10.20-14.31.50:738][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004255s)
+[2017.10.20-14.31.50:784][243]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.31.50:794][243]LogInit: FAudioDevice initialized.
+[2017.10.20-14.31.50:828][243]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.31.50:830][243]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.31.50
+[2017.10.20-14.31.50:830][243]LogWorld: Bringing up level for play took: 0.001409
+[2017.10.20-14.31.50:832][243]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,081
+[2017.10.20-14.37.26:166][342]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-14.37.32:002][924]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.37.34:737][239]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.20-14.37.37:837][530]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.37.39:116][670]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (PrototypeTexture_Sprite2)
+[2017.10.20-14.37.56:758][405]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.20-14.38.00:641][797]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.38.02:137][964]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite2)
+[2017.10.20-14.38.57:747][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2DMap" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/Autosaves/Game/My2DMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.10.20-14.38.57:823][298]LogSavePackage: Save=44.85ms
+[2017.10.20-14.38.57:823][298]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/My2DMap_Auto1308F2D77430569A887F16699465ACA8C.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/Autosaves/Game/My2DMap_Auto1.umap'
+[2017.10.20-14.38.57:826][298]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/Autosaves/Game/My2DMap_Auto1.umap
+[2017.10.20-14.38.57:828][298]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2DMap' took 0.121
+[2017.10.20-14.38.57:828][298]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.121
+[2017.10.20-14.40.37:522][910]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plataform2)
+[2017.10.20-14.41.01:555][876]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.20-14.41.03:594][108]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plataform2)
+[2017.10.20-14.41.04:690][226]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plataform)
+[2017.10.20-14.41.05:747][341]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-14.41.07:270][513]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.43.28:397][324]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-14.43.29:425][436]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.44.01:795][364]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0010 seconds. Added 1 classes and 0 folders.
+[2017.10.20-14.44.01:797][364]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2017.10.20-14.44.01:941][364]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2017.10.20-14.44.01:954][364]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2017.10.20-14.44.02:002][364]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.20-14.44.05:085][497]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2017.10.20-14.44.05:085][497]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.20-14.44.05:085][497]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.20-14.44.05:085][497]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.20-14.44.43:434][ 27]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2017.10.20-14.44.45:002][112]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2017.10.20-14.44.45:003][112]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.20-14.44.45:003][112]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.20-14.44.45:003][112]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.20-14.44.47:233][258]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2017.10.20-14.44.47:233][258]LogMaterial: Warning: Failed to compile Material /Engine/Transient.BlinkingCaret for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.20-14.44.47:233][258]LogMaterial: Warning: 	(Node TextureSampleParameter2D) Coercion failed: Parameters.VertexColor.rgb: float3 -> float2
+[2017.10.20-14.44.47:237][258]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.20-14.44.47:277][258]MaterialEditorStats: Error: [SM5] (Node TextureSampleParameter2D) Coercion failed: Parameters.VertexColor.rgb: float3 -> float2
+[2017.10.20-14.44.52:078][581]LogEditorTransaction: Undo Create Pin Link
+[2017.10.20-14.44.52:109][581]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2017.10.20-14.44.52:130][581]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2017.10.20-14.44.52:148][581]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.20-14.44.53:640][641]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2017.10.20-14.44.53:640][641]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.10.20-14.44.53:640][641]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.20-14.44.53:640][641]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.10.20-14.44.54:373][684]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2017.10.20-14.44.54:391][684]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.10.20-14.44.55:735][750]MaterialEditorStats: Base pass shader without light map: 32 instructions
+[2017.10.20-14.44.55:735][750]MaterialEditorStats: Vertex shader: 123 instructions
+[2017.10.20-14.44.55:735][750]MaterialEditorStats: Texture samplers: 3/16
+[2017.10.20-14.45.10:014][679]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.10.20-14.45.25:412][803]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.45.48:242][ 90]Cmd: TRANSACTION UNDO
+[2017.10.20-14.45.48:242][ 90]LogEditorTransaction: Undo Edit 0
+[2017.10.20-14.45.48:737][114]Cmd: TRANSACTION UNDO
+[2017.10.20-14.45.48:737][114]LogEditorTransaction: Undo Edit 0
+[2017.10.20-14.45.49:770][214]Cmd: TRANSACTION UNDO
+[2017.10.20-14.45.49:770][214]LogEditorTransaction: Undo Edit 0
+[2017.10.20-14.45.50:427][277]Cmd: TRANSACTION UNDO
+[2017.10.20-14.45.50:427][277]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.20-14.45.51:234][353]Cmd: TRANSACTION UNDO
+[2017.10.20-14.45.51:234][353]LogEditorTransaction: Undo Create Pin Link
+[2017.10.20-14.45.51:246][353]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2017.10.20-14.45.52:368][448]Cmd: TRANSACTION UNDO
+[2017.10.20-14.45.52:368][448]LogEditorTransaction: Undo Move Node
+[2017.10.20-14.45.52:916][498]Cmd: TRANSACTION UNDO
+[2017.10.20-14.45.52:916][498]LogEditorTransaction: Undo Material Editor: New Expression
+[2017.10.20-14.45.52:928][498]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
+[2017.10.20-14.45.53:445][539]Cmd: TRANSACTION UNDO
+[2017.10.20-14.45.53:445][539]LogEditorTransaction: Undo Edit 0
+[2017.10.20-14.45.53:995][582]Cmd: TRANSACTION UNDO
+[2017.10.20-14.45.53:996][582]LogEditorTransaction: Undo Edit 0
+[2017.10.20-14.45.54:699][647]Cmd: TRANSACTION UNDO
+[2017.10.20-14.45.54:699][647]LogEditorTransaction: Undo Edit 0
+[2017.10.20-14.45.56:020][775]Cmd: TRANSACTION UNDO
+[2017.10.20-14.45.56:020][775]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.20-14.46.00:809][239]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-14.46.01:368][296]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-14.46.02:578][423]LogEditorViewport: Clicking Background
+[2017.10.20-14.48.58:533][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2DMap" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/Autosaves/Game/My2DMap_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.10.20-14.48.58:585][387]LogSavePackage: Save=38.51ms
+[2017.10.20-14.48.58:585][387]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/My2DMap_Auto2DDD368D345D95A86EDF017B4CEF5D756.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/Autosaves/Game/My2DMap_Auto2.umap'
+[2017.10.20-14.48.58:586][387]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/Autosaves/Game/My2DMap_Auto2.umap
+[2017.10.20-14.48.58:589][387]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2DMap' took 0.094
+[2017.10.20-14.48.58:589][387]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.094
+[2017.10.20-14.50.47:959][360]Cmd: TRANSACTION UNDO
+[2017.10.20-14.50.47:960][360]LogEditorTransaction: Undo Edit 0
+[2017.10.20-14.50.48:486][380]Cmd: TRANSACTION UNDO
+[2017.10.20-14.50.48:486][380]LogEditorTransaction: Undo Add Child
+[2017.10.20-14.50.53:231][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2DMap" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.20-14.50.53:314][784]LogSavePackage: Save=40.33ms
+[2017.10.20-14.50.53:314][784]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/My2DMapA50735F649ABED103DB8F4AAFED22D45.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap'
+[2017.10.20-14.50.53:317][784]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap
+[2017.10.20-14.50.53:375][784]LogFileHelpers: Saving map 'My2DMap' took 0.209
+[2017.10.20-14.51.21:219][576]LogRenderer: Reallocating scene render targets to support 1144x712 Format 9 NumSamples 1 (Frame:1).
+[2017.10.20-14.51.34:970][372]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/2DCharacter" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset" SILENT=true
+[2017.10.20-14.51.35:072][372]LogSavePackage: Save=66.45ms
+[2017.10.20-14.51.35:072][372]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacterFA985C8D47F1DB62A3328F9894011642.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset'
+[2017.10.20-14.51.35:075][372]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset
+[2017.10.20-14.51.35:585][404]BlueprintLog: New page: Compile 2DCharacter
+[2017.10.20-14.51.38:298][608]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.51.38:328][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.51.38:328][608]PIE: New page: PIE session: My2DMap (20/10/2017 10:51:38)
+[2017.10.20-14.51.38:328][608]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.51.38:331][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002894s)
+[2017.10.20-14.51.38:332][608]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.51.38:332][608]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2017.10.20-14.51.38:332][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004473s)
+[2017.10.20-14.51.38:375][608]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.51.38:385][608]LogInit: FAudioDevice initialized.
+[2017.10.20-14.51.38:418][608]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.51.38:420][608]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.51.38
+[2017.10.20-14.51.38:420][608]LogWorld: Bringing up level for play took: 0.001434
+[2017.10.20-14.51.38:422][608]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,492
+[2017.10.20-14.52.25:213][877]BlueprintLog: New page: Compile 2DCharacter
+[2017.10.20-14.52.27:885][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/2DCharacter" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset" SILENT=true
+[2017.10.20-14.52.27:948][ 45]LogSavePackage: Save=58.06ms
+[2017.10.20-14.52.27:949][ 45]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacter350E951A4D679A0AA08C71B439CD6EFD.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset'
+[2017.10.20-14.52.27:951][ 45]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset
+[2017.10.20-14.52.30:872][286]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.52.30:901][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.52.30:901][286]PIE: New page: PIE session: My2DMap (20/10/2017 10:52:30)
+[2017.10.20-14.52.30:901][286]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.52.30:904][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003042s)
+[2017.10.20-14.52.30:905][286]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.52.30:905][286]LogPlayLevel: PIE: World Init took: (0.001155s)
+[2017.10.20-14.52.30:906][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004721s)
+[2017.10.20-14.52.30:950][286]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.52.30:960][286]LogInit: FAudioDevice initialized.
+[2017.10.20-14.52.30:997][286]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.52.30:999][286]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.52.30
+[2017.10.20-14.52.31:000][286]LogWorld: Bringing up level for play took: 0.001442
+[2017.10.20-14.52.31:001][286]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,088
+[2017.10.20-14.53.12:728][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/2DCharacter" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset" SILENT=true
+[2017.10.20-14.53.12:795][257]LogSavePackage: Save=60.67ms
+[2017.10.20-14.53.12:795][257]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacterCA49A0864003F9A61E8F4893B881C1B7.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset'
+[2017.10.20-14.53.12:798][257]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset
+[2017.10.20-14.53.14:091][342]BlueprintLog: New page: Compile 2DCharacter
+[2017.10.20-14.53.16:816][548]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.53.16:852][548]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.53.16:852][548]PIE: New page: PIE session: My2DMap (20/10/2017 10:53:16)
+[2017.10.20-14.53.16:852][548]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.53.16:855][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002582s)
+[2017.10.20-14.53.16:856][548]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.53.16:856][548]LogPlayLevel: PIE: World Init took: (0.001103s)
+[2017.10.20-14.53.16:856][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004143s)
+[2017.10.20-14.53.16:901][548]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.53.16:911][548]LogInit: FAudioDevice initialized.
+[2017.10.20-14.53.16:945][548]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.53.16:947][548]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.53.16
+[2017.10.20-14.53.16:947][548]LogWorld: Bringing up level for play took: 0.001401
+[2017.10.20-14.53.16:948][548]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,035
+[2017.10.20-14.53.38:829][339]BlueprintLog: New page: Compile 2DCharacter
+[2017.10.20-14.53.41:754][554]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.53.41:784][554]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.53.41:785][554]PIE: New page: PIE session: My2DMap (20/10/2017 10:53:41)
+[2017.10.20-14.53.41:785][554]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.53.41:788][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002720s)
+[2017.10.20-14.53.41:789][554]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.53.41:789][554]LogPlayLevel: PIE: World Init took: (0.001132s)
+[2017.10.20-14.53.41:789][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004199s)
+[2017.10.20-14.53.41:837][554]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.53.41:846][554]LogInit: FAudioDevice initialized.
+[2017.10.20-14.53.41:877][554]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.53.41:879][554]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.53.41
+[2017.10.20-14.53.41:879][554]LogWorld: Bringing up level for play took: 0.001465
+[2017.10.20-14.53.41:880][554]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,967
+[2017.10.20-14.54.37:300][899]BlueprintLog: New page: Compile 2DCharacter
+[2017.10.20-14.54.38:926][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/2DCharacter" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset" SILENT=true
+[2017.10.20-14.54.38:994][990]LogSavePackage: Save=62.29ms
+[2017.10.20-14.54.38:994][990]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacter9B8BEC0441E22F141AA36BA1EBA6C496.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset'
+[2017.10.20-14.54.38:997][990]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset
+[2017.10.20-14.54.40:721][134]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.54.40:750][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.54.40:751][134]PIE: New page: PIE session: My2DMap (20/10/2017 10:54:40)
+[2017.10.20-14.54.40:751][134]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.54.40:754][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003005s)
+[2017.10.20-14.54.40:755][134]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.54.40:755][134]LogPlayLevel: PIE: World Init took: (0.001242s)
+[2017.10.20-14.54.40:755][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004625s)
+[2017.10.20-14.54.40:799][134]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.54.40:808][134]LogInit: FAudioDevice initialized.
+[2017.10.20-14.54.40:843][134]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.54.40:845][134]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.54.40
+[2017.10.20-14.54.40:845][134]LogWorld: Bringing up level for play took: 0.001386
+[2017.10.20-14.54.40:847][134]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,066
+[2017.10.20-14.56.21:737][445]BlueprintLog: New page: Compile 2DCharacter
+[2017.10.20-14.56.23:938][577]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/2DCharacter" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset" SILENT=true
+[2017.10.20-14.56.24:006][577]LogSavePackage: Save=62.44ms
+[2017.10.20-14.56.24:007][577]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacterBF7E236E44C55605740FDE9CF6FB6D9E.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset'
+[2017.10.20-14.56.24:009][577]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset
+[2017.10.20-14.56.26:348][772]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.56.26:377][772]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.56.26:377][772]PIE: New page: PIE session: My2DMap (20/10/2017 10:56:26)
+[2017.10.20-14.56.26:377][772]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.56.26:381][772]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003108s)
+[2017.10.20-14.56.26:382][772]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.56.26:382][772]LogPlayLevel: PIE: World Init took: (0.001273s)
+[2017.10.20-14.56.26:382][772]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004875s)
+[2017.10.20-14.56.26:425][772]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.56.26:436][772]LogInit: FAudioDevice initialized.
+[2017.10.20-14.56.26:468][772]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.56.26:470][772]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.56.26
+[2017.10.20-14.56.26:470][772]LogWorld: Bringing up level for play took: 0.001430
+[2017.10.20-14.56.26:472][772]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,441
+[2017.10.20-14.57.16:812][ 50]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/2DCharacter" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset" SILENT=true
+[2017.10.20-14.57.16:886][ 50]LogSavePackage: Save=61.16ms
+[2017.10.20-14.57.16:886][ 50]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacter60AC425E42DE723B43F6859D42513129.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset'
+[2017.10.20-14.57.16:889][ 50]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset
+[2017.10.20-14.57.23:918][508]BlueprintLog: New page: Compile 2DCharacter
+[2017.10.20-14.57.30:117][926]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.57.30:149][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.57.30:149][926]PIE: New page: PIE session: My2DMap (20/10/2017 10:57:30)
+[2017.10.20-14.57.30:149][926]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.57.30:152][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002755s)
+[2017.10.20-14.57.30:153][926]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.57.30:153][926]LogPlayLevel: PIE: World Init took: (0.001599s)
+[2017.10.20-14.57.30:154][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004803s)
+[2017.10.20-14.57.30:200][926]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.57.30:212][926]LogInit: FAudioDevice initialized.
+[2017.10.20-14.57.30:245][926]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.57.30:247][926]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.57.30
+[2017.10.20-14.57.30:248][926]LogWorld: Bringing up level for play took: 0.001659
+[2017.10.20-14.57.30:249][926]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,664
+[2017.10.20-14.58.27:706][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/2DCharacter" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset" SILENT=true
+[2017.10.20-14.58.27:774][471]LogSavePackage: Save=62.88ms
+[2017.10.20-14.58.27:774][471]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacterF413991A4AED8360AF4EF6B88E502F7C.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset'
+[2017.10.20-14.58.27:777][471]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset
+[2017.10.20-14.58.28:272][502]BlueprintLog: New page: Compile 2DCharacter
+[2017.10.20-14.58.31:184][713]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-14.58.31:213][713]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-14.58.31:214][713]PIE: New page: PIE session: My2DMap (20/10/2017 10:58:31)
+[2017.10.20-14.58.31:214][713]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-14.58.31:217][713]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002874s)
+[2017.10.20-14.58.31:218][713]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-14.58.31:218][713]LogPlayLevel: PIE: World Init took: (0.001357s)
+[2017.10.20-14.58.31:218][713]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004625s)
+[2017.10.20-14.58.31:263][713]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-14.58.31:272][713]LogInit: FAudioDevice initialized.
+[2017.10.20-14.58.31:304][713]LogLoad: Game class is '2DGame_C'
+[2017.10.20-14.58.31:306][713]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-12.58.31
+[2017.10.20-14.58.31:306][713]LogWorld: Bringing up level for play took: 0.001517
+[2017.10.20-14.58.31:308][713]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,395
+[2017.10.20-15.02.06:849][600]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plataform2)
+[2017.10.20-15.02.38:343][117]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-15.03.30:478][472]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-15.03.32:164][658]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite)
+[2017.10.20-15.03.33:933][856]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (PrototypeTexture_Sprite3)
+[2017.10.20-15.04.16:397][305]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-15.04.16:431][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-15.04.16:431][305]PIE: New page: PIE session: My2DMap (20/10/2017 11:04:16)
+[2017.10.20-15.04.16:432][305]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-15.04.16:434][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002646s)
+[2017.10.20-15.04.16:435][305]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-15.04.16:436][305]LogPlayLevel: PIE: World Init took: (0.001586s)
+[2017.10.20-15.04.16:436][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004787s)
+[2017.10.20-15.04.16:487][305]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-15.04.16:497][305]LogInit: FAudioDevice initialized.
+[2017.10.20-15.04.16:530][305]LogLoad: Game class is '2DGame_C'
+[2017.10.20-15.04.16:532][305]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-13.04.16
+[2017.10.20-15.04.16:533][305]LogWorld: Bringing up level for play took: 0.001509
+[2017.10.20-15.04.16:534][305]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,379
+[2017.10.20-15.04.31:035][874]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plataform2)
+[2017.10.20-15.05.41:451][  8]Cmd: TRANSACTION UNDO
+[2017.10.20-15.05.41:451][  8]LogEditorTransaction: Undo Replace component used material
+[2017.10.20-15.06.03:521][450]Cmd: TRANSACTION UNDO
+[2017.10.20-15.06.03:521][450]LogEditorTransaction: Undo Replace component used material
+[2017.10.20-15.06.30:612][724]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2DMap' took 0.048
+[2017.10.20-15.09.40:201][368]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plataform2)
+[2017.10.20-15.09.52:268][624]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-15.09.52:298][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-15.09.52:298][624]PIE: New page: PIE session: My2DMap (20/10/2017 11:09:52)
+[2017.10.20-15.09.52:298][624]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-15.09.52:302][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003301s)
+[2017.10.20-15.09.52:303][624]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-15.09.52:303][624]LogPlayLevel: PIE: World Init took: (0.001110s)
+[2017.10.20-15.09.52:303][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004804s)
+[2017.10.20-15.09.52:352][624]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-15.09.52:363][624]LogInit: FAudioDevice initialized.
+[2017.10.20-15.09.52:397][624]LogLoad: Game class is '2DGame_C'
+[2017.10.20-15.09.52:400][624]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-13.09.52
+[2017.10.20-15.09.52:400][624]LogWorld: Bringing up level for play took: 0.001673
+[2017.10.20-15.09.52:402][624]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,511
+[2017.10.20-15.10.01:152][524]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-15.10.01:179][524]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-15.10.01:180][524]PIE: New page: PIE session: My2DMap (20/10/2017 11:10:01)
+[2017.10.20-15.10.01:180][524]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-15.10.01:183][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003508s)
+[2017.10.20-15.10.01:185][524]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-15.10.01:185][524]LogPlayLevel: PIE: World Init took: (0.001307s)
+[2017.10.20-15.10.01:185][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.005250s)
+[2017.10.20-15.10.01:229][524]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-15.10.01:240][524]LogInit: FAudioDevice initialized.
+[2017.10.20-15.10.01:274][524]LogLoad: Game class is '2DGame_C'
+[2017.10.20-15.10.01:276][524]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-13.10.01
+[2017.10.20-15.10.01:276][524]LogWorld: Bringing up level for play took: 0.001410
+[2017.10.20-15.10.01:278][524]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,364
+[2017.10.20-15.10.04:749][867]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-15.10.04:778][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-15.10.04:778][867]PIE: New page: PIE session: My2DMap (20/10/2017 11:10:04)
+[2017.10.20-15.10.04:778][867]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-15.10.04:781][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002734s)
+[2017.10.20-15.10.04:782][867]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-15.10.04:783][867]LogPlayLevel: PIE: World Init took: (0.001581s)
+[2017.10.20-15.10.04:783][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004850s)
+[2017.10.20-15.10.04:863][867]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-15.10.04:878][867]LogInit: FAudioDevice initialized.
+[2017.10.20-15.10.04:914][867]LogLoad: Game class is '2DGame_C'
+[2017.10.20-15.10.04:916][867]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-13.10.04
+[2017.10.20-15.10.04:916][867]LogWorld: Bringing up level for play took: 0.001410
+[2017.10.20-15.10.04:918][867]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,004
+[2017.10.20-15.10.09:640][370]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-15.10.10:402][448]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-15.10.17:293][164]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Plataform)
+[2017.10.20-15.10.33:516][781]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-15.10.33:544][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-15.10.33:544][781]PIE: New page: PIE session: My2DMap (20/10/2017 11:10:33)
+[2017.10.20-15.10.33:544][781]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-15.10.33:547][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003245s)
+[2017.10.20-15.10.33:548][781]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-15.10.33:549][781]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2017.10.20-15.10.33:549][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004750s)
+[2017.10.20-15.10.33:591][781]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-15.10.33:602][781]LogInit: FAudioDevice initialized.
+[2017.10.20-15.10.33:636][781]LogLoad: Game class is '2DGame_C'
+[2017.10.20-15.10.33:638][781]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-13.10.33
+[2017.10.20-15.10.33:639][781]LogWorld: Bringing up level for play took: 0.001568
+[2017.10.20-15.10.33:640][781]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,727
+[2017.10.20-15.10.38:245][284]Cmd: TRANSACTION UNDO
+[2017.10.20-15.10.38:245][284]LogEditorTransaction: Undo Edit Translucency Sort Priority
+[2017.10.20-15.11.05:547][933]Cmd: TRANSACTION UNDO
+[2017.10.20-15.11.05:547][933]LogEditorTransaction: Undo Edit Render CustomDepth Pass
+[2017.10.20-15.11.06:021][956]Cmd: TRANSACTION UNDO
+[2017.10.20-15.11.06:021][956]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.20-15.11.06:454][981]Cmd: TRANSACTION UNDO
+[2017.10.20-15.11.06:454][981]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.20-15.11.07:356][ 34]Cmd: TRANSACTION UNDO
+[2017.10.20-15.11.07:356][ 34]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.20-15.11.07:902][ 65]Cmd: TRANSACTION UNDO
+[2017.10.20-15.11.07:903][ 65]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.20-15.11.08:389][108]Cmd: TRANSACTION UNDO
+[2017.10.20-15.11.08:389][108]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.20-15.11.09:017][145]Cmd: TRANSACTION UNDO
+[2017.10.20-15.11.09:018][145]LogEditorTransaction: Undo Edit Custom Depth Stencil Write Mask
+[2017.10.20-15.11.09:539][175]Cmd: TRANSACTION UNDO
+[2017.10.20-15.11.09:539][175]LogEditorTransaction: Undo Move Actors
+[2017.10.20-15.11.17:902][938]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-15.11.17:929][938]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-15.11.17:930][938]PIE: New page: PIE session: My2DMap (20/10/2017 11:11:17)
+[2017.10.20-15.11.17:930][938]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-15.11.17:933][938]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003287s)
+[2017.10.20-15.11.17:934][938]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-15.11.17:935][938]LogPlayLevel: PIE: World Init took: (0.001200s)
+[2017.10.20-15.11.17:935][938]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004893s)
+[2017.10.20-15.11.17:975][938]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-15.11.17:987][938]LogInit: FAudioDevice initialized.
+[2017.10.20-15.11.18:018][938]LogLoad: Game class is '2DGame_C'
+[2017.10.20-15.11.18:020][938]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-13.11.18
+[2017.10.20-15.11.18:021][938]LogWorld: Bringing up level for play took: 0.001489
+[2017.10.20-15.11.18:022][938]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,891
+[2017.10.20-15.13.03:398][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2DMap" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.20-15.13.03:505][624]LogSavePackage: Save=48.64ms
+[2017.10.20-15.13.03:505][624]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/My2DMap2127FEC347EB6750C28E25B4386C65E7.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap'
+[2017.10.20-15.13.03:509][624]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap
+[2017.10.20-15.13.03:568][624]LogFileHelpers: Saving map 'My2DMap' took 0.235
+[2017.10.20-15.13.03:570][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/2DCharacter" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset" SILENT=true
+[2017.10.20-15.13.03:643][624]LogSavePackage: Save=61.81ms
+[2017.10.20-15.13.03:643][624]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacter1C72AA12413B9CA9687B5F8B0E92D5AB.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset'
+[2017.10.20-15.13.03:646][624]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset
+[2017.10.20-15.13.04:206][661]BlueprintLog: New page: Compile 2DCharacter
+[2017.10.20-15.13.07:065][879]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-15.13.07:096][879]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-15.13.07:096][879]PIE: New page: PIE session: My2DMap (20/10/2017 11:13:07)
+[2017.10.20-15.13.07:096][879]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-15.13.07:100][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003674s)
+[2017.10.20-15.13.07:101][879]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-15.13.07:102][879]LogPlayLevel: PIE: World Init took: (0.001600s)
+[2017.10.20-15.13.07:102][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.005869s)
+[2017.10.20-15.13.07:208][879]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-15.13.07:218][879]LogInit: FAudioDevice initialized.
+[2017.10.20-15.13.07:256][879]LogLoad: Game class is '2DGame_C'
+[2017.10.20-15.13.07:258][879]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-13.13.07
+[2017.10.20-15.13.07:259][879]LogWorld: Bringing up level for play took: 0.001471
+[2017.10.20-15.13.07:260][879]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,347
+[2017.10.20-15.13.26:358][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/2DCharacter" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset" SILENT=true
+[2017.10.20-15.13.26:427][468]LogSavePackage: Save=64.39ms
+[2017.10.20-15.13.26:427][468]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacter349BAADF413324B0862533AAE2723A29.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset'
+[2017.10.20-15.13.26:431][468]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset
+[2017.10.20-15.13.27:015][497]BlueprintLog: New page: Compile 2DCharacter
+[2017.10.20-15.13.29:757][700]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-15.13.29:788][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-15.13.29:789][700]PIE: New page: PIE session: My2DMap (20/10/2017 11:13:29)
+[2017.10.20-15.13.29:789][700]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-15.13.29:792][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002924s)
+[2017.10.20-15.13.29:793][700]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-15.13.29:793][700]LogPlayLevel: PIE: World Init took: (0.001135s)
+[2017.10.20-15.13.29:793][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004444s)
+[2017.10.20-15.13.29:836][700]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-15.13.29:846][700]LogInit: FAudioDevice initialized.
+[2017.10.20-15.13.29:883][700]LogLoad: Game class is '2DGame_C'
+[2017.10.20-15.13.29:885][700]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-13.13.29
+[2017.10.20-15.13.29:885][700]LogWorld: Bringing up level for play took: 0.001563
+[2017.10.20-15.13.29:887][700]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,973
+[2017.10.20-15.14.26:380][717]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.20-15.14.26:411][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.20-15.14.26:411][717]PIE: New page: PIE session: My2DMap (20/10/2017 11:14:26)
+[2017.10.20-15.14.26:412][717]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.20-15.14.26:415][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002980s)
+[2017.10.20-15.14.26:416][717]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.20-15.14.26:416][717]LogPlayLevel: PIE: World Init took: (0.001228s)
+[2017.10.20-15.14.26:417][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.005204s)
+[2017.10.20-15.14.26:469][717]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.20-15.14.26:478][717]LogInit: FAudioDevice initialized.
+[2017.10.20-15.14.26:519][717]LogLoad: Game class is '2DGame_C'
+[2017.10.20-15.14.26:521][717]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.20-13.14.26
+[2017.10.20-15.14.26:521][717]LogWorld: Bringing up level for play took: 0.001583
+[2017.10.20-15.14.26:523][717]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,39
+[2017.10.20-15.15.11:266][ 69]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (2DBackground_Sprite)
+[2017.10.20-15.15.17:273][612]Cmd: QUIT_EDITOR
+[2017.10.20-15.15.17:976][612]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.20-15.15.18:028][612]LogExit: Preparing to exit.
+[2017.10.20-15.15.19:215][612]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/' was aborted.
+[2017.10.20-15.15.19:349][612]LogExit: Editor shut down
+[2017.10.20-15.15.19:392][612]LogExit: Transaction tracking system shut down
+[2017.10.20-15.15.19:609][612]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.20-15.15.19:609][612]LogDirectoryWatcher: A directory notification for '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/' was aborted.
+[2017.10.20-15.15.19:609][612]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.20-15.15.19:609][612]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.10.20-15.15.19:609][612]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.10.20-15.15.19:788][612]LogExit: Object subsystem successfully closed.
+[2017.10.20-15.15.19:813][612]LogD3D11RHI: Shutdown
+[2017.10.20-15.15.19:813][612]LogD3D11RHI: CleanupD3DDevice
+[2017.10.20-15.15.20:001][612]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.20-15.15.20:017][612]LogModuleManager: Shutting down and abandoning module TextureEditor (540)
+[2017.10.20-15.15.20:017][612]LogModuleManager: Shutting down and abandoning module MaterialEditor (538)
+[2017.10.20-15.15.20:017][612]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.10.20-15.15.20:017][612]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.10.20-15.15.20:017][612]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.10.20-15.15.20:017][612]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.10.20-15.15.20:017][612]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.10.20-15.15.20:017][612]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.10.20-15.15.20:017][612]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.10.20-15.15.20:026][612]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.10.20-15.15.20:026][612]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.10.20-15.15.20:026][612]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.10.20-15.15.20:026][612]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Collections/' was aborted.
+[2017.10.20-15.15.20:026][612]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Developers/YuriMeitzen/Collections/' was aborted.
+[2017.10.20-15.15.20:026][612]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/Collections/' was aborted.
+[2017.10.20-15.15.20:026][612]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.10.20-15.15.20:026][612]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.10.20-15.15.20:026][612]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.10.20-15.15.20:026][612]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.10.20-15.15.20:026][612]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.10.20-15.15.20:026][612]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.10.20-15.15.20:026][612]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.10.20-15.15.20:027][612]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.10.20-15.15.20:028][612]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.10.20-15.15.20:028][612]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.10.20-15.15.20:028][612]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.10.20-15.15.20:028][612]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.10.20-15.15.20:028][612]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.10.20-15.15.20:028][612]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.10.20-15.15.20:028][612]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.10.20-15.15.20:028][612]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.10.20-15.15.20:028][612]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.10.20-15.15.20:028][612]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.10.20-15.15.20:028][612]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.10.20-15.15.20:075][612]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.10.20-15.15.20:075][612]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.10.20-15.15.20:076][612]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.10.20-15.15.20:076][612]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.10.20-15.15.20:076][612]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.10.20-15.15.20:076][612]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.10.20-15.15.20:076][612]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.10.20-15.15.20:076][612]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.10.20-15.15.20:076][612]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.10.20-15.15.20:076][612]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.10.20-15.15.20:076][612]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.10.20-15.15.20:076][612]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.10.20-15.15.20:076][612]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.10.20-15.15.20:076][612]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.10.20-15.15.20:076][612]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.10.20-15.15.20:076][612]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.10.20-15.15.20:076][612]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.10.20-15.15.20:076][612]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.10.20-15.15.20:077][612]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.10.20-15.15.20:077][612]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.10.20-15.15.20:077][612]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.10.20-15.15.20:077][612]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.10.20-15.15.20:077][612]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.10.20-15.15.20:077][612]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.10.20-15.15.20:131][612]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.10.20-15.15.20:131][612]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.10.20-15.15.20:131][612]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.10.20-15.15.20:131][612]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.10.20-15.15.20:131][612]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.10.20-15.15.20:131][612]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.10.20-15.15.20:132][612]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.10.20-15.15.20:132][612]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.10.20-15.15.20:132][612]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.10.20-15.15.20:132][612]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.10.20-15.15.20:148][612]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.10.20-15.15.20:148][612]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.10.20-15.15.20:148][612]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.10.20-15.15.20:148][612]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.10.20-15.15.20:149][612]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.10.20-15.15.20:149][612]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.10.20-15.15.20:149][612]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.10.20-15.15.20:149][612]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.10.20-15.15.20:149][612]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.10.20-15.15.20:149][612]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.10.20-15.15.20:149][612]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.10.20-15.15.20:149][612]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.10.20-15.15.20:149][612]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.10.20-15.15.20:149][612]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.10.20-15.15.20:149][612]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.10.20-15.15.20:149][612]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.10.20-15.15.20:149][612]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.10.20-15.15.20:149][612]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.10.20-15.15.20:149][612]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.10.20-15.15.20:149][612]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.10.20-15.15.20:149][612]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.10.20-15.15.20:325][612]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.10.20-15.15.20:326][612]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.10.20-15.15.20:326][612]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.10.20-15.15.20:326][612]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.10.20-15.15.20:326][612]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.10.20-15.15.20:326][612]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.10.20-15.15.20:326][612]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.10.20-15.15.20:326][612]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.10.20-15.15.20:326][612]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.10.20-15.15.20:326][612]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.10.20-15.15.20:326][612]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.10.20-15.15.20:328][612]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.10.20-15.15.20:328][612]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.10.20-15.15.20:328][612]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.10.20-15.15.20:328][612]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.10.20-15.15.20:329][612]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.10.20-15.15.20:329][612]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.10.20-15.15.20:329][612]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.10.20-15.15.20:329][612]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.10.20-15.15.20:329][612]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.10.20-15.15.20:329][612]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.10.20-15.15.20:329][612]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.10.20-15.15.20:429][612]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.10.20-15.15.20:530][612]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.10.20-15.15.20:530][612]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.10.20-15.15.20:530][612]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.10.20-15.15.20:530][612]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.10.20-15.15.20:530][612]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.10.20-15.15.20:530][612]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.10.20-15.15.20:533][612]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.10.20-15.15.20:533][612]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.10.20-15.15.20:533][612]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.10.20-15.15.20:533][612]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.10.20-15.15.20:534][612]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.10.20-15.15.20:537][612]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.10.20-15.15.20:537][612]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.10.20-15.15.20:537][612]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.10.20-15.15.20:537][612]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.10.20-15.15.20:537][612]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.10.20-15.15.20:537][612]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.10.20-15.15.20:537][612]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.10.20-15.15.20:537][612]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.10.20-15.15.20:538][612]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.10.20-15.15.20:538][612]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.10.20-15.15.20:538][612]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.10.20-15.15.20:538][612]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.10.20-15.15.20:538][612]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.10.20-15.15.20:538][612]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.10.20-15.15.20:538][612]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.10.20-15.15.20:538][612]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.10.20-15.15.20:546][612]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.20-15.15.20:622][612]LogDerivedDataCache: Shutdown
+[2017.10.20-15.15.20:622][612]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.20-15.15.20:622][612]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.20-15.15.20:623][612]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.20-15.15.20:624][612]LogOnline: Display: Unloading online subsystem: NULL
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.20-15.15.20:624][612]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.20-15.15.20:624][612]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.20-15.15.20:625][612]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBF2B0499-4354-3ABD-E4B5-7EBF596F155B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=4d336c304cb600f3833bee9ec6324b6b%7C97e6c6ec20b34e1681bb9ded12457367%7Cea9e9fd9-3d7e-4d9a-8813-872780a612b3&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.20-15.15.20:637][612]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.20-15.15.20:640][612]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.10.20-15.15.20:640][612]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.10.20-15.15.20:640][612]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.10.20-15.15.20:640][612]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.10.20-15.15.20:640][612]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.10.20-15.15.20:640][612]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.10.20-15.15.20:640][612]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.10.20-15.15.20:645][612]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.10.20-15.15.20:645][612]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.10.20-15.15.20:645][612]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.10.20-15.15.20:645][612]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.10.20-15.15.20:645][612]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.10.20-15.15.20:645][612]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.10.20-15.15.20:645][612]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.10.20-15.15.20:646][612]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.10.20-15.15.20:646][612]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.20-15.15.20:646][612]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.20-15.15.20:646][612]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.20-15.15.20:649][612]LogExit: Exiting.
+[2017.10.20-15.15.20:692][612]Log file closed, 10/20/17 13:15:20
