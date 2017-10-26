@@ -1,0 +1,926 @@
+﻿Log file open, 10/26/17 15:16:10
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MyPaper2D
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(2051361584) SRandInit(2051361584).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.121320
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.26-17.16.11:126][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.26-17.16.11:126][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.26-17.16.11:140][  0]LogInit: Computer: ALEXSANDER-PC
+[2017.10.26-17.16.11:140][  0]LogInit: User: Alexsander
+[2017.10.26-17.16.11:140][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.10.26-17.16.11:140][  0]LogInit: High frequency timer resolution =2.533196 MHz
+[2017.10.26-17.16.11:140][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.26-17.16.11:140][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.26-17.16.11:140][  0]LogMemory: Process Physical Memory: 281.33 MB used, 281.33 MB peak
+[2017.10.26-17.16.11:140][  0]LogMemory: Process Virtual Memory: 276.22 MB used, 276.22 MB peak
+[2017.10.26-17.16.11:140][  0]LogMemory: Physical Memory: 5252.54 MB used,  2844.47 MB free, 8097.01 MB total
+[2017.10.26-17.16.11:140][  0]LogMemory: Virtual Memory: 706.19 MB used,  2844.47 MB free, 134217728.00 MB total
+[2017.10.26-17.16.11:317][  0]LogInit: Overriding language with editor language configuration option (en).
+[2017.10.26-17.16.11:317][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2017.10.26-17.16.12:136][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.26-17.16.12:226][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 740M  ' (Feature Level 11_0)
+[2017.10.26-17.16.12:226][  0]LogD3D11RHI:       1997/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.26-17.16.12:234][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2017.10.26-17.16.12:234][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.26-17.16.12:236][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.26-17.16.12:236][  0]LogD3D11RHI:       0/0/4048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.26-17.16.12:236][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.26-17.16.12:247][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.26-17.16.12:247][  0]LogD3D11RHI:     GPU DeviceId: 0x1292 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.26-17.16.12:247][  0]LogWindows: EnumDisplayDevices:
+[2017.10.26-17.16.12:247][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2017.10.26-17.16.12:247][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.10.26-17.16.12:247][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2017.10.26-17.16.12:247][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.10.26-17.16.12:247][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 740M  
+[2017.10.26-17.16.12:247][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.10.26-17.16.12:247][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.10.26-17.16.12:247][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.26-17.16.12:268][  0]LogD3D11RHI: NvAPI_D3D_GetCurrentSLIState failed: 0xfffffff7
+[2017.10.26-17.16.12:269][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.26-17.16.12:286][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.26-17.16.12:287][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Intermediate/Shaders/WorkingDirectory/1072/).
+[2017.10.26-17.16.12:287][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alexsander/AppData/Local/Temp/UnrealShaderWorkingDir/C2448C54451BCC7B3F193694F5818C5B/'.
+[2017.10.26-17.16.12:287][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.26-17.16.13:377][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.26-17.16.13:451][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.26-17.16.13:521][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.26-17.16.13:579][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.26-17.16.13:638][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.26-17.16.13:692][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.26-17.16.13:747][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.26-17.16.13:803][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.26-17.16.13:851][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.26-17.16.13:905][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.26-17.16.13:958][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.26-17.16.14:017][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.26-17.16.14:109][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.26-17.16.14:216][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.26-17.16.14:321][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.26-17.16.14:550][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.26-17.16.14:551][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.26-17.16.14:642][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.26-17.16.14:846][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.26-17.16.14:976][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.26-17.16.15:042][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.26-17.16.15:144][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.26-17.16.15:259][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.26-17.16.15:373][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.26-17.16.15:374][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.26-17.16.16:027][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.26-17.16.16:199][  0]LogDerivedDataCache: Loaded boot cache 0.17s 93MB C:/Users/Alexsander/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.26-17.16.16:199][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Alexsander/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.26-17.16.16:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.26-17.16.16:200][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.26-17.16.16:200][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.26-17.16.16:200][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.26-17.16.16:246][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.26-17.16.16:260][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alexsander/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.26-17.16.16:275][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.26-17.16.16:275][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.26-17.16.16:276][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.26-17.16.16:276][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.26-17.16.16:580][  0]LogAssetRegistry: FAssetRegistry took 0.0275 seconds to start up
+[2017.10.26-17.16.16:818][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.26-17.16.17:053][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.26-17.16.17:486][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.26-17.16.17:550][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.26-17.16.17:550][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.26-17.16.17:550][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.26-17.16.17:550][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.26-17.16.17:550][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.26-17.16.18:012][  0]LogNetVersion: MyPaper2D , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 640952014)
+[2017.10.26-17.16.18:277][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.031172 seconds
+[2017.10.26-17.16.18:286][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.26-17.16.18:286][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.26-17.16.18:286][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.26-17.16.18:370][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.26-17.16.22:304][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.26-17.16.22:355][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.26-17.16.23:394][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.26-17.16.23:909][  0]SourceControl: Source control is disabled
+[2017.10.26-17.16.23:909][  0]SourceControl: Source control is disabled
+[2017.10.26-17.16.23:968][  0]SourceControl: Source control is disabled
+[2017.10.26-17.16.24:024][  0]SourceControl: Source control is disabled
+[2017.10.26-17.16.24:786][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.26-17.16.25:205][  0]LogOcInput: OculusInput pre-init called
+[2017.10.26-17.16.25:559][  0]LogEngine: Initializing Engine...
+[2017.10.26-17.16.25:562][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.26-17.16.25:849][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.26-17.16.25:849][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.26-17.16.26:038][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.26-17.16.26:049][  0]LogInit: XAudio2 using 'Fones de ouvido / Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.26-17.16.26:311][  0]LogInit: FAudioDevice initialized.
+[2017.10.26-17.16.26:505][  0]LogDerivedDataCache: Saved boot cache 0.19s 93MB C:/Users/Alexsander/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.26-17.16.26:553][  0]LogInit: Texture streaming: Enabled
+[2017.10.26-17.16.26:998][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.26-17.16.26:999][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={EA1CC150-47D3-3AB8-CB33-BF819D0D043F}
+[2017.10.26-17.16.27:488][  0]LogInit: Transaction tracking system initialized
+[2017.10.26-17.16.28:466][  0]BlueprintLog: New page: Editor Load
+[2017.10.26-17.16.31:318][  0]LocalizationService: Localization service is disabled
+[2017.10.26-17.16.33:544][  0]LogConsoleResponse: Display: 
+[2017.10.26-17.16.33:988][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.26-17.16.33:988][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.26-17.16.33:988][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.26-17.16.35:745][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/' took 0.02s
+[2017.10.26-17.16.35:797][  0]SourceControl: Source control is disabled
+[2017.10.26-17.16.35:797][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/My2DMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.26-17.16.35:798][  0]LightingResults: New page: Lighting Build
+[2017.10.26-17.16.35:860][  0]MapCheck: New page: Map Check
+[2017.10.26-17.16.35:860][  0]LightingResults: New page: Lighting Build
+[2017.10.26-17.16.36:615][  0]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-17.16.36:624][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.26-17.16.36:651][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.26-17.16.36:738][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 87.377ms to complete.
+[2017.10.26-17.16.36:739][  0]LogFileHelpers: Loading map 'My2DMap' took 0.942
+[2017.10.26-17.16.37:149][  0]LogCollectionManager: Loaded 0 collections in 0.002670 seconds
+[2017.10.26-17.16.37:281][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Collections/' took 0.01s
+[2017.10.26-17.16.37:281][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Developers/Alexsander/Collections/' took 0.01s
+[2017.10.26-17.16.37:281][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Collections/' took 0.01s
+[2017.10.26-17.16.37:281][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.26-17.16.37:305][  0]LogContentBrowser: Native class hierarchy populated in 0.0238 seconds. Added 2387 classes and 502 folders.
+[2017.10.26-17.16.37:428][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2017.10.26-17.16.37:483][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.26-17.16.37:524][  0]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.26-17.16.37:528][  0]LogSlate: Took 0.000968 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.26-17.16.37:538][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.26-17.16.37:636][  0]LogRenderer: Reallocating scene render targets to support 856x268 Format 10 NumSamples 1 (Frame:1).
+[2017.10.26-17.16.37:719][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.26-17.16.37:859][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.10.26-17.16.37:859][  0]LogLoad: (Engine Initialization) Total time: 29.15 seconds
+[2017.10.26-17.16.37:859][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.26-17.16.37:859][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.26-17.16.37:859][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.26-17.16.38:226][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.26-17.16.39:218][  3]LogAssetRegistry: Asset discovery search completed in 22.6609 seconds
+[2017.10.26-17.16.39:220][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.26-17.16.39:220][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
+[2017.10.26-17.16.39:237][  3]LogSlate: Took 0.000349 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.26-17.16.40:876][ 81]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.26-17.16.41:411][ 81]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 113 classes and 0 folders.
+[2017.10.26-17.16.42:193][ 81]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.26-17.16.42:317][ 82]LogSlate: Took 0.000326 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.26-17.16.44:641][206]BlueprintLog: New page: Compile PlayerBlue
+[2017.10.26-17.16.45:242][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blue/PlayerBlue" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset" SILENT=true
+[2017.10.26-17.16.45:444][221]LogSavePackage: Save=179.83ms
+[2017.10.26-17.16.45:445][221]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/PlayerBlue51165B84456A5CD6210492B4C2869354.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset'
+[2017.10.26-17.16.45:456][221]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset
+[2017.10.26-17.18.03:092][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/CannonBlue.png)
+[2017.10.26-17.18.03:100][243]LogTexture: Display: Building textures: CannonBlue (BGRA8, 181X181)
+[2017.10.26-17.18.03:116][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/CannonGreen.png)
+[2017.10.26-17.18.03:120][243]LogTexture: Display: Building textures: CannonGreen (BGRA8, 181X181)
+[2017.10.26-17.18.03:134][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/CannonPurple.png)
+[2017.10.26-17.18.03:138][243]LogTexture: Display: Building textures: CannonPurple (BGRA8, 181X181)
+[2017.10.26-17.18.03:151][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/CannonRed.png)
+[2017.10.26-17.18.03:158][243]LogTexture: Display: Building textures: CannonRed (BGRA8, 181X181)
+[2017.10.26-17.18.03:174][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/Crouch_Blue_1.png)
+[2017.10.26-17.18.03:182][243]LogTexture: Display: Building textures: Crouch_Blue_1 (AutoDXT, 256X256)
+[2017.10.26-17.18.03:252][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/Crouch_Blue_2.png)
+[2017.10.26-17.18.03:256][243]LogTexture: Display: Building textures: Crouch_Blue_2 (AutoDXT, 256X256)
+[2017.10.26-17.18.03:333][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/Crouch_Blue_3.png)
+[2017.10.26-17.18.03:336][243]LogTexture: Display: Building textures: Crouch_Blue_3 (AutoDXT, 256X256)
+[2017.10.26-17.18.03:404][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/Crouch_Blue_4.png)
+[2017.10.26-17.18.03:410][243]LogTexture: Display: Building textures: Crouch_Blue_4 (AutoDXT, 256X256)
+[2017.10.26-17.18.03:467][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/Crouch_Green_1.png)
+[2017.10.26-17.18.03:472][243]LogTexture: Display: Building textures: Crouch_Green_1 (AutoDXT, 256X256)
+[2017.10.26-17.18.03:548][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/Crouch_Green_2.png)
+[2017.10.26-17.18.03:552][243]LogTexture: Display: Building textures: Crouch_Green_2 (AutoDXT, 256X256)
+[2017.10.26-17.18.03:627][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/Crouch_Green_3.png)
+[2017.10.26-17.18.03:631][243]LogTexture: Display: Building textures: Crouch_Green_3 (AutoDXT, 256X256)
+[2017.10.26-17.18.03:702][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/Crouch_Green_4.png)
+[2017.10.26-17.18.03:706][243]LogTexture: Display: Building textures: Crouch_Green_4 (AutoDXT, 256X256)
+[2017.10.26-17.18.03:769][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/Crouch_Purple_1.png)
+[2017.10.26-17.18.03:773][243]LogTexture: Display: Building textures: Crouch_Purple_1 (AutoDXT, 256X256)
+[2017.10.26-17.18.03:841][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/Crouch_Purple_2.png)
+[2017.10.26-17.18.03:844][243]LogTexture: Display: Building textures: Crouch_Purple_2 (AutoDXT, 256X256)
+[2017.10.26-17.18.03:921][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/Crouch_Purple_3.png)
+[2017.10.26-17.18.03:925][243]LogTexture: Display: Building textures: Crouch_Purple_3 (AutoDXT, 256X256)
+[2017.10.26-17.18.04:000][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/Crouch_Purple_4.png)
+[2017.10.26-17.18.04:003][243]LogTexture: Display: Building textures: Crouch_Purple_4 (AutoDXT, 256X256)
+[2017.10.26-17.18.04:071][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/Crouch_Red_1.png)
+[2017.10.26-17.18.04:075][243]LogTexture: Display: Building textures: Crouch_Red_1 (AutoDXT, 256X256)
+[2017.10.26-17.18.04:147][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/Crouch_Red_2.png)
+[2017.10.26-17.18.04:151][243]LogTexture: Display: Building textures: Crouch_Red_2 (AutoDXT, 256X256)
+[2017.10.26-17.18.04:237][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/Crouch_Red_3.png)
+[2017.10.26-17.18.04:240][243]LogTexture: Display: Building textures: Crouch_Red_3 (AutoDXT, 256X256)
+[2017.10.26-17.18.04:309][243]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Alexsander/Projetos/Unreal/Paper2D/Sprites Edit/Crouch_Red_4.png)
+[2017.10.26-17.18.04:313][243]LogTexture: Display: Building textures: Crouch_Red_4 (AutoDXT, 256X256)
+[2017.10.26-17.18.12:711][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Blue/CannonBlue" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Blue/CannonBlue.uasset" SILENT=true
+[2017.10.26-17.18.12:724][722]LogSavePackage: Save=11.04ms
+[2017.10.26-17.18.12:724][722]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CannonBlue59A9BD0A4737FC8587202C998EBDAF8D.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Blue/CannonBlue.uasset'
+[2017.10.26-17.18.12:732][722]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Blue/CannonBlue.uasset
+[2017.10.26-17.18.12:746][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Blue/Crouch_Blue_1" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Blue/Crouch_Blue_1.uasset" SILENT=true
+[2017.10.26-17.18.12:761][722]LogSavePackage: Save=13.40ms
+[2017.10.26-17.18.12:761][722]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_181B2D33B4E89CB62CCAB5BBB03CBFCE7.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Blue/Crouch_Blue_1.uasset'
+[2017.10.26-17.18.12:766][722]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Blue/Crouch_Blue_1.uasset
+[2017.10.26-17.18.12:780][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Blue/Crouch_Blue_2" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Blue/Crouch_Blue_2.uasset" SILENT=true
+[2017.10.26-17.18.12:798][722]LogSavePackage: Save=15.90ms
+[2017.10.26-17.18.12:798][722]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_212E2F22241439C2E4B209486810B4108.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Blue/Crouch_Blue_2.uasset'
+[2017.10.26-17.18.12:802][722]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Blue/Crouch_Blue_2.uasset
+[2017.10.26-17.18.12:816][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Blue/Crouch_Blue_4" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Blue/Crouch_Blue_4.uasset" SILENT=true
+[2017.10.26-17.18.12:833][722]LogSavePackage: Save=14.59ms
+[2017.10.26-17.18.12:833][722]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_4286929314CC5FDB76C45D2A185198249.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Blue/Crouch_Blue_4.uasset'
+[2017.10.26-17.18.12:838][722]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Blue/Crouch_Blue_4.uasset
+[2017.10.26-17.18.12:855][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Blue/Crouch_Blue_3" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Blue/Crouch_Blue_3.uasset" SILENT=true
+[2017.10.26-17.18.12:871][722]LogSavePackage: Save=13.72ms
+[2017.10.26-17.18.12:871][722]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_32B01FE6845051FCDD2AF9783BD885CA4.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Blue/Crouch_Blue_3.uasset'
+[2017.10.26-17.18.12:875][722]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Blue/Crouch_Blue_3.uasset
+[2017.10.26-17.18.29:349][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Green/CannonGreen" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Green/CannonGreen.uasset" SILENT=true
+[2017.10.26-17.18.29:365][494]LogSavePackage: Save=13.61ms
+[2017.10.26-17.18.29:365][494]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CannonGreen76ABD80A488D9D6994627AA0E3B4C9A6.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Green/CannonGreen.uasset'
+[2017.10.26-17.18.29:370][494]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Green/CannonGreen.uasset
+[2017.10.26-17.18.29:388][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Green/Crouch_Green_1" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Green/Crouch_Green_1.uasset" SILENT=true
+[2017.10.26-17.18.29:409][494]LogSavePackage: Save=17.53ms
+[2017.10.26-17.18.29:409][494]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Green_10000A1B745F54C13E63F19BF29E47A91.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Green/Crouch_Green_1.uasset'
+[2017.10.26-17.18.29:413][494]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Green/Crouch_Green_1.uasset
+[2017.10.26-17.18.29:428][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Green/Crouch_Green_2" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Green/Crouch_Green_2.uasset" SILENT=true
+[2017.10.26-17.18.29:451][494]LogSavePackage: Save=20.54ms
+[2017.10.26-17.18.29:452][494]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Green_26AD7511A4DB96459BC6B5985EB489BB2.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Green/Crouch_Green_2.uasset'
+[2017.10.26-17.18.29:457][494]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Green/Crouch_Green_2.uasset
+[2017.10.26-17.18.29:474][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Green/Crouch_Green_3" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Green/Crouch_Green_3.uasset" SILENT=true
+[2017.10.26-17.18.29:495][494]LogSavePackage: Save=18.40ms
+[2017.10.26-17.18.29:495][494]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Green_37B8A340443A6363A543425840971B5D0.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Green/Crouch_Green_3.uasset'
+[2017.10.26-17.18.29:500][494]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Green/Crouch_Green_3.uasset
+[2017.10.26-17.18.29:519][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Green/Crouch_Green_4" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Green/Crouch_Green_4.uasset" SILENT=true
+[2017.10.26-17.18.29:538][494]LogSavePackage: Save=16.54ms
+[2017.10.26-17.18.29:538][494]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Green_4D46332E1488F811813B210BDF795C074.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Green/Crouch_Green_4.uasset'
+[2017.10.26-17.18.29:544][494]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Green/Crouch_Green_4.uasset
+[2017.10.26-17.18.35:806][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Purple/CannonPurple" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Purple/CannonPurple.uasset" SILENT=true
+[2017.10.26-17.18.35:825][ 39]LogSavePackage: Save=15.58ms
+[2017.10.26-17.18.35:825][ 39]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CannonPurpleCEBB70CA4C33AC6011188186AFBFD60F.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Purple/CannonPurple.uasset'
+[2017.10.26-17.18.35:830][ 39]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Purple/CannonPurple.uasset
+[2017.10.26-17.18.35:869][ 39]LogSavePackage: Save=17.66ms
+[2017.10.26-17.18.35:869][ 39]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Purple_1C5C25EF94BA43E87D60941A38E1EF9B6.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Purple/Crouch_Purple_1.uasset'
+[2017.10.26-17.18.35:874][ 39]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Purple/Crouch_Purple_1.uasset
+[2017.10.26-17.18.35:909][ 39]LogSavePackage: Save=16.82ms
+[2017.10.26-17.18.35:910][ 39]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Purple_20C7F49434222A9600000E6940DCD236C.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Purple/Crouch_Purple_2.uasset'
+[2017.10.26-17.18.35:915][ 39]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Purple/Crouch_Purple_2.uasset
+[2017.10.26-17.18.35:952][ 39]LogSavePackage: Save=20.51ms
+[2017.10.26-17.18.35:952][ 39]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Purple_3135BB95F490FE2F66162B2AFA69EDC71.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Purple/Crouch_Purple_3.uasset'
+[2017.10.26-17.18.35:958][ 39]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Purple/Crouch_Purple_3.uasset
+[2017.10.26-17.18.35:994][ 39]LogSavePackage: Save=17.35ms
+[2017.10.26-17.18.35:994][ 39]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Purple_4F91B391449C7AB19861A77AB381867A4.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Purple/Crouch_Purple_4.uasset'
+[2017.10.26-17.18.35:999][ 39]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Purple/Crouch_Purple_4.uasset
+[2017.10.26-17.18.40:687][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Red/CannonRed" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Red/CannonRed.uasset" SILENT=true
+[2017.10.26-17.18.40:703][413]LogSavePackage: Save=12.34ms
+[2017.10.26-17.18.40:703][413]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CannonRed228B5E4749B5E9C3992D0BB8587DF032.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Red/CannonRed.uasset'
+[2017.10.26-17.18.40:708][413]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Red/CannonRed.uasset
+[2017.10.26-17.18.40:726][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Red/Crouch_Red_1" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Red/Crouch_Red_1.uasset" SILENT=true
+[2017.10.26-17.18.40:744][413]LogSavePackage: Save=15.40ms
+[2017.10.26-17.18.40:744][413]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Red_17A4ECFC8462A5760717BA8B277B3087D.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Red/Crouch_Red_1.uasset'
+[2017.10.26-17.18.40:748][413]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Red/Crouch_Red_1.uasset
+[2017.10.26-17.18.40:765][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Red/Crouch_Red_2" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Red/Crouch_Red_2.uasset" SILENT=true
+[2017.10.26-17.18.40:787][413]LogSavePackage: Save=18.86ms
+[2017.10.26-17.18.40:787][413]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Red_24CA1AD75486E5A60E4EDAC807D1B6A4E.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Red/Crouch_Red_2.uasset'
+[2017.10.26-17.18.40:791][413]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Red/Crouch_Red_2.uasset
+[2017.10.26-17.18.40:805][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Red/Crouch_Red_3" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Red/Crouch_Red_3.uasset" SILENT=true
+[2017.10.26-17.18.40:824][413]LogSavePackage: Save=15.92ms
+[2017.10.26-17.18.40:824][413]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Red_3A3E464EE469BA5B048A5F4BC85620C15.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Red/Crouch_Red_3.uasset'
+[2017.10.26-17.18.40:829][413]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Red/Crouch_Red_3.uasset
+[2017.10.26-17.18.40:842][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Red/Crouch_Red_4" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Red/Crouch_Red_4.uasset" SILENT=true
+[2017.10.26-17.18.40:861][413]LogSavePackage: Save=16.57ms
+[2017.10.26-17.18.40:861][413]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Red_404B0129643712534792DFCB54EE3C8A2.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Red/Crouch_Red_4.uasset'
+[2017.10.26-17.18.40:866][413]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/Red/Crouch_Red_4.uasset
+[2017.10.26-17.19.25:533][536]LogSavePackage: Save=13.85ms
+[2017.10.26-17.19.25:533][536]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CanonBlue_Sprite_0D0AAA3A140BB36469E66CE98802FC1C3.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/CanonBlue_Sprite_0.uasset'
+[2017.10.26-17.19.25:537][536]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/CanonBlue_Sprite_0.uasset
+[2017.10.26-17.19.25:565][536]LogSavePackage: Save=11.87ms
+[2017.10.26-17.19.25:565][536]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_1_Sprite_14E9BB9F247524A204FB4B090FB360DD9.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch_Blue_1_Sprite_1.uasset'
+[2017.10.26-17.19.25:569][536]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch_Blue_1_Sprite_1.uasset
+[2017.10.26-17.19.25:598][536]LogSavePackage: Save=12.42ms
+[2017.10.26-17.19.25:598][536]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_2_Sprite_17C561F8340D16C941BE21E89F19B1455.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch_Blue_2_Sprite_1.uasset'
+[2017.10.26-17.19.25:602][536]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch_Blue_2_Sprite_1.uasset
+[2017.10.26-17.19.25:630][536]LogSavePackage: Save=12.74ms
+[2017.10.26-17.19.25:631][536]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_3_Sprite_17ED863514C35DE83D227D3B687CC06AB.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch_Blue_3_Sprite_1.uasset'
+[2017.10.26-17.19.25:634][536]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch_Blue_3_Sprite_1.uasset
+[2017.10.26-17.19.25:665][536]LogSavePackage: Save=14.20ms
+[2017.10.26-17.19.25:665][536]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_4_Sprite_15F0BEFBB42C3C79B7CDFE08695C39BB5.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch_Blue_4_Sprite_1.uasset'
+[2017.10.26-17.19.25:669][536]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch_Blue_4_Sprite_1.uasset
+[2017.10.26-17.19.58:413][997]LogSavePackage: Save=13.11ms
+[2017.10.26-17.19.58:413][997]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CannonGreen_Sprite_09566BC1748DAA51D7A491F9F044E1975.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/CannonGreen_Sprite_0.uasset'
+[2017.10.26-17.19.58:418][997]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/CannonGreen_Sprite_0.uasset
+[2017.10.26-17.19.58:447][997]LogSavePackage: Save=11.67ms
+[2017.10.26-17.19.58:447][997]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Green_1_Sprite_153826D5947CFD7F8CBB47EA0F11671B1.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch_Green_1_Sprite_1.uasset'
+[2017.10.26-17.19.58:451][997]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch_Green_1_Sprite_1.uasset
+[2017.10.26-17.19.58:480][997]LogSavePackage: Save=12.45ms
+[2017.10.26-17.19.58:480][997]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Green_2_Sprite_158B4C7094A2F5BF681D81FA4E1B3E220.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch_Green_2_Sprite_1.uasset'
+[2017.10.26-17.19.58:484][997]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch_Green_2_Sprite_1.uasset
+[2017.10.26-17.19.58:513][997]LogSavePackage: Save=14.16ms
+[2017.10.26-17.19.58:513][997]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Green_3_Sprite_1A67E311A4FCF4804A9B487AEADB6C3AE.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch_Green_3_Sprite_1.uasset'
+[2017.10.26-17.19.58:519][997]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch_Green_3_Sprite_1.uasset
+[2017.10.26-17.19.58:548][997]LogSavePackage: Save=13.24ms
+[2017.10.26-17.19.58:548][997]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Green_4_Sprite_119C05C324CEBA614697016AAB55E710A.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch_Green_4_Sprite_1.uasset'
+[2017.10.26-17.19.58:552][997]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch_Green_4_Sprite_1.uasset
+[2017.10.26-17.20.25:801][905]LogSavePackage: Save=12.15ms
+[2017.10.26-17.20.25:801][905]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Purple_1_Sprite_1CF1694BC48015BCBB7149BAB29E4FA36.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_1_Sprite_1.uasset'
+[2017.10.26-17.20.25:805][905]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_1_Sprite_1.uasset
+[2017.10.26-17.20.25:836][905]LogSavePackage: Save=11.99ms
+[2017.10.26-17.20.25:836][905]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Purple_2_Sprite_1CC302A304C97B4324E6950BF115082EC.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_2_Sprite_1.uasset'
+[2017.10.26-17.20.25:840][905]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_2_Sprite_1.uasset
+[2017.10.26-17.20.25:869][905]LogSavePackage: Save=11.80ms
+[2017.10.26-17.20.25:869][905]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Purple_3_Sprite_1A5F505D24D194F4001F01CA15CF1EBE5.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_3_Sprite_1.uasset'
+[2017.10.26-17.20.25:873][905]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_3_Sprite_1.uasset
+[2017.10.26-17.20.25:905][905]LogSavePackage: Save=13.06ms
+[2017.10.26-17.20.25:905][905]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Purple_4_Sprite_18043CCB04C3D0061F3775C867366F020.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_4_Sprite_1.uasset'
+[2017.10.26-17.20.25:909][905]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_4_Sprite_1.uasset
+[2017.10.26-17.20.25:938][905]LogSavePackage: Save=12.23ms
+[2017.10.26-17.20.25:938][905]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CannonPurple_Sprite_0048026C44F235BA5EA1D2F862C83494A.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/CannonPurple_Sprite_0.uasset'
+[2017.10.26-17.20.25:942][905]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/CannonPurple_Sprite_0.uasset
+[2017.10.26-17.20.48:437][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Red/CannonRed_Sprite_0" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/CannonRed_Sprite_0.uasset" SILENT=true
+[2017.10.26-17.20.48:451][444]LogSavePackage: Save=11.88ms
+[2017.10.26-17.20.48:452][444]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CannonRed_Sprite_019D574884EF2D5E60CEAE0B6A51FCB95.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/CannonRed_Sprite_0.uasset'
+[2017.10.26-17.20.48:456][444]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/CannonRed_Sprite_0.uasset
+[2017.10.26-17.20.48:486][444]LogSavePackage: Save=12.95ms
+[2017.10.26-17.20.48:486][444]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Red_1_Sprite_1E0D039B9484AA142206A90A9369BF614.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_1_Sprite_1.uasset'
+[2017.10.26-17.20.48:490][444]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_1_Sprite_1.uasset
+[2017.10.26-17.20.48:520][444]LogSavePackage: Save=13.29ms
+[2017.10.26-17.20.48:520][444]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Red_3_Sprite_11D9BB51A44BB095AC8DC029328D7ECCF.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_3_Sprite_1.uasset'
+[2017.10.26-17.20.48:525][444]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_3_Sprite_1.uasset
+[2017.10.26-17.20.48:553][444]LogSavePackage: Save=11.81ms
+[2017.10.26-17.20.48:553][444]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Red_2_Sprite_160610464473D9A857B2EE2A7B6801B22.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_2_Sprite_1.uasset'
+[2017.10.26-17.20.48:557][444]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_2_Sprite_1.uasset
+[2017.10.26-17.20.48:587][444]LogSavePackage: Save=13.42ms
+[2017.10.26-17.20.48:587][444]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Red_4_Sprite_185555A7843985DE81745878661BFF503.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_4_Sprite_1.uasset'
+[2017.10.26-17.20.48:591][444]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_4_Sprite_1.uasset
+[2017.10.26-17.20.57:821][922]LogRenderer: Reallocating scene render targets to support 856x584 Format 10 NumSamples 1 (Frame:1).
+[2017.10.26-17.21.53:342][552]LogSavePackage: Save=12.94ms
+[2017.10.26-17.21.53:342][552]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CanonBlue_Sprite551763F84DC61AC094B389885BC2A3FB.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Cannon/CanonBlue_Sprite.uasset'
+[2017.10.26-17.21.53:347][552]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Cannon/CanonBlue_Sprite.uasset
+[2017.10.26-17.21.53:528][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipBooks/Blue/CanonBlue" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Blue/CanonBlue.uasset" SILENT=true
+[2017.10.26-17.21.53:562][552]LogSavePackage: Save=11.63ms
+[2017.10.26-17.21.53:562][552]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CanonBlueAC450F8340DC2CA36FCC13B3D6B2CCD4.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Blue/CanonBlue.uasset'
+[2017.10.26-17.21.53:563][552]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Blue/CanonBlue.uasset
+[2017.10.26-17.22.05:266][667]LogSavePackage: Save=12.59ms
+[2017.10.26-17.22.05:266][667]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_1_Sprite_153C247464FEB0C9ECCEC50ADD839344B.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_1_Sprite_1.uasset'
+[2017.10.26-17.22.05:271][667]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_1_Sprite_1.uasset
+[2017.10.26-17.22.05:305][667]LogSavePackage: Save=12.49ms
+[2017.10.26-17.22.05:305][667]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_2_Sprite_1E8AEF76E408EB8CC06725995BEBD5AF9.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_2_Sprite_1.uasset'
+[2017.10.26-17.22.05:310][667]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_2_Sprite_1.uasset
+[2017.10.26-17.22.05:346][667]LogSavePackage: Save=14.79ms
+[2017.10.26-17.22.05:346][667]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_3_Sprite_1DB920B9E4E664046A96DAD8EEAF45CCB.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_3_Sprite_1.uasset'
+[2017.10.26-17.22.05:351][667]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_3_Sprite_1.uasset
+[2017.10.26-17.22.05:385][667]LogSavePackage: Save=12.28ms
+[2017.10.26-17.22.05:385][667]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_4_Sprite_1B0C5D42D46032E9095D517BD562A75F1.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_4_Sprite_1.uasset'
+[2017.10.26-17.22.05:389][667]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_4_Sprite_1.uasset
+[2017.10.26-17.22.29:919][609]LogSavePackage: Save=12.61ms
+[2017.10.26-17.22.29:920][609]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CannonFlipbookBlueCB591C564AC324D65EF3518E7D31958C.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Blue/CannonFlipbookBlue.uasset'
+[2017.10.26-17.22.29:923][609]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Blue/CannonFlipbookBlue.uasset
+[2017.10.26-17.22.48:474][903]LogSavePackage: Save=19.41ms
+[2017.10.26-17.22.48:474][903]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_063CACF6E4329166D8226278BDB2A9937.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_0.uasset'
+[2017.10.26-17.22.48:481][903]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_0.uasset
+[2017.10.26-17.22.52:469][167]LogSavePackage: Save=18.50ms
+[2017.10.26-17.22.52:469][167]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_1805FBD924A04DF07636AB18246AC396F.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_1.uasset'
+[2017.10.26-17.22.52:475][167]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_1.uasset
+[2017.10.26-17.22.55:421][358]LogSavePackage: Save=12.13ms
+[2017.10.26-17.22.55:422][358]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_2EA33484746017F46D2FC6DBB8D17A01C.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_2.uasset'
+[2017.10.26-17.22.55:426][358]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_2.uasset
+[2017.10.26-17.22.58:431][556]LogSavePackage: Save=23.44ms
+[2017.10.26-17.22.58:431][556]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_3C62A53B542750F95CC8489AD780EC344.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_3.uasset'
+[2017.10.26-17.22.58:438][556]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_3.uasset
+[2017.10.26-17.23.19:090][280]LogSavePackage: Save=15.54ms
+[2017.10.26-17.23.19:090][280]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CrouchFlipbookBlueB34CDF9E41FF684CA72B4990C2AEEE8A.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Blue/CrouchFlipbookBlue.uasset'
+[2017.10.26-17.23.19:095][280]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Blue/CrouchFlipbookBlue.uasset
+[2017.10.26-17.23.26:770][899]LogSavePackage: Save=14.04ms
+[2017.10.26-17.23.26:770][899]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CannonGreen_Sprite_04604D78A44ED5E9409DC5D8DB1CA348F.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Cannon/CannonGreen_Sprite_0.uasset'
+[2017.10.26-17.23.26:774][899]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Cannon/CannonGreen_Sprite_0.uasset
+[2017.10.26-17.24.00:219][501]LogSavePackage: Save=22.25ms
+[2017.10.26-17.24.00:219][501]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Green_1_Sprite_128889E824CF4EE1B9683ACAA4FB8468C.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch/Crouch_Green_1_Sprite_1.uasset'
+[2017.10.26-17.24.00:227][501]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch/Crouch_Green_1_Sprite_1.uasset
+[2017.10.26-17.24.00:264][501]LogSavePackage: Save=13.87ms
+[2017.10.26-17.24.00:264][501]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Green_2_Sprite_16B24C3484533B0BC9DD1EE9BEE242786.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch/Crouch_Green_2_Sprite_1.uasset'
+[2017.10.26-17.24.00:269][501]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch/Crouch_Green_2_Sprite_1.uasset
+[2017.10.26-17.24.00:299][501]LogSavePackage: Save=13.05ms
+[2017.10.26-17.24.00:299][501]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Green_3_Sprite_1EA9C731A4782A9FB899E8A997280E3DE.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch/Crouch_Green_3_Sprite_1.uasset'
+[2017.10.26-17.24.00:302][501]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch/Crouch_Green_3_Sprite_1.uasset
+[2017.10.26-17.24.00:335][501]LogSavePackage: Save=14.08ms
+[2017.10.26-17.24.00:335][501]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Green_4_Sprite_15298215A4FE69730558D2D8DBA24BDE5.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch/Crouch_Green_4_Sprite_1.uasset'
+[2017.10.26-17.24.00:339][501]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch/Crouch_Green_4_Sprite_1.uasset
+[2017.10.26-17.24.04:321][883]LogSavePackage: Save=11.59ms
+[2017.10.26-17.24.04:321][883]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CannonFlipbookGreen8DE8D69547C48AF1D26D54890A19A98D.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Green/CannonFlipbookGreen.uasset'
+[2017.10.26-17.24.04:326][883]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Green/CannonFlipbookGreen.uasset
+[2017.10.26-17.24.12:332][500]LogSavePackage: Save=14.33ms
+[2017.10.26-17.24.12:332][500]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Green_3B81719674452160BAA7708BBD03E052D.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch/Crouch_Green_3.uasset'
+[2017.10.26-17.24.12:337][500]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch/Crouch_Green_3.uasset
+[2017.10.26-17.24.16:422][778]LogSavePackage: Save=11.63ms
+[2017.10.26-17.24.16:422][778]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Green_0931D0060445F7A85FD7A0CB6368D3F40.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch/Crouch_Green_0.uasset'
+[2017.10.26-17.24.16:426][778]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch/Crouch_Green_0.uasset
+[2017.10.26-17.24.19:522][983]LogSavePackage: Save=21.05ms
+[2017.10.26-17.24.19:522][983]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Green_1E09170D849B14AD168765588C664627E.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch/Crouch_Green_1.uasset'
+[2017.10.26-17.24.19:529][983]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch/Crouch_Green_1.uasset
+[2017.10.26-17.24.23:683][266]LogSavePackage: Save=23.63ms
+[2017.10.26-17.24.23:683][266]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Green_261094E7F4324FDBCA9C98595B4D6AF8A.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch/Crouch_Green_2.uasset'
+[2017.10.26-17.24.23:690][266]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Crouch/Crouch_Green_2.uasset
+[2017.10.26-17.24.40:279][518]LogSavePackage: Save=15.56ms
+[2017.10.26-17.24.40:279][518]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CrouchFlipbookGreen125A373140B416DD3A09D0BADC5E7F51.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Green/CrouchFlipbookGreen.uasset'
+[2017.10.26-17.24.40:284][518]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Green/CrouchFlipbookGreen.uasset
+[2017.10.26-17.25.01:097][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Purple/Crouch_Purple_0" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_0.uasset" SILENT=true
+[2017.10.26-17.25.01:120][981]LogSavePackage: Save=20.10ms
+[2017.10.26-17.25.01:120][981]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Purple_044BE36CC4850300A53368D88BCB856F9.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_0.uasset'
+[2017.10.26-17.25.01:125][981]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_0.uasset
+[2017.10.26-17.25.03:730][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Purple/Crouch_Purple_1" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_1.uasset" SILENT=true
+[2017.10.26-17.25.03:745][150]LogSavePackage: Save=12.19ms
+[2017.10.26-17.25.03:745][150]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Purple_17402111048484A39B1736AA0FAE086A2.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_1.uasset'
+[2017.10.26-17.25.03:750][150]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_1.uasset
+[2017.10.26-17.25.06:642][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Purple/Crouch_Purple_2" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_2.uasset" SILENT=true
+[2017.10.26-17.25.06:664][341]LogSavePackage: Save=18.54ms
+[2017.10.26-17.25.06:664][341]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Purple_21E3BD6CE46BCE1C2FE5B33A01F06087F.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_2.uasset'
+[2017.10.26-17.25.06:670][341]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_2.uasset
+[2017.10.26-17.25.09:695][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Purple/Crouch_Purple_3" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_3.uasset" SILENT=true
+[2017.10.26-17.25.09:713][537]LogSavePackage: Save=13.90ms
+[2017.10.26-17.25.09:713][537]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Purple_3C651319B47DD5B0052A83EADAA553A49.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_3.uasset'
+[2017.10.26-17.25.09:717][537]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch_Purple_3.uasset
+[2017.10.26-17.25.22:738][538]LogSavePackage: Save=16.13ms
+[2017.10.26-17.25.22:738][538]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CannonPurple_Sprite_0395FAA8C46D0C6D9313C1A8C93D4B3F0.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Cannon/CannonPurple_Sprite_0.uasset'
+[2017.10.26-17.25.22:743][538]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Cannon/CannonPurple_Sprite_0.uasset
+[2017.10.26-17.25.27:320][942]LogSavePackage: Save=13.09ms
+[2017.10.26-17.25.27:320][942]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Purple_0BF722BAF4E59B6135274A2ADD80394D4.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch/Crouch_Purple_0.uasset'
+[2017.10.26-17.25.27:325][942]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch/Crouch_Purple_0.uasset
+[2017.10.26-17.25.27:353][942]LogSavePackage: Save=12.22ms
+[2017.10.26-17.25.27:353][942]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Purple_1B86D637145D012F12D8E95A3F3BE7528.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch/Crouch_Purple_1.uasset'
+[2017.10.26-17.25.27:357][942]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch/Crouch_Purple_1.uasset
+[2017.10.26-17.25.27:387][942]LogSavePackage: Save=12.76ms
+[2017.10.26-17.25.27:387][942]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Purple_2D2012ACD40104D83157E9D81D4F132EC.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch/Crouch_Purple_2.uasset'
+[2017.10.26-17.25.27:391][942]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch/Crouch_Purple_2.uasset
+[2017.10.26-17.25.27:422][942]LogSavePackage: Save=14.08ms
+[2017.10.26-17.25.27:422][942]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Purple_3EE8CE6DB47017C6E9D328F86EE9FBC16.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch/Crouch_Purple_3.uasset'
+[2017.10.26-17.25.27:426][942]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Crouch/Crouch_Purple_3.uasset
+[2017.10.26-17.25.32:428][412]LogSavePackage: Save=11.29ms
+[2017.10.26-17.25.32:428][412]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CrouchFlipbookPurple353FCC8B4BA01442D2330A8B0A5F50BF.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Purple/CrouchFlipbookPurple.uasset'
+[2017.10.26-17.25.32:433][412]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Purple/CrouchFlipbookPurple.uasset
+[2017.10.26-17.25.32:461][412]LogSavePackage: Save=12.75ms
+[2017.10.26-17.25.32:461][412]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CannonFlipbookPurple9A78D7FB4B4A031D4D6BFAA978E9D9D1.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Purple/CannonFlipbookPurple.uasset'
+[2017.10.26-17.25.32:465][412]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Purple/CannonFlipbookPurple.uasset
+[2017.10.26-17.25.42:710][216]LogSavePackage: Save=12.26ms
+[2017.10.26-17.25.42:710][216]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CannonRed_Sprite_0651925E14997A1C65F155F921892CA44.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Cannon/CannonRed_Sprite_0.uasset'
+[2017.10.26-17.25.42:714][216]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Cannon/CannonRed_Sprite_0.uasset
+[2017.10.26-17.25.46:043][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Red/Crouch_Red_0" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_0.uasset" SILENT=true
+[2017.10.26-17.25.46:065][441]LogSavePackage: Save=19.17ms
+[2017.10.26-17.25.46:065][441]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Red_09AA5037C4AA717BB22AEA3B1EA284762.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_0.uasset'
+[2017.10.26-17.25.46:071][441]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_0.uasset
+[2017.10.26-17.25.48:599][604]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Red/Crouch_Red_1" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_1.uasset" SILENT=true
+[2017.10.26-17.25.48:614][604]LogSavePackage: Save=12.66ms
+[2017.10.26-17.25.48:614][604]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Red_1E8C3B09E4B6D4770EEFFCF8EA6C45768.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_1.uasset'
+[2017.10.26-17.25.48:618][604]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_1.uasset
+[2017.10.26-17.25.51:948][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Red/Crouch_Red_2" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_2.uasset" SILENT=true
+[2017.10.26-17.25.51:972][826]LogSavePackage: Save=20.87ms
+[2017.10.26-17.25.51:972][826]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Red_2EC4FBE5D4E805ECC5FE8BB8134FCDBDF.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_2.uasset'
+[2017.10.26-17.25.51:979][826]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_2.uasset
+[2017.10.26-17.25.54:700][999]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Red/Crouch_Red_3" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_3.uasset" SILENT=true
+[2017.10.26-17.25.54:716][999]LogSavePackage: Save=13.78ms
+[2017.10.26-17.25.54:717][999]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Red_3877779BF46D4BFB88005028F08BD04C2.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_3.uasset'
+[2017.10.26-17.25.54:721][999]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch_Red_3.uasset
+[2017.10.26-17.26.08:164][ 41]LogSavePackage: Save=13.20ms
+[2017.10.26-17.26.08:164][ 41]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Red_0CBE28B32480A7609D7E5B790C6615DEC.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch/Crouch_Red_0.uasset'
+[2017.10.26-17.26.08:168][ 41]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch/Crouch_Red_0.uasset
+[2017.10.26-17.26.08:199][ 41]LogSavePackage: Save=12.73ms
+[2017.10.26-17.26.08:199][ 41]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Red_11B0A83B64E6B02668D8AE8A32C05B013.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch/Crouch_Red_1.uasset'
+[2017.10.26-17.26.08:203][ 41]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch/Crouch_Red_1.uasset
+[2017.10.26-17.26.08:232][ 41]LogSavePackage: Save=12.03ms
+[2017.10.26-17.26.08:232][ 41]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Red_2A104921E4D794233E854FCAE1C4D9EA4.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch/Crouch_Red_2.uasset'
+[2017.10.26-17.26.08:236][ 41]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch/Crouch_Red_2.uasset
+[2017.10.26-17.26.08:266][ 41]LogSavePackage: Save=13.37ms
+[2017.10.26-17.26.08:266][ 41]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Crouch_Red_32CB346314BFAE3686535D9A97805B0CD.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch/Crouch_Red_3.uasset'
+[2017.10.26-17.26.08:271][ 41]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Crouch/Crouch_Red_3.uasset
+[2017.10.26-17.26.14:489][557]LogSavePackage: Save=11.47ms
+[2017.10.26-17.26.14:489][557]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CrouchFlipbookRed8CD25FB243EC756B373FA8AEFD6961C5.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Red/CrouchFlipbookRed.uasset'
+[2017.10.26-17.26.14:493][557]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Red/CrouchFlipbookRed.uasset
+[2017.10.26-17.26.14:523][557]LogSavePackage: Save=12.55ms
+[2017.10.26-17.26.14:523][557]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CannonFlipbookRed0D2AA9254D9220A8813163B55E27B602.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Red/CannonFlipbookRed.uasset'
+[2017.10.26-17.26.14:527][557]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Red/CannonFlipbookRed.uasset
+[2017.10.26-17.26.59:833][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipBooks/Green/Dash_Sprite" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Green/Dash_Sprite.uasset" SILENT=true
+[2017.10.26-17.26.59:847][ 19]LogSavePackage: Save=12.30ms
+[2017.10.26-17.26.59:847][ 19]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Dash_SpriteA328066E41697B2A0AB9F7A9D576B47B.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Green/Dash_Sprite.uasset'
+[2017.10.26-17.26.59:851][ 19]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Green/Dash_Sprite.uasset
+[2017.10.26-17.27.08:224][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipBooks/Purple/Dash_Sprite_0" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Purple/Dash_Sprite_0.uasset" SILENT=true
+[2017.10.26-17.27.08:239][729]LogSavePackage: Save=11.95ms
+[2017.10.26-17.27.08:239][729]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Dash_Sprite_05DA504A64512EAB558E60B897E441755.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Purple/Dash_Sprite_0.uasset'
+[2017.10.26-17.27.08:243][729]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Purple/Dash_Sprite_0.uasset
+[2017.10.26-17.27.17:477][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Red/Dash_Sprite_0" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Dash_Sprite_0.uasset" SILENT=true
+[2017.10.26-17.27.17:493][551]LogSavePackage: Save=13.22ms
+[2017.10.26-17.27.17:493][551]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Dash_Sprite_0418023004850EF60CFC66DABB2779CCF.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Dash_Sprite_0.uasset'
+[2017.10.26-17.27.17:497][551]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Red/Dash_Sprite_0.uasset
+[2017.10.26-17.27.28:596][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Green/Dash_Sprite" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Dash_Sprite.uasset" SILENT=true
+[2017.10.26-17.27.28:611][522]LogSavePackage: Save=12.45ms
+[2017.10.26-17.27.28:611][522]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Dash_SpriteCCB06BDB4836C93169165488A43B78C5.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Dash_Sprite.uasset'
+[2017.10.26-17.27.28:615][522]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Green/Dash_Sprite.uasset
+[2017.10.26-17.27.33:606][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Purple/Dash_Sprite_0" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Dash_Sprite_0.uasset" SILENT=true
+[2017.10.26-17.27.33:620][938]LogSavePackage: Save=12.23ms
+[2017.10.26-17.27.33:621][938]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Dash_Sprite_07F17B51441D0624FCF4EC9BB037030D3.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Dash_Sprite_0.uasset'
+[2017.10.26-17.27.33:625][938]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Sprites/Purple/Dash_Sprite_0.uasset
+[2017.10.26-17.27.44:041][775]LogSavePackage: Save=11.14ms
+[2017.10.26-17.27.44:041][775]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/DashFlipbookGreenC9225060432E56A222CEB28F3444A722.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Green/DashFlipbookGreen.uasset'
+[2017.10.26-17.27.44:045][775]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Green/DashFlipbookGreen.uasset
+[2017.10.26-17.27.55:073][686]LogSavePackage: Save=13.81ms
+[2017.10.26-17.27.55:073][686]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/DashFlipbookPurple980A4062434BDC902F9556B25CA0FD83.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Purple/DashFlipbookPurple.uasset'
+[2017.10.26-17.27.55:077][686]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Purple/DashFlipbookPurple.uasset
+[2017.10.26-17.28.03:489][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipBooks/Red/DashFlipbookRed" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Red/DashFlipbookRed.uasset" SILENT=true
+[2017.10.26-17.28.03:504][394]LogSavePackage: Save=12.10ms
+[2017.10.26-17.28.03:504][394]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/DashFlipbookRedDA00529F4B43CEE19528E8975E25204F.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Red/DashFlipbookRed.uasset'
+[2017.10.26-17.28.03:508][394]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Red/DashFlipbookRed.uasset
+[2017.10.26-17.28.29:020][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipBooks/Purple/CannonPurple" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Purple/CannonPurple.uasset" SILENT=true
+[2017.10.26-17.28.29:036][ 97]LogSavePackage: Save=13.96ms
+[2017.10.26-17.28.29:036][ 97]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CannonPurpleB0C37267437A7351640A63A8DAC05220.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Purple/CannonPurple.uasset'
+[2017.10.26-17.28.29:040][ 97]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Purple/CannonPurple.uasset
+[2017.10.26-17.28.34:811][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipBooks/Green/CannonGreen" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Green/CannonGreen.uasset" SILENT=true
+[2017.10.26-17.28.34:830][501]LogSavePackage: Save=16.32ms
+[2017.10.26-17.28.34:830][501]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CannonGreen3264A0DF45CD5E9D8BB02C9D4FC997FC.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Green/CannonGreen.uasset'
+[2017.10.26-17.28.34:834][501]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Green/CannonGreen.uasset
+[2017.10.26-17.28.39:851][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FlipBooks/Red/CannonRed" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Red/CannonRed.uasset" SILENT=true
+[2017.10.26-17.28.39:865][853]LogSavePackage: Save=11.52ms
+[2017.10.26-17.28.39:865][853]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/CannonRed7CD42B4B4BB5ADA17065378F8E3D59AA.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Red/CannonRed.uasset'
+[2017.10.26-17.28.39:868][853]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/FlipBooks/Red/CannonRed.uasset
+[2017.10.26-17.28.59:504][328]Cmd: QUIT_EDITOR
+[2017.10.26-17.28.59:533][328]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.26-17.28.59:549][328]LogExit: Preparing to exit.
+[2017.10.26-17.28.59:792][328]LogDirectoryWatcher: A directory notification for 'C:/Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/' was aborted.
+[2017.10.26-17.28.59:834][328]LogExit: Editor shut down
+[2017.10.26-17.28.59:840][328]LogExit: Transaction tracking system shut down
+[2017.10.26-17.29.00:012][328]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.26-17.29.00:013][328]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/' was aborted.
+[2017.10.26-17.29.00:013][328]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.26-17.29.00:013][328]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.10.26-17.29.00:013][328]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.10.26-17.29.00:112][328]LogExit: Object subsystem successfully closed.
+[2017.10.26-17.29.00:130][328]LogD3D11RHI: Shutdown
+[2017.10.26-17.29.00:130][328]LogD3D11RHI: CleanupD3DDevice
+[2017.10.26-17.29.00:211][328]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.26-17.29.00:233][328]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.10.26-17.29.00:233][328]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.10.26-17.29.00:233][328]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.10.26-17.29.00:233][328]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2017.10.26-17.29.00:233][328]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.10.26-17.29.00:234][328]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2017.10.26-17.29.00:234][328]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2017.10.26-17.29.00:234][328]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2017.10.26-17.29.00:234][328]LogDirectoryWatcher: A directory notification for 'C:/Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Collections/' was aborted.
+[2017.10.26-17.29.00:235][328]LogDirectoryWatcher: A directory notification for 'C:/Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Developers/Alexsander/Collections/' was aborted.
+[2017.10.26-17.29.00:235][328]LogDirectoryWatcher: A directory notification for 'C:/Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Collections/' was aborted.
+[2017.10.26-17.29.00:235][328]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.10.26-17.29.00:235][328]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.10.26-17.29.00:235][328]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.10.26-17.29.00:235][328]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.10.26-17.29.00:235][328]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.10.26-17.29.00:235][328]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.10.26-17.29.00:235][328]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.10.26-17.29.00:235][328]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.10.26-17.29.00:235][328]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.10.26-17.29.00:235][328]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.10.26-17.29.00:235][328]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.10.26-17.29.00:236][328]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.10.26-17.29.00:237][328]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.10.26-17.29.00:237][328]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.10.26-17.29.00:237][328]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.10.26-17.29.00:237][328]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.10.26-17.29.00:237][328]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.10.26-17.29.00:237][328]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.10.26-17.29.00:237][328]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.10.26-17.29.00:237][328]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.10.26-17.29.00:797][328]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.10.26-17.29.00:797][328]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.10.26-17.29.00:797][328]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.10.26-17.29.00:797][328]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.10.26-17.29.00:797][328]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.10.26-17.29.00:797][328]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.10.26-17.29.00:798][328]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.10.26-17.29.00:798][328]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.10.26-17.29.00:798][328]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.10.26-17.29.00:798][328]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.10.26-17.29.00:798][328]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.10.26-17.29.00:798][328]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.10.26-17.29.00:798][328]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.10.26-17.29.00:798][328]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.10.26-17.29.00:798][328]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.10.26-17.29.00:798][328]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.10.26-17.29.00:798][328]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.10.26-17.29.00:799][328]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.10.26-17.29.00:799][328]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.10.26-17.29.00:799][328]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.10.26-17.29.00:799][328]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.10.26-17.29.00:799][328]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.10.26-17.29.00:799][328]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.10.26-17.29.00:799][328]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.10.26-17.29.00:854][328]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.10.26-17.29.00:854][328]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.10.26-17.29.00:854][328]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.10.26-17.29.00:854][328]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.10.26-17.29.00:854][328]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.10.26-17.29.00:854][328]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.10.26-17.29.00:855][328]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.10.26-17.29.00:855][328]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.10.26-17.29.00:855][328]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.10.26-17.29.00:855][328]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.10.26-17.29.00:877][328]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.10.26-17.29.00:877][328]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.10.26-17.29.00:877][328]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.10.26-17.29.00:877][328]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.10.26-17.29.00:877][328]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.10.26-17.29.00:877][328]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.10.26-17.29.00:877][328]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.10.26-17.29.00:878][328]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.10.26-17.29.00:878][328]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.10.26-17.29.00:878][328]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.10.26-17.29.00:878][328]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.10.26-17.29.00:878][328]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.10.26-17.29.00:878][328]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.10.26-17.29.00:878][328]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.10.26-17.29.00:878][328]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.10.26-17.29.00:878][328]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.10.26-17.29.00:878][328]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.10.26-17.29.00:878][328]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.10.26-17.29.00:878][328]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.10.26-17.29.00:879][328]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.10.26-17.29.00:879][328]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.10.26-17.29.01:030][328]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.10.26-17.29.01:030][328]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.10.26-17.29.01:031][328]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.10.26-17.29.01:031][328]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.10.26-17.29.01:031][328]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.10.26-17.29.01:031][328]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.10.26-17.29.01:031][328]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.10.26-17.29.01:031][328]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.10.26-17.29.01:031][328]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.10.26-17.29.01:031][328]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.10.26-17.29.01:031][328]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.10.26-17.29.01:031][328]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.10.26-17.29.01:031][328]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.10.26-17.29.01:031][328]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.10.26-17.29.01:031][328]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.10.26-17.29.01:032][328]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.10.26-17.29.01:032][328]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.10.26-17.29.01:032][328]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.10.26-17.29.01:032][328]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.10.26-17.29.01:032][328]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.10.26-17.29.01:032][328]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.10.26-17.29.01:032][328]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.10.26-17.29.01:032][328]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.10.26-17.29.01:032][328]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.10.26-17.29.01:032][328]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.10.26-17.29.01:032][328]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.10.26-17.29.01:033][328]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.10.26-17.29.01:033][328]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.10.26-17.29.01:033][328]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.10.26-17.29.01:033][328]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.10.26-17.29.01:033][328]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.10.26-17.29.01:033][328]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.10.26-17.29.01:036][328]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.10.26-17.29.01:036][328]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.10.26-17.29.01:036][328]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.10.26-17.29.01:038][328]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.10.26-17.29.01:038][328]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.10.26-17.29.01:038][328]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.10.26-17.29.01:038][328]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.10.26-17.29.01:038][328]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.10.26-17.29.01:038][328]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.10.26-17.29.01:038][328]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.10.26-17.29.01:038][328]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.10.26-17.29.01:139][328]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.10.26-17.29.01:240][328]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.10.26-17.29.01:240][328]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.10.26-17.29.01:240][328]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.10.26-17.29.01:240][328]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.10.26-17.29.01:240][328]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.10.26-17.29.01:240][328]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.10.26-17.29.01:243][328]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.10.26-17.29.01:243][328]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.10.26-17.29.01:243][328]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.10.26-17.29.01:243][328]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.10.26-17.29.01:347][328]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.10.26-17.29.01:347][328]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.10.26-17.29.01:348][328]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.10.26-17.29.01:348][328]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.10.26-17.29.01:348][328]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.10.26-17.29.01:348][328]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.10.26-17.29.01:348][328]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.10.26-17.29.01:348][328]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.10.26-17.29.01:348][328]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.10.26-17.29.01:348][328]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.10.26-17.29.01:348][328]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.10.26-17.29.01:348][328]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.10.26-17.29.01:348][328]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.10.26-17.29.01:349][328]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.10.26-17.29.01:349][328]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.10.26-17.29.01:349][328]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.10.26-17.29.01:349][328]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.10.26-17.29.01:349][328]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.10.26-17.29.01:349][328]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.10.26-17.29.01:349][328]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.10.26-17.29.01:357][328]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.10.26-17.29.01:358][328]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.10.26-17.29.01:358][328]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.10.26-17.29.01:358][328]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.10.26-17.29.01:358][328]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.10.26-17.29.01:358][328]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.10.26-17.29.01:358][328]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.10.26-17.29.01:358][328]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.10.26-17.29.01:358][328]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.10.26-17.29.01:358][328]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.10.26-17.29.01:358][328]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.10.26-17.29.01:358][328]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.10.26-17.29.01:358][328]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.10.26-17.29.01:358][328]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.10.26-17.29.01:358][328]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.10.26-17.29.01:359][328]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.10.26-17.29.01:361][328]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.26-17.29.01:368][328]LogDerivedDataCache: Shutdown
+[2017.10.26-17.29.01:368][328]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.26-17.29.01:369][328]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.26-17.29.01:369][328]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.26-17.29.01:369][328]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.26-17.29.01:369][328]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.26-17.29.01:369][328]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.26-17.29.01:369][328]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.26-17.29.01:369][328]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.26-17.29.01:369][328]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.26-17.29.01:369][328]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.26-17.29.01:370][328]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.26-17.29.01:370][328]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.26-17.29.01:370][328]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.26-17.29.01:370][328]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.26-17.29.01:370][328]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.26-17.29.01:370][328]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.26-17.29.01:370][328]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.26-17.29.01:370][328]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.26-17.29.01:370][328]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.26-17.29.01:370][328]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.26-17.29.01:370][328]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.26-17.29.01:371][328]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.26-17.29.01:372][328]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.26-17.29.01:372][328]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.26-17.29.01:372][328]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.26-17.29.01:372][328]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.10.26-17.29.01:372][328]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.10.26-17.29.01:372][328]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.10.26-17.29.01:372][328]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.26-17.29.01:372][328]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.26-17.29.01:372][328]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.26-17.29.01:372][328]LogOnline: Display: Unloading online subsystem: NULL
+[2017.10.26-17.29.01:372][328]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.26-17.29.01:372][328]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.26-17.29.01:372][328]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.26-17.29.01:373][328]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B57A118BD-475F-359A-8048-87BAE7305CF0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=de2381c74d761e660c6bb7917ff06e73%7Cc80ac1c817bf461fa3a89831d5a7b9d8%7C5a39e06d-309f-48ef-a4df-c80e703c59dc&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.26-17.29.01:378][328]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.26-17.29.01:382][328]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.10.26-17.29.01:382][328]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.10.26-17.29.01:382][328]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.10.26-17.29.01:383][328]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.10.26-17.29.01:383][328]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.10.26-17.29.01:383][328]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.10.26-17.29.01:383][328]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.10.26-17.29.01:386][328]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.10.26-17.29.01:386][328]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.10.26-17.29.01:386][328]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.10.26-17.29.01:386][328]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.10.26-17.29.01:386][328]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.10.26-17.29.01:386][328]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.10.26-17.29.01:386][328]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.10.26-17.29.01:386][328]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.10.26-17.29.01:386][328]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.26-17.29.01:386][328]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.26-17.29.01:386][328]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.26-17.29.01:391][328]LogExit: Exiting.
+[2017.10.26-17.29.01:447][328]Log file closed, 10/26/17 15:29:01
