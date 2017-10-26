@@ -1,4 +1,4 @@
-﻿Log file open, 10/26/17 17:16:00
+﻿Log file open, 10/26/17 20:25:45
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,9 +7,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MyPaper2D
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-681701459) SRandInit(-681701458).
+LogInit: Display: RandInit(454366529) SRandInit(454366529).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.165028
+LogStats: Stats thread started at 0.169215
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -111,898 +111,440 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.26-19.16.01:429][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.26-19.16.01:429][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.26-19.16.01:512][  0]LogInit: Computer: FELIPPE
-[2017.10.26-19.16.01:512][  0]LogInit: User: Felippe
-[2017.10.26-19.16.01:512][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.10.26-19.16.01:512][  0]LogInit: High frequency timer resolution =3.117778 MHz
-[2017.10.26-19.16.01:513][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2017.10.26-19.16.01:513][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.26-19.16.01:513][  0]LogMemory: Process Physical Memory: 278.50 MB used, 278.50 MB peak
-[2017.10.26-19.16.01:513][  0]LogMemory: Process Virtual Memory: 274.03 MB used, 274.03 MB peak
-[2017.10.26-19.16.01:513][  0]LogMemory: Physical Memory: 3545.53 MB used,  4521.60 MB free, 8067.13 MB total
-[2017.10.26-19.16.01:513][  0]LogMemory: Virtual Memory: 668.18 MB used,  4521.60 MB free, 134217728.00 MB total
-[2017.10.26-19.16.01:692][  0]LogInit: Using OS detected language (en-US).
-[2017.10.26-19.16.01:692][  0]LogInit: Using OS detected locale (pt-BR).
-[2017.10.26-19.16.01:735][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.10.26-19.16.04:263][  0]LogD3D11RHI: D3D11 adapters:
-[2017.10.26-19.16.04:912][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2017.10.26-19.16.04:912][  0]LogD3D11RHI:       2016/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.10.26-19.16.04:918][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.10.26-19.16.04:919][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.10.26-19.16.04:920][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.10.26-19.16.04:920][  0]LogD3D11RHI:       0/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.10.26-19.16.04:920][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.10.26-19.16.04:925][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.10.26-19.16.04:925][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2017.10.26-19.16.04:925][  0]LogWindows: EnumDisplayDevices:
-[2017.10.26-19.16.04:925][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2017.10.26-19.16.04:926][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2017.10.26-19.16.04:926][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2017.10.26-19.16.04:926][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2017.10.26-19.16.04:926][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.10.26-19.16.04:926][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.10.26-19.16.04:926][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.10.26-19.16.04:926][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.10.26-19.16.04:926][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2017.10.26-19.16.04:926][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
-[2017.10.26-19.16.04:926][  0]LogD3D11RHI:      Driver Date: 8-21-2017
-[2017.10.26-19.16.04:926][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.10.26-19.16.05:553][  0]LogD3D11RHI: Async texture creation enabled
-[2017.10.26-19.16.05:590][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.10.26-19.16.05:592][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Intermediate/Shaders/WorkingDirectory/2856/).
-[2017.10.26-19.16.05:592][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Felippe/AppData/Local/Temp/UnrealShaderWorkingDir/222B61FD4F5EFE0F343AF4929250BD56/'.
-[2017.10.26-19.16.05:592][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2017.10.26-19.16.07:612][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2017.10.26-19.16.07:666][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2017.10.26-19.16.07:720][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2017.10.26-19.16.07:776][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2017.10.26-19.16.07:848][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2017.10.26-19.16.07:903][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2017.10.26-19.16.07:956][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.10.26-19.16.08:010][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2017.10.26-19.16.08:057][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2017.10.26-19.16.08:134][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2017.10.26-19.16.08:187][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2017.10.26-19.16.08:240][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2017.10.26-19.16.08:293][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2017.10.26-19.16.08:347][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2017.10.26-19.16.08:400][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2017.10.26-19.16.08:505][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2017.10.26-19.16.08:505][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.10.26-19.16.08:549][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2017.10.26-19.16.08:668][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2017.10.26-19.16.08:700][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2017.10.26-19.16.08:753][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2017.10.26-19.16.08:807][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.10.26-19.16.08:861][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2017.10.26-19.16.08:919][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2017.10.26-19.16.08:919][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2017.10.26-19.16.09:426][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2017.10.26-19.16.09:723][  0]LogDerivedDataCache: Loaded boot cache 0.30s 93MB C:/Users/Felippe/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.26-19.16.09:724][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Felippe/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2017.10.26-19.16.09:724][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.10.26-19.16.09:724][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.10.26-19.16.09:724][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.10.26-19.16.09:724][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.10.26-19.16.09:742][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.10.26-19.16.09:754][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Felippe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.10.26-19.16.09:765][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.10.26-19.16.09:765][  0]LogSlate: Using Freetype 2.6.0
-[2017.10.26-19.16.09:789][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.26-19.16.09:789][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.10.26-19.16.10:343][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
-[2017.10.26-19.16.10:469][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.26-19.16.10:859][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.10.26-19.16.10:904][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.10.26-19.16.10:904][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.10.26-19.16.10:904][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2017.10.26-19.16.10:904][  0]LogMeshReduction: No automatic mesh merging module available
-[2017.10.26-19.16.10:904][  0]LogMeshMerging: No automatic mesh merging module available
-[2017.10.26-19.16.10:905][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.10.26-19.16.11:352][  0]LogNetVersion: MyPaper2D , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 640952014)
-[2017.10.26-19.16.11:575][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.051355 seconds
-[2017.10.26-19.16.11:582][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2017.10.26-19.16.11:582][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2017.10.26-19.16.11:582][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.10.26-19.16.11:649][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.10.26-19.16.18:342][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.10.26-19.16.18:384][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.10.26-19.16.19:128][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.10.26-19.16.19:565][  0]SourceControl: Source control is disabled
-[2017.10.26-19.16.19:565][  0]SourceControl: Source control is disabled
-[2017.10.26-19.16.19:617][  0]SourceControl: Source control is disabled
-[2017.10.26-19.16.19:667][  0]SourceControl: Source control is disabled
-[2017.10.26-19.16.20:355][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.10.26-19.16.20:618][  0]LogOcInput: OculusInput pre-init called
-[2017.10.26-19.16.20:895][  0]LogEngine: Initializing Engine...
-[2017.10.26-19.16.20:897][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.10.26-19.16.21:120][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.10.26-19.16.21:120][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.10.26-19.16.21:257][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.10.26-19.16.21:269][  0]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.26-19.16.21:293][  0]LogInit: FAudioDevice initialized.
-[2017.10.26-19.16.21:442][  0]LogDerivedDataCache: Saved boot cache 0.15s 93MB C:/Users/Felippe/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2017.10.26-19.16.21:458][  0]LogInit: Texture streaming: Enabled
-[2017.10.26-19.16.21:577][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.10.26-19.16.21:857][  0]LogInit: Transaction tracking system initialized
-[2017.10.26-19.16.22:188][  0]BlueprintLog: New page: Editor Load
-[2017.10.26-19.16.23:146][  0]LocalizationService: Localization service is disabled
-[2017.10.26-19.16.23:891][  0]LogConsoleResponse: Display: 
-[2017.10.26-19.16.24:070][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.10.26-19.16.24:070][  0]LogCook: Display: Mobile HDR setting 1
-[2017.10.26-19.16.24:070][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2017.10.26-19.16.24:101][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/' took 0.02s
-[2017.10.26-19.16.25:305][  0]SourceControl: Source control is disabled
-[2017.10.26-19.16.25:305][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/My2DMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.10.26-19.16.25:305][  0]LightingResults: New page: Lighting Build
-[2017.10.26-19.16.25:349][  0]MapCheck: New page: Map Check
-[2017.10.26-19.16.25:349][  0]LightingResults: New page: Lighting Build
-[2017.10.26-19.16.26:384][  0]LogAIModule: Creating AISystem for world My2DMap
-[2017.10.26-19.16.26:409][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.10.26-19.16.26:423][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.10.26-19.16.26:486][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62,746ms to complete.
-[2017.10.26-19.16.26:486][  0]LogFileHelpers: Loading map 'My2DMap' took 1.181
-[2017.10.26-19.16.26:598][  0]LogCollectionManager: Loaded 0 collections in 0.001249 seconds
-[2017.10.26-19.16.26:679][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Collections/' took 0.01s
-[2017.10.26-19.16.26:680][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Developers/Felippe/Collections/' took 0.01s
-[2017.10.26-19.16.26:680][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Collections/' took 0.01s
-[2017.10.26-19.16.26:680][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.10.26-19.16.26:689][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2386 classes and 500 folders.
-[2017.10.26-19.16.26:760][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.10.26-19.16.27:293][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.10.26-19.16.27:451][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.10.26-19.16.27:479][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.26-19.16.27:482][  0]LogSlate: Took 0.000363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.10.26-19.16.27:514][  0]LogSlate: Took 0.030706 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.10.26-19.16.27:565][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.26-19.16.27:635][  0]LogRenderer: Reallocating scene render targets to support 808x784 Format 9 NumSamples 1 (Frame:1).
-[2017.10.26-19.16.27:814][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.10.26-19.16.27:814][  0]LogLoad: (Engine Initialization) Total time: 28.62 seconds
-[2017.10.26-19.16.27:814][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2017.10.26-19.16.27:815][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.10.26-19.16.27:815][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.10.26-19.16.27:845][  0]LogContentStreaming: Texture pool size now 800 MB
-[2017.10.26-19.16.27:930][  1]LogAssetRegistry: Asset discovery search completed in 17.6080 seconds
-[2017.10.26-19.16.27:932][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.10.26-19.16.27:932][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
-[2017.10.26-19.16.35:650][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:650][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Imports/Imports/Blueprints/MyCHar.uasset.
-[2017.10.26-19.16.35:650][833]LoadErrors: Error: /Game/Imports/Imports/Blueprints/MyCHar : Can't find file for asset. /Game/Imports/Data/AnimationState
-[2017.10.26-19.16.35:650][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/RightLeft'
-[2017.10.26-19.16.35:650][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/RightLeft' while loading ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Imports/Imports/Blueprints/MyCHar.uasset.
-[2017.10.26-19.16.35:650][833]LoadErrors: Error: /Game/Imports/Imports/Blueprints/MyCHar : Can't find file for asset. /Game/Imports/Data/RightLeft
-[2017.10.26-19.16.35:651][833]LogLinker: Warning: Can't find file '/Game/Imports/Flipbooks/Idle'
-[2017.10.26-19.16.35:651][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Flipbooks/Idle' while loading ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Imports/Imports/Blueprints/MyCHar.uasset.
-[2017.10.26-19.16.35:651][833]LoadErrors: Error: /Game/Imports/Imports/Blueprints/MyCHar : Can't find file for asset. /Game/Imports/Flipbooks/Idle
-[2017.10.26-19.16.35:651][833]LogLinker: Warning: Can't find file '/Game/Imports/Flipbooks/Jump'
-[2017.10.26-19.16.35:651][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Flipbooks/Jump' while loading ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Imports/Imports/Blueprints/MyCHar.uasset.
-[2017.10.26-19.16.35:651][833]LoadErrors: Error: /Game/Imports/Imports/Blueprints/MyCHar : Can't find file for asset. /Game/Imports/Flipbooks/Jump
-[2017.10.26-19.16.35:651][833]LogLinker: Warning: Can't find file '/Game/Imports/Flipbooks/Run'
-[2017.10.26-19.16.35:651][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Flipbooks/Run' while loading ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Imports/Imports/Blueprints/MyCHar.uasset.
-[2017.10.26-19.16.35:651][833]LoadErrors: Error: /Game/Imports/Imports/Blueprints/MyCHar : Can't find file for asset. /Game/Imports/Flipbooks/Run
-[2017.10.26-19.16.35:652][833]LogLinker: Warning: Can't find file '/Game/Imports/Flipbooks/Idle'
-[2017.10.26-19.16.35:652][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Flipbooks/Idle' while loading ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Imports/Imports/Blueprints/MyCHar.uasset.
-[2017.10.26-19.16.35:652][833]LogLinker: Warning: Can't find file '/Game/Imports/Flipbooks/Jump'
-[2017.10.26-19.16.35:652][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Flipbooks/Jump' while loading ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Imports/Imports/Blueprints/MyCHar.uasset.
-[2017.10.26-19.16.35:652][833]LogLinker: Warning: Can't find file '/Game/Imports/Flipbooks/Run'
-[2017.10.26-19.16.35:652][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Flipbooks/Run' while loading ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Imports/Imports/Blueprints/MyCHar.uasset.
-[2017.10.26-19.16.35:652][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:653][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Imports/Imports/Blueprints/MyCHar.uasset.
-[2017.10.26-19.16.35:653][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/RightLeft'
-[2017.10.26-19.16.35:653][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/RightLeft' while loading ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Imports/Imports/Blueprints/MyCHar.uasset.
-[2017.10.26-19.16.35:654][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:654][833]LoadErrors: Failed to load /Game/Imports/Data/AnimationState.AnimationState Referenced by AnimationState
-[2017.10.26-19.16.35:654][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading NULL.
-[2017.10.26-19.16.35:655][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:655][833]LoadErrors: Failed to load /Game/Imports/Data/AnimationState.AnimationState Referenced by Temp_byte_Variable
-[2017.10.26-19.16.35:655][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading NULL.
-[2017.10.26-19.16.35:657][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/RightLeft'
-[2017.10.26-19.16.35:657][833]LoadErrors: Failed to load /Game/Imports/Data/RightLeft.RightLeft Referenced by Temp_byte_Variable
-[2017.10.26-19.16.35:657][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/RightLeft' while loading NULL.
-[2017.10.26-19.16.35:662][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/RightLeft'
-[2017.10.26-19.16.35:662][833]LoadErrors: Failed to load /Game/Imports/Data/RightLeft.RightLeft Referenced by Orientation
-[2017.10.26-19.16.35:662][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/RightLeft' while loading NULL.
-[2017.10.26-19.16.35:662][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:662][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading NULL.
-[2017.10.26-19.16.35:662][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/RightLeft'
-[2017.10.26-19.16.35:663][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/RightLeft' while loading NULL.
-[2017.10.26-19.16.35:663][833]LogLinker: Warning: Can't find file '/Game/Imports/Flipbooks/Idle'
-[2017.10.26-19.16.35:663][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Flipbooks/Idle' while loading NULL.
-[2017.10.26-19.16.35:663][833]LogLinker: Warning: Can't find file '/Game/Imports/Flipbooks/Jump'
-[2017.10.26-19.16.35:663][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Flipbooks/Jump' while loading NULL.
-[2017.10.26-19.16.35:663][833]LogLinker: Warning: Can't find file '/Game/Imports/Flipbooks/Run'
-[2017.10.26-19.16.35:663][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Flipbooks/Run' while loading NULL.
-[2017.10.26-19.16.35:663][833]LogLinker: Warning: Can't find file '/Game/Imports/Flipbooks/Idle'
-[2017.10.26-19.16.35:663][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Flipbooks/Idle' while loading NULL.
-[2017.10.26-19.16.35:663][833]LogLinker: Warning: Can't find file '/Game/Imports/Flipbooks/Jump'
-[2017.10.26-19.16.35:664][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Flipbooks/Jump' while loading NULL.
-[2017.10.26-19.16.35:664][833]LogLinker: Warning: Can't find file '/Game/Imports/Flipbooks/Run'
-[2017.10.26-19.16.35:664][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Flipbooks/Run' while loading NULL.
-[2017.10.26-19.16.35:664][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:664][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading NULL.
-[2017.10.26-19.16.35:664][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/RightLeft'
-[2017.10.26-19.16.35:664][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/RightLeft' while loading NULL.
-[2017.10.26-19.16.35:664][833]LogLinker: Warning: Can't find file '/Game/Imports/Flipbooks/Idle'
-[2017.10.26-19.16.35:664][833]LoadErrors: Failed to load /Game/Imports/Flipbooks/Idle.Idle Referenced by Default__MyChar_C
-[2017.10.26-19.16.35:664][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Flipbooks/Idle' while loading NULL.
-[2017.10.26-19.16.35:665][833]LogLinker: Warning: Can't find file '/Game/Imports/Flipbooks/Run'
-[2017.10.26-19.16.35:665][833]LoadErrors: Failed to load /Game/Imports/Flipbooks/Run.Run Referenced by Default__MyChar_C
-[2017.10.26-19.16.35:665][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Flipbooks/Run' while loading NULL.
-[2017.10.26-19.16.35:665][833]LogLinker: Warning: Can't find file '/Game/Imports/Flipbooks/Jump'
-[2017.10.26-19.16.35:665][833]LoadErrors: Failed to load /Game/Imports/Flipbooks/Jump.Jump Referenced by Default__MyChar_C
-[2017.10.26-19.16.35:665][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Flipbooks/Jump' while loading NULL.
-[2017.10.26-19.16.35:666][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/RightLeft'
-[2017.10.26-19.16.35:666][833]LoadErrors: Failed to load /Game/Imports/Data/RightLeft.RightLeft Referenced by MyChar
-[2017.10.26-19.16.35:666][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/RightLeft' while loading NULL.
-[2017.10.26-19.16.35:666][833]LogLinker: Warning: Can't find file '/Game/Imports/Flipbooks/Idle'
-[2017.10.26-19.16.35:667][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Flipbooks/Idle' while loading NULL.
-[2017.10.26-19.16.35:672][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/RightLeft'
-[2017.10.26-19.16.35:672][833]LoadErrors: Failed to load /Game/Imports/Data/RightLeft.RightLeft Referenced by K2Node_VariableSet_896
-[2017.10.26-19.16.35:672][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/RightLeft' while loading NULL.
-[2017.10.26-19.16.35:673][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/RightLeft'
-[2017.10.26-19.16.35:673][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/RightLeft' while loading NULL.
-[2017.10.26-19.16.35:673][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/RightLeft'
-[2017.10.26-19.16.35:673][833]LoadErrors: Failed to load /Game/Imports/Data/RightLeft.RightLeft Referenced by K2Node_VariableSet_906
-[2017.10.26-19.16.35:673][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/RightLeft' while loading NULL.
-[2017.10.26-19.16.35:673][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/RightLeft'
-[2017.10.26-19.16.35:673][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/RightLeft' while loading NULL.
-[2017.10.26-19.16.35:674][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/RightLeft'
-[2017.10.26-19.16.35:674][833]LoadErrors: Failed to load /Game/Imports/Data/RightLeft.RightLeft Referenced by K2Node_VariableGet_1842
-[2017.10.26-19.16.35:674][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/RightLeft' while loading NULL.
-[2017.10.26-19.16.35:674][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/RightLeft'
-[2017.10.26-19.16.35:674][833]LoadErrors: Failed to load /Game/Imports/Data/RightLeft.RightLeft Referenced by K2Node_Select_1
-[2017.10.26-19.16.35:674][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/RightLeft' while loading NULL.
-[2017.10.26-19.16.35:674][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/RightLeft'
-[2017.10.26-19.16.35:675][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/RightLeft' while loading NULL.
-[2017.10.26-19.16.35:675][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/RightLeft'
-[2017.10.26-19.16.35:675][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/RightLeft' while loading NULL.
-[2017.10.26-19.16.35:676][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:676][833]LoadErrors: Failed to load /Game/Imports/Data/AnimationState.AnimationState Referenced by K2Node_FunctionEntry_95
-[2017.10.26-19.16.35:676][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading NULL.
-[2017.10.26-19.16.35:676][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:677][833]LoadErrors: Failed to load /Game/Imports/Data/AnimationState.AnimationState Referenced by K2Node_VariableGet_1655
-[2017.10.26-19.16.35:677][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading NULL.
-[2017.10.26-19.16.35:677][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:677][833]LoadErrors: Failed to load /Game/Imports/Data/AnimationState.AnimationState Referenced by K2Node_Select_4
-[2017.10.26-19.16.35:677][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading NULL.
-[2017.10.26-19.16.35:677][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:677][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading NULL.
-[2017.10.26-19.16.35:678][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:678][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading NULL.
-[2017.10.26-19.16.35:678][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:678][833]LoadErrors: Failed to load /Game/Imports/Data/AnimationState.AnimationState Referenced by K2Node_VariableSet_12
-[2017.10.26-19.16.35:678][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading NULL.
-[2017.10.26-19.16.35:679][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:679][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading NULL.
-[2017.10.26-19.16.35:679][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:679][833]LoadErrors: Failed to load /Game/Imports/Data/AnimationState.AnimationState Referenced by K2Node_VariableSet_765
-[2017.10.26-19.16.35:679][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading NULL.
-[2017.10.26-19.16.35:679][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:679][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading NULL.
-[2017.10.26-19.16.35:680][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:680][833]LoadErrors: Failed to load /Game/Imports/Data/AnimationState.AnimationState Referenced by K2Node_VariableSet_766
-[2017.10.26-19.16.35:680][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading NULL.
-[2017.10.26-19.16.35:680][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:680][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading NULL.
-[2017.10.26-19.16.35:680][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:681][833]LoadErrors: Failed to load /Game/Imports/Data/AnimationState.AnimationState Referenced by K2Node_VariableSet_764
-[2017.10.26-19.16.35:681][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading NULL.
-[2017.10.26-19.16.35:681][833]LogLinker: Warning: Can't find file '/Game/Imports/Data/AnimationState'
-[2017.10.26-19.16.35:681][833]LogLinker: Warning: Can't find file for asset '/Game/Imports/Data/AnimationState' while loading NULL.
-[2017.10.26-19.16.35:708][833]LogBlueprint: Warning: [Compiler MyChar] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
-[2017.10.26-19.16.35:709][833]LogBlueprint: Warning: [Compiler MyChar] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
-[2017.10.26-19.16.35:717][833]LogBlueprint: Warning: [Compiler MyChar] [0036,53] Compile of MyChar successful, but with 2 Warning(s) [in 34 ms] (/Game/Imports/Imports/Blueprints/MyCHar.MyChar)
-[2017.10.26-19.16.35:748][833]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.26-19.16.36:021][833]LogEnum: Warning: Enum name collision: 'AnimationState::NewEnumerator0' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
-[2017.10.26-19.16.36:021][833]LogEnum: Warning: Enum name collision: 'AnimationState::NewEnumerator1' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
-[2017.10.26-19.16.36:021][833]LogEnum: Warning: Enum name collision: 'AnimationState::NewEnumerator2' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
-[2017.10.26-19.16.36:021][833]LogEnum: Warning: Enum name collision: 'AnimationState::NewEnumerator3' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
-[2017.10.26-19.16.36:021][833]LogEnum: Warning: Enum name collision: 'AnimationState::AnimationState_MAX' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
-[2017.10.26-19.16.36:021][833]LogEnum: Warning: Enum name collision: 'AnimationState::NewEnumerator0' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
-[2017.10.26-19.16.36:021][833]LogEnum: Warning: Enum name collision: 'AnimationState::NewEnumerator1' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
-[2017.10.26-19.16.36:022][833]LogEnum: Warning: Enum name collision: 'AnimationState::NewEnumerator2' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
-[2017.10.26-19.16.36:022][833]LogEnum: Warning: Enum name collision: 'AnimationState::NewEnumerator3' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
-[2017.10.26-19.16.36:120][833]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
-[2017.10.26-19.16.36:824][833]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.10.26-19.16.36:953][833]LogSlate: Took 0.021483 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.10.26-19.16.37:322][834]LogSlate: Took 0.004719 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.10.26-19.24.32:640][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blue/PlayerBlue" FILE="../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset" SILENT=true
-[2017.10.26-19.24.32:879][317]LogSavePackage: Save=212.40ms
-[2017.10.26-19.24.32:879][317]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/PlayerBlueC5F568874A0498F18F9E658B10E570EA.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset'
-[2017.10.26-19.24.32:888][317]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset
-[2017.10.26-19.24.33:680][351]BlueprintLog: New page: Compile PlayerBlue
-[2017.10.26-19.24.34:050][351]BlueprintLog: New page: Compile PlayerBlue
-[2017.10.26-19.24.35:321][392]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.10.26-19.24.35:851][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.26-19.24.35:852][392]PIE: New page: PIE session: My2DMap (26/10/2017 15:24:35)
-[2017.10.26-19.24.35:852][392]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
-[2017.10.26-19.24.35:854][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002095s)
-[2017.10.26-19.24.35:855][392]LogAIModule: Creating AISystem for world My2DMap
-[2017.10.26-19.24.35:856][392]LogPlayLevel: PIE: World Init took: (0.001346s)
-[2017.10.26-19.24.35:856][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003794s)
-[2017.10.26-19.24.35:997][392]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.26-19.24.36:008][392]LogInit: FAudioDevice initialized.
-[2017.10.26-19.24.36:060][392]LogLoad: Game class is '2DGame_C'
-[2017.10.26-19.24.36:065][392]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-17.24.36
-[2017.10.26-19.24.36:066][392]LogWorld: Bringing up level for play took: 0.004137
-[2017.10.26-19.24.36:117][392]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
-[2017.10.26-19.24.36:122][392]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,547
-[2017.10.26-19.24.36:147][392]LogRenderer: Reallocating scene render targets to support 1124x784 Format 9 NumSamples 1 (Frame:1).
-[2017.10.26-19.25.24:381][477]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.10.26-19.25.24:409][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.26-19.25.24:410][477]PIE: New page: PIE session: My2DMap (26/10/2017 15:25:24)
-[2017.10.26-19.25.24:410][477]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
-[2017.10.26-19.25.24:412][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002041s)
-[2017.10.26-19.25.24:413][477]LogAIModule: Creating AISystem for world My2DMap
-[2017.10.26-19.25.24:413][477]LogPlayLevel: PIE: World Init took: (0.001375s)
-[2017.10.26-19.25.24:413][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003675s)
-[2017.10.26-19.25.24:561][477]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.26-19.25.24:573][477]LogInit: FAudioDevice initialized.
-[2017.10.26-19.25.24:612][477]LogLoad: Game class is '2DGame_C'
-[2017.10.26-19.25.24:616][477]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-17.25.24
-[2017.10.26-19.25.24:617][477]LogWorld: Bringing up level for play took: 0.003634
-[2017.10.26-19.25.24:622][477]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,047
-[2017.10.26-19.26.08:318][129]LogSlate: Took 0.034539 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2017.10.26-19.30.36:259][467]BlueprintLog: New page: Compile PlayerBlue
-[2017.10.26-19.30.37:296][498]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.10.26-19.30.37:324][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.26-19.30.37:324][498]PIE: New page: PIE session: My2DMap (26/10/2017 15:30:37)
-[2017.10.26-19.30.37:324][498]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
-[2017.10.26-19.30.37:326][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001931s)
-[2017.10.26-19.30.37:326][498]LogAIModule: Creating AISystem for world My2DMap
-[2017.10.26-19.30.37:327][498]LogPlayLevel: PIE: World Init took: (0.000738s)
-[2017.10.26-19.30.37:327][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.002886s)
-[2017.10.26-19.30.37:362][498]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.26-19.30.37:373][498]LogInit: FAudioDevice initialized.
-[2017.10.26-19.30.37:412][498]LogLoad: Game class is '2DGame_C'
-[2017.10.26-19.30.37:416][498]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-17.30.37
-[2017.10.26-19.30.37:417][498]LogWorld: Bringing up level for play took: 0.003480
-[2017.10.26-19.30.37:423][498]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,755
-[2017.10.26-19.33.17:577][398]BlueprintLog: New page: Compile PlayerBlue
-[2017.10.26-19.33.18:709][445]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.10.26-19.33.18:737][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.26-19.33.18:737][445]PIE: New page: PIE session: My2DMap (26/10/2017 15:33:18)
-[2017.10.26-19.33.18:737][445]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
-[2017.10.26-19.33.18:739][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002176s)
-[2017.10.26-19.33.18:740][445]LogAIModule: Creating AISystem for world My2DMap
-[2017.10.26-19.33.18:740][445]LogPlayLevel: PIE: World Init took: (0.000953s)
-[2017.10.26-19.33.18:741][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003430s)
-[2017.10.26-19.33.18:767][445]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.26-19.33.18:779][445]LogInit: FAudioDevice initialized.
-[2017.10.26-19.33.18:820][445]LogLoad: Game class is '2DGame_C'
-[2017.10.26-19.33.18:823][445]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-17.33.18
-[2017.10.26-19.33.18:824][445]LogWorld: Bringing up level for play took: 0.003312
-[2017.10.26-19.33.18:830][445]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,162
-[2017.10.26-19.33.39:047][714]BlueprintLog: New page: Compile PlayerBlue
-[2017.10.26-19.33.40:105][777]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.10.26-19.33.40:132][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.26-19.33.40:132][777]PIE: New page: PIE session: My2DMap (26/10/2017 15:33:40)
-[2017.10.26-19.33.40:132][777]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
-[2017.10.26-19.33.40:134][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002014s)
-[2017.10.26-19.33.40:135][777]LogAIModule: Creating AISystem for world My2DMap
-[2017.10.26-19.33.40:136][777]LogPlayLevel: PIE: World Init took: (0.001129s)
-[2017.10.26-19.33.40:136][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003399s)
-[2017.10.26-19.33.40:160][777]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.26-19.33.40:170][777]LogInit: FAudioDevice initialized.
-[2017.10.26-19.33.40:211][777]LogLoad: Game class is '2DGame_C'
-[2017.10.26-19.33.40:214][777]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-17.33.40
-[2017.10.26-19.33.40:215][777]LogWorld: Bringing up level for play took: 0.003379
-[2017.10.26-19.33.40:221][777]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,448
-[2017.10.26-19.33.59:122][421]BlueprintLog: New page: Compile PlayerBlue
-[2017.10.26-19.33.59:857][457]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.10.26-19.33.59:885][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.26-19.33.59:886][457]PIE: New page: PIE session: My2DMap (26/10/2017 15:33:59)
-[2017.10.26-19.33.59:886][457]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
-[2017.10.26-19.33.59:888][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002418s)
-[2017.10.26-19.33.59:889][457]LogAIModule: Creating AISystem for world My2DMap
-[2017.10.26-19.33.59:889][457]LogPlayLevel: PIE: World Init took: (0.000771s)
-[2017.10.26-19.33.59:889][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003486s)
-[2017.10.26-19.33.59:914][457]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.26-19.33.59:923][457]LogInit: FAudioDevice initialized.
-[2017.10.26-19.33.59:961][457]LogLoad: Game class is '2DGame_C'
-[2017.10.26-19.33.59:964][457]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-17.33.59
-[2017.10.26-19.33.59:965][457]LogWorld: Bringing up level for play took: 0.003623
-[2017.10.26-19.33.59:971][457]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,698
-[2017.10.26-19.34.18:055][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blue/PlayerBlue" FILE="../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset" SILENT=true
-[2017.10.26-19.34.18:314][152]LogSavePackage: Save=232.37ms
-[2017.10.26-19.34.18:314][152]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/PlayerBlue3CF1CF174CFAD9CDBA4947809207416C.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset'
-[2017.10.26-19.34.18:318][152]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset
-[2017.10.26-19.35.38:649][668]LogTexture: Display: Building textures: Crouch_Blue_4 (AutoDXT, 256X256)
-[2017.10.26-19.35.38:649][668]LogTexture: Display: Building textures: Crouch_Blue_1 (AutoDXT, 256X256)
-[2017.10.26-19.35.38:649][668]LogTexture: Display: Building textures: Crouch_Blue_2 (AutoDXT, 256X256)
-[2017.10.26-19.35.38:733][668]LogTexture: Display: Building textures: Crouch_Blue_3 (AutoDXT, 256X256)
-[2017.10.26-19.35.39:078][669]LogRenderer: Reallocating scene render targets to support 1144x784 Format 9 NumSamples 1 (Frame:1).
-[2017.10.26-19.36.29:096][720]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyPaper2D
-[2017.10.26-19.36.29:096][720]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.10.26-19.36.29:096][720]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
-[2017.10.26-19.36.29:096][720]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.10.26-19.36.29:098][720]LogTemp: BranchPath = FELIPPE/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = FELIPPE/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
-[2017.10.26-19.36.29:164][720]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Felippe\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2017.10.26-19.39.58:412][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Data/AnimationState" FILE="../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Data/AnimationState.uasset" SILENT=true
-[2017.10.26-19.39.58:444][741]LogSavePackage: Save=5.60ms
-[2017.10.26-19.39.58:444][741]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/AnimationState0A419CD3494E5032439AA890AC0A2749.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Data/AnimationState.uasset'
-[2017.10.26-19.39.58:449][741]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Data/AnimationState.uasset
-[2017.10.26-19.40.17:543][334]BlueprintLog: New page: Compile PlayerBlue
-[2017.10.26-19.40.19:664][419]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.10.26-19.43.20:288][551]LogEditorTransaction: Undo Expand Node
-[2017.10.26-19.45.59:484][839]BlueprintLog: New page: Compile PlayerBlue
-[2017.10.26-19.46.00:803][909]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.10.26-19.46.00:838][909]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.10.26-19.46.00:857][909]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
-[2017.10.26-19.46.00:879][909]LogPlayLevel: PlayLevel: Blueprint regeneration took 40 ms (1 blueprints)
-[2017.10.26-19.46.00:879][909]PIE: New page: PIE session: My2DMap (26/10/2017 15:46:00)
-[2017.10.26-19.46.00:879][909]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
-[2017.10.26-19.46.00:881][909]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001989s)
-[2017.10.26-19.46.00:882][909]LogAIModule: Creating AISystem for world My2DMap
-[2017.10.26-19.46.00:882][909]LogPlayLevel: PIE: World Init took: (0.000806s)
-[2017.10.26-19.46.00:882][909]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003075s)
-[2017.10.26-19.46.00:906][909]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.26-19.46.00:916][909]LogInit: FAudioDevice initialized.
-[2017.10.26-19.46.00:952][909]LogLoad: Game class is '2DGame_C'
-[2017.10.26-19.46.00:956][909]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-17.46.00
-[2017.10.26-19.46.00:957][909]LogWorld: Bringing up level for play took: 0.003849
-[2017.10.26-19.46.00:961][909]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,292
-[2017.10.26-19.46.01:948][942]LogCharacter: PlayerBlue_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
-[2017.10.26-19.46.02:691][968]LogCharacter: PlayerBlue_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
-[2017.10.26-19.46.03:838][  9]LogCharacter: PlayerBlue_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
-[2017.10.26-19.46.03:998][ 15]LogCharacter: PlayerBlue_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
-[2017.10.26-19.46.04:178][ 20]LogCharacter: PlayerBlue_C_0 is trying to crouch, but crouching is disabled on this character! (check CharacterMovement NavAgentSettings)
-[2017.10.26-19.46.38:677][147]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyPaper2D
-[2017.10.26-19.46.38:677][147]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.10.26-19.46.38:677][147]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
-[2017.10.26-19.46.38:677][147]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2017.10.26-19.46.38:680][147]LogTemp: BranchPath = FELIPPE/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = FELIPPE/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
-[2017.10.26-19.46.38:693][147]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Felippe\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2017.10.26-19.46.54:422][136]BlueprintLog: New page: Compile PlayerBlue
-[2017.10.26-19.46.55:225][162]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.10.26-19.46.55:260][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.26-19.46.55:261][162]PIE: New page: PIE session: My2DMap (26/10/2017 15:46:55)
-[2017.10.26-19.46.55:261][162]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
-[2017.10.26-19.46.55:264][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002789s)
-[2017.10.26-19.46.55:265][162]LogAIModule: Creating AISystem for world My2DMap
-[2017.10.26-19.46.55:265][162]LogPlayLevel: PIE: World Init took: (0.001116s)
-[2017.10.26-19.46.55:266][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004807s)
-[2017.10.26-19.46.55:292][162]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.26-19.46.55:302][162]LogInit: FAudioDevice initialized.
-[2017.10.26-19.46.55:343][162]LogLoad: Game class is '2DGame_C'
-[2017.10.26-19.46.55:346][162]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-17.46.55
-[2017.10.26-19.46.55:348][162]LogWorld: Bringing up level for play took: 0.003773
-[2017.10.26-19.46.55:354][162]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,686
-[2017.10.26-19.48.29:998][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blue/PlayerBlue" FILE="../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset" SILENT=true
-[2017.10.26-19.48.30:291][708]LogSavePackage: Save=264.76ms
-[2017.10.26-19.48.30:291][708]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/PlayerBlue85097B574A4394E6EF4887BC3B234524.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset'
-[2017.10.26-19.48.30:296][708]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset
-[2017.10.26-19.49.32:681][617]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2DMap' took 0.028
-[2017.10.26-19.49.32:684][617]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Imports/Blueprints/MyCHar] ([1] browsable assets)...
-[2017.10.26-19.49.32:684][617]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Imports/Blueprints/MyCHar]
-[2017.10.26-19.49.32:873][617]LogSavePackage: Save=166.34ms
-[2017.10.26-19.49.32:873][617]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/MyCHar_Auto12872D54D438B51C474C474AD898FCBD4.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Autosaves/Game/Imports/Imports/Blueprints/MyCHar_Auto1.uasset'
-[2017.10.26-19.49.32:874][617]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Autosaves/Game/Imports/Imports/Blueprints/MyCHar_Auto1.uasset
-[2017.10.26-19.49.32:875][617]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Blue/Crouch/Crouch_Blue_0] ([1] browsable assets)...
-[2017.10.26-19.49.32:885][617]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Blue/Crouch/Crouch_Blue_0.Crouch_Blue_0]
-[2017.10.26-19.49.32:885][617]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Blue/Crouch/Crouch_Blue_0]
-[2017.10.26-19.49.32:920][617]LogSavePackage: Save=11.51ms
-[2017.10.26-19.49.32:920][617]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_0_Auto10D8E84224BCD4F8FAAF6F49CC9B64603.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Autosaves/Game/Sprites/Blue/Crouch/Crouch_Blue_0_Auto1.uasset'
-[2017.10.26-19.49.32:921][617]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Autosaves/Game/Sprites/Blue/Crouch/Crouch_Blue_0_Auto1.uasset
-[2017.10.26-19.49.32:921][617]LogFileHelpers: Auto-saving content packages took 0.239
-[2017.10.26-19.49.43:078][892]LogSavePackage: Save=11.32ms
-[2017.10.26-19.49.43:078][892]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_16ACD9E534CB3B34132D502909F446166.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_1.uasset'
-[2017.10.26-19.49.43:081][892]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_1.uasset
-[2017.10.26-19.49.51:413][322]LogSavePackage: Save=11.51ms
-[2017.10.26-19.49.51:413][322]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_2A5C634A249E726F625F147853F8B0A0D.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_2.uasset'
-[2017.10.26-19.49.51:416][322]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_2.uasset
-[2017.10.26-19.49.56:658][824]LogSavePackage: Save=12.09ms
-[2017.10.26-19.49.56:658][824]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_31A01247446763D3F57767995A82311FD.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_3.uasset'
-[2017.10.26-19.49.56:662][824]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_3.uasset
-[2017.10.26-19.49.58:139][922]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.10.26-19.49.58:173][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.26-19.49.58:173][922]PIE: New page: PIE session: My2DMap (26/10/2017 15:49:58)
-[2017.10.26-19.49.58:173][922]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
-[2017.10.26-19.49.58:175][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002247s)
-[2017.10.26-19.49.58:177][922]LogAIModule: Creating AISystem for world My2DMap
-[2017.10.26-19.49.58:177][922]LogPlayLevel: PIE: World Init took: (0.001732s)
-[2017.10.26-19.49.58:177][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004328s)
-[2017.10.26-19.49.58:206][922]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.26-19.49.58:220][922]LogInit: FAudioDevice initialized.
-[2017.10.26-19.49.58:269][922]LogLoad: Game class is '2DGame_C'
-[2017.10.26-19.49.58:271][922]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-17.49.58
-[2017.10.26-19.49.58:272][922]LogWorld: Bringing up level for play took: 0.003071
-[2017.10.26-19.49.58:280][922]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,389
-[2017.10.26-19.50.53:248][799]LogSavePackage: Save=162.33ms
-[2017.10.26-19.50.53:248][799]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/MyCHar0838FC9A4B479C97221E16B84EED54D9.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Imports/Imports/Blueprints/MyCHar.uasset'
-[2017.10.26-19.50.53:254][799]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Imports/Imports/Blueprints/MyCHar.uasset
-[2017.10.26-19.50.53:294][799]LogSavePackage: Save=11.04ms
-[2017.10.26-19.50.53:295][799]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_03DA9115E4C53908CD762C481F2A5A539.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_0.uasset'
-[2017.10.26-19.50.53:298][799]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_0.uasset
-[2017.10.26-19.50.53:339][799]LogSavePackage: Save=11.20ms
-[2017.10.26-19.50.53:339][799]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_1553366F14A10254C4CFDD8A1111F1D18.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_1.uasset'
-[2017.10.26-19.50.53:343][799]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_1.uasset
-[2017.10.26-19.50.53:383][799]LogSavePackage: Save=11.87ms
-[2017.10.26-19.50.53:383][799]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_21968A9EA4E0BA314F99096A4C36B7204.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_2.uasset'
-[2017.10.26-19.50.53:387][799]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_2.uasset
-[2017.10.26-19.50.53:428][799]LogSavePackage: Save=11.88ms
-[2017.10.26-19.50.53:428][799]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_31B47186A490AEFF6F990278778C6496F.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_3.uasset'
-[2017.10.26-19.50.53:432][799]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_3.uasset
-[2017.10.26-19.50.55:612][825]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.10.26-19.50.55:640][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.26-19.50.55:641][825]PIE: New page: PIE session: My2DMap (26/10/2017 15:50:55)
-[2017.10.26-19.50.55:641][825]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
-[2017.10.26-19.50.55:644][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002835s)
-[2017.10.26-19.50.55:645][825]LogAIModule: Creating AISystem for world My2DMap
-[2017.10.26-19.50.55:645][825]LogPlayLevel: PIE: World Init took: (0.001160s)
-[2017.10.26-19.50.55:645][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004304s)
-[2017.10.26-19.50.55:670][825]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.26-19.50.55:680][825]LogInit: FAudioDevice initialized.
-[2017.10.26-19.50.55:750][825]LogLoad: Game class is '2DGame_C'
-[2017.10.26-19.50.55:753][825]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-17.50.55
-[2017.10.26-19.50.55:754][825]LogWorld: Bringing up level for play took: 0.003585
-[2017.10.26-19.50.55:762][825]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 1,094
-[2017.10.26-19.51.33:931][461]LogSavePackage: Save=12.33ms
-[2017.10.26-19.51.33:931][461]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_341DE63364515F7EC73422486BD55C0D0.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_3.uasset'
-[2017.10.26-19.51.33:934][461]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_3.uasset
-[2017.10.26-19.54.43:702][331]BlueprintLog: New page: Compile PlayerBlue
-[2017.10.26-19.54.44:500][379]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.10.26-19.54.44:528][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.26-19.54.44:528][379]PIE: New page: PIE session: My2DMap (26/10/2017 15:54:44)
-[2017.10.26-19.54.44:528][379]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
-[2017.10.26-19.54.44:531][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002358s)
-[2017.10.26-19.54.44:532][379]LogAIModule: Creating AISystem for world My2DMap
-[2017.10.26-19.54.44:532][379]LogPlayLevel: PIE: World Init took: (0.001224s)
-[2017.10.26-19.54.44:532][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003862s)
-[2017.10.26-19.54.44:562][379]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.26-19.54.44:575][379]LogInit: FAudioDevice initialized.
-[2017.10.26-19.54.44:613][379]LogLoad: Game class is '2DGame_C'
-[2017.10.26-19.54.44:616][379]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-17.54.44
-[2017.10.26-19.54.44:617][379]LogWorld: Bringing up level for play took: 0.003300
-[2017.10.26-19.54.44:620][379]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,048
-[2017.10.26-19.55.54:987][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blue/PlayerBlue" FILE="../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset" SILENT=true
-[2017.10.26-19.55.55:277][147]LogSavePackage: Save=263.62ms
-[2017.10.26-19.55.55:277][147]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/PlayerBlue13A901AF46765E3FFF2D3A9F2315F201.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset'
-[2017.10.26-19.55.55:282][147]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset
-[2017.10.26-19.56.34:790][594]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.10.26-19.56.34:828][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.26-19.56.34:828][594]PIE: New page: PIE session: My2DMap (26/10/2017 15:56:34)
-[2017.10.26-19.56.34:828][594]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
-[2017.10.26-19.56.34:831][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002454s)
-[2017.10.26-19.56.34:832][594]LogAIModule: Creating AISystem for world My2DMap
-[2017.10.26-19.56.34:832][594]LogPlayLevel: PIE: World Init took: (0.000984s)
-[2017.10.26-19.56.34:832][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003789s)
-[2017.10.26-19.56.34:857][594]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.26-19.56.34:868][594]LogInit: FAudioDevice initialized.
-[2017.10.26-19.56.34:904][594]LogLoad: Game class is '2DGame_C'
-[2017.10.26-19.56.34:907][594]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-17.56.34
-[2017.10.26-19.56.34:908][594]LogWorld: Bringing up level for play took: 0.003317
-[2017.10.26-19.56.34:911][594]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,243
-[2017.10.26-19.57.02:030][251]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.10.26-19.57.02:060][251]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.26-19.57.02:060][251]PIE: New page: PIE session: My2DMap (26/10/2017 15:57:02)
-[2017.10.26-19.57.02:060][251]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
-[2017.10.26-19.57.02:063][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002163s)
-[2017.10.26-19.57.02:063][251]LogAIModule: Creating AISystem for world My2DMap
-[2017.10.26-19.57.02:064][251]LogPlayLevel: PIE: World Init took: (0.000962s)
-[2017.10.26-19.57.02:064][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003453s)
-[2017.10.26-19.57.02:089][251]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.26-19.57.02:099][251]LogInit: FAudioDevice initialized.
-[2017.10.26-19.57.02:133][251]LogLoad: Game class is '2DGame_C'
-[2017.10.26-19.57.02:135][251]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-17.57.02
-[2017.10.26-19.57.02:136][251]LogWorld: Bringing up level for play took: 0.003106
-[2017.10.26-19.57.02:139][251]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,529
-[2017.10.26-19.57.12:915][105]LogTemp: Repeating last play command: New Editor Window (PIE)
-[2017.10.26-19.57.12:945][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.10.26-19.57.12:945][105]PIE: New page: PIE session: My2DMap (26/10/2017 15:57:12)
-[2017.10.26-19.57.12:945][105]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
-[2017.10.26-19.57.12:947][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002014s)
-[2017.10.26-19.57.12:948][105]LogAIModule: Creating AISystem for world My2DMap
-[2017.10.26-19.57.12:948][105]LogPlayLevel: PIE: World Init took: (0.001014s)
-[2017.10.26-19.57.12:948][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003345s)
-[2017.10.26-19.57.12:973][105]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.10.26-19.57.12:983][105]LogInit: FAudioDevice initialized.
-[2017.10.26-19.57.13:017][105]LogLoad: Game class is '2DGame_C'
-[2017.10.26-19.57.13:020][105]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-17.57.13
-[2017.10.26-19.57.13:020][105]LogWorld: Bringing up level for play took: 0.003241
-[2017.10.26-19.57.13:023][105]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,355
-[2017.10.26-20.04.09:661][578]LogSavePackage: Save=11.03ms
-[2017.10.26-20.04.09:661][578]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_006DC66CB43EC6C441CF2CCB7932DF6EE.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_0.uasset'
-[2017.10.26-20.04.09:666][578]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_0.uasset
-[2017.10.26-20.04.09:706][578]LogSavePackage: Save=10.79ms
-[2017.10.26-20.04.09:706][578]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_1724CCC444D88131379AD8AB1F31681DB.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_1.uasset'
-[2017.10.26-20.04.09:709][578]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_1.uasset
-[2017.10.26-20.04.09:749][578]LogSavePackage: Save=10.84ms
-[2017.10.26-20.04.09:749][578]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_2DB384F4D436E557D58B6039E61AA032C.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_2.uasset'
-[2017.10.26-20.04.09:753][578]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_2.uasset
-[2017.10.26-20.04.09:794][578]LogSavePackage: Save=11.76ms
-[2017.10.26-20.04.09:794][578]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Crouch_Blue_3DDF231BF49C78D92446F4DBBCF52C873.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_3.uasset'
-[2017.10.26-20.04.09:797][578]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Sprites/Blue/Crouch/Crouch_Blue_3.uasset
-[2017.10.26-20.10.20:604][997]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.10.26-20.10.32:804][997]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2017.10.26-20.10.47:598][998]Cmd: QUIT_EDITOR
-[2017.10.26-20.10.52:935][998]LogExit: Preparing to exit.
-[2017.10.26-20.11.02:724][998]LogDirectoryWatcher: A directory notification for 'C:/Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/' was aborted.
-[2017.10.26-20.11.07:164][998]LogExit: Editor shut down
-[2017.10.26-20.11.07:314][998]LogExit: Transaction tracking system shut down
-[2017.10.26-20.11.09:589][998]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.10.26-20.11.09:590][998]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/' was aborted.
-[2017.10.26-20.11.09:591][998]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.10.26-20.11.09:591][998]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2017.10.26-20.11.09:591][998]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2017.10.26-20.11.18:988][998]LogExit: Object subsystem successfully closed.
-[2017.10.26-20.11.19:915][998]LogD3D11RHI: Shutdown
-[2017.10.26-20.11.19:958][998]LogD3D11RHI: CleanupD3DDevice
-[2017.10.26-20.11.21:756][998]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.10.26-20.11.25:909][998]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (538)
-[2017.10.26-20.11.25:913][998]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
-[2017.10.26-20.11.25:913][998]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
-[2017.10.26-20.11.25:913][998]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
-[2017.10.26-20.11.25:924][998]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
-[2017.10.26-20.11.25:924][998]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2017.10.26-20.11.25:943][998]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2017.10.26-20.11.26:087][998]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2017.10.26-20.11.26:242][998]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2017.10.26-20.11.26:242][998]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2017.10.26-20.11.26:242][998]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2017.10.26-20.11.26:242][998]LogDirectoryWatcher: A directory notification for 'C:/Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Collections/' was aborted.
-[2017.10.26-20.11.26:242][998]LogDirectoryWatcher: A directory notification for 'C:/Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Developers/Felippe/Collections/' was aborted.
-[2017.10.26-20.11.26:242][998]LogDirectoryWatcher: A directory notification for 'C:/Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Collections/' was aborted.
-[2017.10.26-20.11.26:242][998]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2017.10.26-20.11.26:271][998]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2017.10.26-20.11.26:272][998]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2017.10.26-20.11.26:506][998]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2017.10.26-20.11.26:512][998]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2017.10.26-20.11.26:512][998]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2017.10.26-20.11.26:512][998]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2017.10.26-20.11.26:512][998]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2017.10.26-20.11.26:512][998]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2017.10.26-20.11.26:512][998]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
-[2017.10.26-20.11.26:519][998]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
-[2017.10.26-20.11.26:521][998]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2017.10.26-20.11.26:526][998]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2017.10.26-20.11.26:526][998]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2017.10.26-20.11.26:562][998]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2017.10.26-20.11.26:598][998]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2017.10.26-20.11.26:598][998]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2017.10.26-20.11.26:598][998]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2017.10.26-20.11.26:598][998]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2017.10.26-20.11.26:598][998]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2017.10.26-20.11.26:598][998]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2017.10.26-20.11.26:598][998]LogModuleManager: Shutting down and abandoning module Media (477)
-[2017.10.26-20.11.26:598][998]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2017.10.26-20.11.26:598][998]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2017.10.26-20.11.26:598][998]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2017.10.26-20.11.26:607][998]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2017.10.26-20.11.26:619][998]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2017.10.26-20.11.26:619][998]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2017.10.26-20.11.26:619][998]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2017.10.26-20.11.26:619][998]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2017.10.26-20.11.26:622][998]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2017.10.26-20.11.26:634][998]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2017.10.26-20.11.26:662][998]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2017.10.26-20.11.26:744][998]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2017.10.26-20.11.26:790][998]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
-[2017.10.26-20.11.26:798][998]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
-[2017.10.26-20.11.26:798][998]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
-[2017.10.26-20.11.26:798][998]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
-[2017.10.26-20.11.26:816][998]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
-[2017.10.26-20.11.26:816][998]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
-[2017.10.26-20.11.26:816][998]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
-[2017.10.26-20.11.26:816][998]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
-[2017.10.26-20.11.26:817][998]LogModuleManager: Shutting down and abandoning module MergeActors (434)
-[2017.10.26-20.11.26:852][998]LogModuleManager: Shutting down and abandoning module SizeMap (432)
-[2017.10.26-20.11.26:882][998]LogModuleManager: Shutting down and abandoning module TreeMap (430)
-[2017.10.26-20.11.26:911][998]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
-[2017.10.26-20.11.26:938][998]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
-[2017.10.26-20.11.27:048][998]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
-[2017.10.26-20.11.27:052][998]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
-[2017.10.26-20.11.27:052][998]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
-[2017.10.26-20.11.27:079][998]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
-[2017.10.26-20.11.27:096][998]LogModuleManager: Shutting down and abandoning module XmlParser (416)
-[2017.10.26-20.11.27:100][998]LogModuleManager: Shutting down and abandoning module Blutility (414)
-[2017.10.26-20.11.27:100][998]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
-[2017.10.26-20.11.27:128][998]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
-[2017.10.26-20.11.27:135][998]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
-[2017.10.26-20.11.27:135][998]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
-[2017.10.26-20.11.27:157][998]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
-[2017.10.26-20.11.27:172][998]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
-[2017.10.26-20.11.27:191][998]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
-[2017.10.26-20.11.27:199][998]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
-[2017.10.26-20.11.27:220][998]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
-[2017.10.26-20.11.27:343][998]LogModuleManager: Shutting down and abandoning module AutomationController (394)
-[2017.10.26-20.11.27:455][998]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
-[2017.10.26-20.11.27:483][998]LogModuleManager: Shutting down and abandoning module Layers (390)
-[2017.10.26-20.11.27:509][998]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
-[2017.10.26-20.11.27:509][998]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
-[2017.10.26-20.11.27:537][998]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
-[2017.10.26-20.11.27:549][998]LogModuleManager: Shutting down and abandoning module Persona (382)
-[2017.10.26-20.11.27:604][998]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
-[2017.10.26-20.11.27:604][998]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
-[2017.10.26-20.11.27:604][998]LogModuleManager: Shutting down and abandoning module Kismet (376)
-[2017.10.26-20.11.27:881][998]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
-[2017.10.26-20.11.27:883][998]LogModuleManager: Shutting down and abandoning module Toolbox (372)
-[2017.10.26-20.11.27:883][998]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
-[2017.10.26-20.11.27:893][998]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
-[2017.10.26-20.11.27:950][998]LogModuleManager: Shutting down and abandoning module OutputLog (366)
-[2017.10.26-20.11.27:950][998]LogModuleManager: Shutting down and abandoning module GammaUI (364)
-[2017.10.26-20.11.27:957][998]LogModuleManager: Shutting down and abandoning module Documentation (362)
-[2017.10.26-20.11.28:073][998]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
-[2017.10.26-20.11.28:073][998]LogModuleManager: Shutting down and abandoning module MovieScene (358)
-[2017.10.26-20.11.28:073][998]LogModuleManager: Shutting down and abandoning module Niagara (356)
-[2017.10.26-20.11.28:073][998]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
-[2017.10.26-20.11.28:102][998]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
-[2017.10.26-20.11.28:102][998]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
-[2017.10.26-20.11.28:102][998]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
-[2017.10.26-20.11.28:102][998]LogModuleManager: Shutting down and abandoning module PortalServices (346)
-[2017.10.26-20.11.28:102][998]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
-[2017.10.26-20.11.28:102][998]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
-[2017.10.26-20.11.28:102][998]LogModuleManager: Shutting down and abandoning module AIModule (340)
-[2017.10.26-20.11.28:111][998]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
-[2017.10.26-20.11.28:139][998]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
-[2017.10.26-20.11.28:148][998]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
-[2017.10.26-20.11.28:454][998]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
-[2017.10.26-20.11.28:572][998]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
-[2017.10.26-20.11.28:572][998]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
-[2017.10.26-20.11.28:572][998]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
-[2017.10.26-20.11.28:572][998]LogModuleManager: Shutting down and abandoning module OculusInput (324)
-[2017.10.26-20.11.28:572][998]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
-[2017.10.26-20.11.28:572][998]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
-[2017.10.26-20.11.28:572][998]LogModuleManager: Shutting down and abandoning module CableComponent (318)
-[2017.10.26-20.11.28:572][998]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
-[2017.10.26-20.11.28:572][998]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
-[2017.10.26-20.11.28:572][998]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
-[2017.10.26-20.11.28:601][998]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
-[2017.10.26-20.11.28:601][998]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
-[2017.10.26-20.11.28:604][998]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
-[2017.10.26-20.11.28:608][998]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
-[2017.10.26-20.11.28:608][998]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
-[2017.10.26-20.11.28:608][998]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
-[2017.10.26-20.11.28:608][998]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
-[2017.10.26-20.11.28:630][998]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
-[2017.10.26-20.11.28:634][998]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
-[2017.10.26-20.11.28:634][998]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
-[2017.10.26-20.11.28:668][998]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
-[2017.10.26-20.11.28:669][998]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
-[2017.10.26-20.11.28:692][998]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
-[2017.10.26-20.11.28:719][998]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
-[2017.10.26-20.11.28:731][998]LogModuleManager: Shutting down and abandoning module SourceControl (281)
-[2017.10.26-20.11.28:752][998]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
-[2017.10.26-20.11.28:753][998]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
-[2017.10.26-20.11.28:753][998]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
-[2017.10.26-20.11.28:753][998]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
-[2017.10.26-20.11.28:753][998]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
-[2017.10.26-20.11.28:763][998]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2017.10.26-20.11.28:870][998]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2017.10.26-20.11.28:894][998]LogModuleManager: Shutting down and abandoning module MainFrame (266)
-[2017.10.26-20.11.28:905][998]LogModuleManager: Shutting down and abandoning module HotReload (265)
-[2017.10.26-20.11.28:984][998]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2017.10.26-20.11.28:985][998]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2017.10.26-20.11.29:003][998]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2017.10.26-20.11.29:003][998]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2017.10.26-20.11.29:003][998]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2017.10.26-20.11.29:003][998]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2017.10.26-20.11.29:003][998]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2017.10.26-20.11.29:003][998]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2017.10.26-20.11.29:113][998]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2017.10.26-20.11.29:215][998]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2017.10.26-20.11.29:350][998]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2017.10.26-20.11.29:373][998]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2017.10.26-20.11.29:373][998]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2017.10.26-20.11.29:484][998]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2017.10.26-20.11.29:553][998]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2017.10.26-20.11.29:585][998]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2017.10.26-20.11.29:586][998]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2017.10.26-20.11.29:586][998]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2017.10.26-20.11.29:632][998]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2017.10.26-20.11.29:753][998]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2017.10.26-20.11.29:753][998]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2017.10.26-20.11.29:753][998]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2017.10.26-20.11.29:906][998]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2017.10.26-20.11.29:907][998]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2017.10.26-20.11.29:907][998]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2017.10.26-20.11.29:907][998]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2017.10.26-20.11.29:975][998]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2017.10.26-20.11.29:980][998]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2017.10.26-20.11.29:980][998]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2017.10.26-20.11.30:131][998]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2017.10.26-20.11.30:132][998]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2017.10.26-20.11.30:266][998]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2017.10.26-20.11.30:449][998]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2017.10.26-20.11.30:486][998]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2017.10.26-20.11.30:624][998]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2017.10.26-20.11.30:751][998]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2017.10.26-20.11.30:784][998]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2017.10.26-20.11.30:883][998]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2017.10.26-20.11.30:902][998]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2017.10.26-20.11.31:078][998]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2017.10.26-20.11.31:078][998]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2017.10.26-20.11.31:082][998]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2017.10.26-20.11.31:082][998]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2017.10.26-20.11.31:082][998]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2017.10.26-20.11.31:082][998]LogModuleManager: Shutting down and abandoning module Core (168)
-[2017.10.26-20.11.31:082][998]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2017.10.26-20.11.31:097][998]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2017.10.26-20.11.31:097][998]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2017.10.26-20.11.31:268][998]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2017.10.26-20.11.31:410][998]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2017.10.26-20.11.31:411][998]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2017.10.26-20.11.31:597][998]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2017.10.26-20.11.31:739][998]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2017.10.26-20.11.31:762][998]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2017.10.26-20.11.31:854][998]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2017.10.26-20.11.31:862][998]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.10.26-20.11.32:129][998]LogDerivedDataCache: Shutdown
-[2017.10.26-20.11.32:131][998]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.10.26-20.11.32:153][998]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.10.26-20.11.32:175][998]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.10.26-20.11.32:252][998]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.10.26-20.11.32:275][998]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.10.26-20.11.32:314][998]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.10.26-20.11.32:397][998]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.10.26-20.11.32:398][998]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.10.26-20.11.32:398][998]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.10.26-20.11.32:399][998]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.10.26-20.11.32:752][998]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.10.26-20.11.32:753][998]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.10.26-20.11.32:754][998]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.10.26-20.11.32:754][998]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.10.26-20.11.32:754][998]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.10.26-20.11.32:754][998]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.10.26-20.11.32:754][998]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.10.26-20.11.32:754][998]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.10.26-20.11.32:754][998]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.10.26-20.11.32:754][998]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2017.10.26-20.11.32:754][998]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2017.10.26-20.11.32:754][998]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2017.10.26-20.11.32:864][998]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.10.26-20.11.32:864][998]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.10.26-20.11.32:865][998]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.10.26-20.11.32:910][998]LogOnline: Display: Unloading online subsystem: NULL
-[2017.10.26-20.11.32:999][998]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.10.26-20.11.33:245][998]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.10.26-20.11.33:246][998]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
-[2017.10.26-20.11.33:246][998]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4E6E6F34-4ABF-D8AD-F960-8B80884E4078%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=f359a2854a4bf31c652028acfe9bdf5c%7C69991cd574cd4b0bbf3316bff9ecf212%7Cb88b0cd5-d09c-4407-83e7-70353c02f5b0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.10.26-20.11.33:246][998]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4E6E6F34-4ABF-D8AD-F960-8B80884E4078%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=f359a2854a4bf31c652028acfe9bdf5c%7C69991cd574cd4b0bbf3316bff9ecf212%7Cb88b0cd5-d09c-4407-83e7-70353c02f5b0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.10.26-20.11.33:398][998]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.10.26-20.11.33:772][998]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2017.10.26-20.11.33:875][998]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2017.10.26-20.11.33:939][998]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2017.10.26-20.11.33:966][998]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2017.10.26-20.11.33:971][998]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2017.10.26-20.11.33:971][998]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2017.10.26-20.11.33:976][998]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2017.10.26-20.11.34:152][998]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2017.10.26-20.11.34:160][998]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2017.10.26-20.11.34:160][998]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2017.10.26-20.11.34:160][998]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2017.10.26-20.11.34:174][998]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2017.10.26-20.11.34:174][998]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2017.10.26-20.11.34:174][998]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2017.10.26-20.11.34:180][998]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2017.10.26-20.11.34:180][998]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.10.26-20.11.34:182][998]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.10.26-20.11.34:182][998]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.10.26-20.11.34:252][998]LogExit: Exiting.
-[2017.10.26-20.11.34:536][998]Log file closed, 10/26/17 18:11:34
+[2017.10.26-22.25.46:335][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.26-22.25.46:335][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.26-22.25.46:362][  0]LogInit: Computer: FELIPPE
+[2017.10.26-22.25.46:362][  0]LogInit: User: Felippe
+[2017.10.26-22.25.46:362][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.26-22.25.46:362][  0]LogInit: High frequency timer resolution =3.117778 MHz
+[2017.10.26-22.25.46:362][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.10.26-22.25.46:362][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.26-22.25.46:362][  0]LogMemory: Process Physical Memory: 278.66 MB used, 278.66 MB peak
+[2017.10.26-22.25.46:363][  0]LogMemory: Process Virtual Memory: 274.09 MB used, 274.09 MB peak
+[2017.10.26-22.25.46:363][  0]LogMemory: Physical Memory: 3531.92 MB used,  4535.21 MB free, 8067.13 MB total
+[2017.10.26-22.25.46:363][  0]LogMemory: Virtual Memory: 668.18 MB used,  4535.21 MB free, 134217728.00 MB total
+[2017.10.26-22.25.46:526][  0]LogInit: Using OS detected language (en-US).
+[2017.10.26-22.25.46:526][  0]LogInit: Using OS detected locale (pt-BR).
+[2017.10.26-22.25.46:528][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.26-22.25.47:256][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.26-22.25.47:899][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.10.26-22.25.47:899][  0]LogD3D11RHI:       2016/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.10.26-22.25.47:905][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.10.26-22.25.47:905][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.10.26-22.25.47:906][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.26-22.25.47:906][  0]LogD3D11RHI:       0/0/4033 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.26-22.25.47:906][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.26-22.25.47:912][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.26-22.25.47:912][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.26-22.25.47:912][  0]LogWindows: EnumDisplayDevices:
+[2017.10.26-22.25.47:912][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.10.26-22.25.47:912][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.10.26-22.25.47:912][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.10.26-22.25.47:912][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.10.26-22.25.47:912][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.26-22.25.47:913][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.26-22.25.47:913][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.10.26-22.25.47:913][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.10.26-22.25.47:913][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.10.26-22.25.47:913][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.10.26-22.25.47:913][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.10.26-22.25.47:913][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.26-22.25.48:507][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.26-22.25.48:590][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.26-22.25.48:591][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Intermediate/Shaders/WorkingDirectory/748/).
+[2017.10.26-22.25.48:591][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Felippe/AppData/Local/Temp/UnrealShaderWorkingDir/DFC4043C42223E55F9251096D7F21F3F/'.
+[2017.10.26-22.25.48:592][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.26-22.25.49:503][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.26-22.25.49:555][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.26-22.25.49:609][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.26-22.25.49:661][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.26-22.25.49:714][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.26-22.25.49:766][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.26-22.25.49:817][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.26-22.25.49:870][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.26-22.25.49:916][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.26-22.25.49:968][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.26-22.25.50:020][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.26-22.25.50:071][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.26-22.25.50:125][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.26-22.25.50:176][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.26-22.25.50:227][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.26-22.25.50:329][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.26-22.25.50:329][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.26-22.25.50:370][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.26-22.25.50:465][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.26-22.25.50:495][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.26-22.25.50:545][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.26-22.25.50:598][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.26-22.25.50:649][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.26-22.25.50:701][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.26-22.25.50:701][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.26-22.25.51:192][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.26-22.25.51:289][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/Felippe/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.26-22.25.51:289][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Felippe/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.26-22.25.51:289][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.26-22.25.51:289][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.26-22.25.51:289][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.26-22.25.51:289][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.26-22.25.51:305][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.26-22.25.51:318][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Felippe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.26-22.25.51:328][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.26-22.25.51:328][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.26-22.25.51:329][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.26-22.25.51:329][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.26-22.25.51:593][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2017.10.26-22.25.51:712][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.26-22.25.52:087][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.26-22.25.52:132][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.26-22.25.52:132][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.26-22.25.52:132][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.26-22.25.52:132][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.26-22.25.52:132][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.26-22.25.52:134][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.26-22.25.52:575][  0]LogNetVersion: MyPaper2D , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 640952014)
+[2017.10.26-22.25.52:800][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.049465 seconds
+[2017.10.26-22.25.52:806][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.26-22.25.52:806][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.26-22.25.52:806][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.26-22.25.52:876][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.26-22.25.55:482][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.26-22.25.55:523][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.26-22.25.56:162][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.26-22.25.56:567][  0]SourceControl: Source control is disabled
+[2017.10.26-22.25.56:567][  0]SourceControl: Source control is disabled
+[2017.10.26-22.25.56:616][  0]SourceControl: Source control is disabled
+[2017.10.26-22.25.56:664][  0]SourceControl: Source control is disabled
+[2017.10.26-22.25.57:250][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.26-22.25.57:497][  0]LogOcInput: OculusInput pre-init called
+[2017.10.26-22.25.57:759][  0]LogEngine: Initializing Engine...
+[2017.10.26-22.25.57:761][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.26-22.25.57:981][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.26-22.25.57:981][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.26-22.25.58:111][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.26-22.25.58:122][  0]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-22.25.58:150][  0]LogInit: FAudioDevice initialized.
+[2017.10.26-22.25.58:506][  0]LogDerivedDataCache: Saved boot cache 0.36s 93MB C:/Users/Felippe/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.26-22.25.58:524][  0]LogInit: Texture streaming: Enabled
+[2017.10.26-22.25.58:639][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.26-22.25.58:858][  0]LogInit: Transaction tracking system initialized
+[2017.10.26-22.25.59:172][  0]BlueprintLog: New page: Editor Load
+[2017.10.26-22.26.00:077][  0]LocalizationService: Localization service is disabled
+[2017.10.26-22.26.00:783][  0]LogConsoleResponse: Display: 
+[2017.10.26-22.26.00:962][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.26-22.26.00:962][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.26-22.26.00:962][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.26-22.26.01:025][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/' took 0.02s
+[2017.10.26-22.26.02:045][  0]SourceControl: Source control is disabled
+[2017.10.26-22.26.02:045][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/My2DMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.26-22.26.02:286][  0]LightingResults: New page: Lighting Build
+[2017.10.26-22.26.02:330][  0]MapCheck: New page: Map Check
+[2017.10.26-22.26.02:330][  0]LightingResults: New page: Lighting Build
+[2017.10.26-22.26.04:206][  0]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-22.26.04:213][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.26-22.26.04:227][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.26-22.26.04:290][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61,755ms to complete.
+[2017.10.26-22.26.04:290][  0]LogFileHelpers: Loading map 'My2DMap' took 2.244
+[2017.10.26-22.26.04:412][  0]LogCollectionManager: Loaded 0 collections in 0.001204 seconds
+[2017.10.26-22.26.04:490][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/Collections/' took 0.01s
+[2017.10.26-22.26.04:490][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Developers/Felippe/Collections/' took 0.01s
+[2017.10.26-22.26.04:490][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Collections/' took 0.01s
+[2017.10.26-22.26.04:490][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.10.26-22.26.04:500][  0]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 2386 classes and 500 folders.
+[2017.10.26-22.26.04:566][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.10.26-22.26.05:338][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.26-22.26.05:464][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.26-22.26.05:489][  0]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.26-22.26.05:491][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.26-22.26.05:518][  0]LogSlate: Took 0.025061 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.26-22.26.05:569][  0]LogSlate: Took 0.004154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.26-22.26.05:639][  0]LogRenderer: Reallocating scene render targets to support 808x784 Format 9 NumSamples 1 (Frame:1).
+[2017.10.26-22.26.05:865][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.26-22.26.05:866][  0]LogLoad: (Engine Initialization) Total time: 21.71 seconds
+[2017.10.26-22.26.05:866][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.26-22.26.05:866][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.26-22.26.05:866][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.26-22.26.05:877][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.26-22.26.05:897][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.10.26-22.26.05:975][  1]LogAssetRegistry: Asset discovery search completed in 14.4045 seconds
+[2017.10.26-22.26.05:977][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.10.26-22.26.05:977][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2017.10.26-22.26.06:917][105]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.26-22.28.07:349][782]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.26-22.28.07:466][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-22.28.07:467][782]PIE: New page: PIE session: My2DMap (26/10/2017 18:28:07)
+[2017.10.26-22.28.07:467][782]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.26-22.28.07:470][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002489s)
+[2017.10.26-22.28.07:470][782]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-22.28.07:471][782]LogPlayLevel: PIE: World Init took: (0.001172s)
+[2017.10.26-22.28.07:471][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004015s)
+[2017.10.26-22.28.07:486][782]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-22.28.07:497][782]LogInit: FAudioDevice initialized.
+[2017.10.26-22.28.07:549][782]LogLoad: Game class is '2DGame_C'
+[2017.10.26-22.28.07:553][782]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-20.28.07
+[2017.10.26-22.28.07:555][782]LogWorld: Bringing up level for play took: 0.004039
+[2017.10.26-22.28.07:598][782]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.10.26-22.28.07:603][782]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,934
+[2017.10.26-22.28.07:634][782]LogRenderer: Reallocating scene render targets to support 1124x784 Format 9 NumSamples 1 (Frame:1).
+[2017.10.26-22.29.34:355][483]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.26-22.29.34:388][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-22.29.34:388][483]PIE: New page: PIE session: My2DMap (26/10/2017 18:29:34)
+[2017.10.26-22.29.34:388][483]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.26-22.29.34:391][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002252s)
+[2017.10.26-22.29.34:391][483]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-22.29.34:391][483]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2017.10.26-22.29.34:392][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003366s)
+[2017.10.26-22.29.34:407][483]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-22.29.34:418][483]LogInit: FAudioDevice initialized.
+[2017.10.26-22.29.34:456][483]LogLoad: Game class is '2DGame_C'
+[2017.10.26-22.29.34:459][483]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-20.29.34
+[2017.10.26-22.29.34:460][483]LogWorld: Bringing up level for play took: 0.003215
+[2017.10.26-22.29.34:465][483]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,204
+[2017.10.26-22.35.29:106][644]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (BG_Sprite)
+[2017.10.26-22.37.00:532][218]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.26-22.37.00:566][218]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-22.37.00:566][218]PIE: New page: PIE session: My2DMap (26/10/2017 18:37:00)
+[2017.10.26-22.37.00:566][218]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.26-22.37.00:569][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003031s)
+[2017.10.26-22.37.00:570][218]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-22.37.00:570][218]LogPlayLevel: PIE: World Init took: (0.001291s)
+[2017.10.26-22.37.00:571][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004679s)
+[2017.10.26-22.37.00:616][218]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-22.37.00:626][218]LogInit: FAudioDevice initialized.
+[2017.10.26-22.37.00:666][218]LogLoad: Game class is '2DGame_C'
+[2017.10.26-22.37.00:669][218]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-20.37.00
+[2017.10.26-22.37.00:670][218]LogWorld: Bringing up level for play took: 0.003524
+[2017.10.26-22.37.00:675][218]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,006
+[2017.10.26-22.37.04:090][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-22.37.04:090][395]PIE: New page: PIE session: My2DMap (26/10/2017 18:37:04)
+[2017.10.26-22.37.04:090][395]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.26-22.37.04:093][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002737s)
+[2017.10.26-22.37.04:094][395]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-22.37.04:094][395]LogPlayLevel: PIE: World Init took: (0.001167s)
+[2017.10.26-22.37.04:095][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004241s)
+[2017.10.26-22.37.04:141][395]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-22.37.04:150][395]LogInit: FAudioDevice initialized.
+[2017.10.26-22.37.04:185][395]LogLoad: Game class is '2DGame_C'
+[2017.10.26-22.37.04:188][395]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-20.37.04
+[2017.10.26-22.37.04:189][395]LogWorld: Bringing up level for play took: 0.002832
+[2017.10.26-22.37.04:190][395]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,478
+[2017.10.26-22.37.19:530][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-22.37.19:530][993]PIE: New page: PIE session: My2DMap (26/10/2017 18:37:19)
+[2017.10.26-22.37.19:530][993]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.26-22.37.19:533][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002474s)
+[2017.10.26-22.37.19:534][993]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-22.37.19:534][993]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2017.10.26-22.37.19:534][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003652s)
+[2017.10.26-22.37.19:574][993]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-22.37.19:583][993]LogInit: FAudioDevice initialized.
+[2017.10.26-22.37.19:624][993]LogLoad: Game class is '2DGame_C'
+[2017.10.26-22.37.19:627][993]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-20.37.19
+[2017.10.26-22.37.19:628][993]LogWorld: Bringing up level for play took: 0.003291
+[2017.10.26-22.37.19:633][993]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,964
+[2017.10.26-22.37.52:014][ 24]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.10.26-22.37.58:919][747]LogSlate: Took 0.025870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.26-22.38.08:130][754]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.26-22.38.08:157][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-22.38.08:158][754]PIE: New page: PIE session: My2DMap (26/10/2017 18:38:08)
+[2017.10.26-22.38.08:158][754]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.26-22.38.08:160][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002604s)
+[2017.10.26-22.38.08:161][754]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-22.38.08:161][754]LogPlayLevel: PIE: World Init took: (0.001026s)
+[2017.10.26-22.38.08:162][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003904s)
+[2017.10.26-22.38.08:178][754]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-22.38.08:188][754]LogInit: FAudioDevice initialized.
+[2017.10.26-22.38.08:231][754]LogLoad: Game class is '2DGame_C'
+[2017.10.26-22.38.08:234][754]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-20.38.08
+[2017.10.26-22.38.08:235][754]LogWorld: Bringing up level for play took: 0.003324
+[2017.10.26-22.38.08:239][754]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,429
+[2017.10.26-22.38.10:711][862]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-22.38.10:711][862]PIE: New page: PIE session: My2DMap (26/10/2017 18:38:10)
+[2017.10.26-22.38.10:711][862]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.26-22.38.10:714][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003091s)
+[2017.10.26-22.38.10:715][862]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-22.38.10:716][862]LogPlayLevel: PIE: World Init took: (0.001138s)
+[2017.10.26-22.38.10:716][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004553s)
+[2017.10.26-22.38.10:733][862]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-22.38.10:743][862]LogInit: FAudioDevice initialized.
+[2017.10.26-22.38.10:777][862]LogLoad: Game class is '2DGame_C'
+[2017.10.26-22.38.10:780][862]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-20.38.10
+[2017.10.26-22.38.10:781][862]LogWorld: Bringing up level for play took: 0.003132
+[2017.10.26-22.38.10:782][862]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,114
+[2017.10.26-22.38.26:274][180]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.26-22.38.26:689][180]LogEnum: Warning: Enum name collision: 'AnimationState::NewEnumerator0' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
+[2017.10.26-22.38.26:689][180]LogEnum: Warning: Enum name collision: 'AnimationState::NewEnumerator1' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
+[2017.10.26-22.38.26:689][180]LogEnum: Warning: Enum name collision: 'AnimationState::NewEnumerator2' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
+[2017.10.26-22.38.26:689][180]LogEnum: Warning: Enum name collision: 'AnimationState::NewEnumerator3' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
+[2017.10.26-22.38.26:689][180]LogEnum: Warning: Enum name collision: 'AnimationState::AnimationState_MAX' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
+[2017.10.26-22.38.26:689][180]LogEnum: Warning: Enum name collision: 'AnimationState::NewEnumerator0' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
+[2017.10.26-22.38.26:689][180]LogEnum: Warning: Enum name collision: 'AnimationState::NewEnumerator1' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
+[2017.10.26-22.38.26:689][180]LogEnum: Warning: Enum name collision: 'AnimationState::NewEnumerator2' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
+[2017.10.26-22.38.26:689][180]LogEnum: Warning: Enum name collision: 'AnimationState::NewEnumerator3' is in both '/Game/Imports/Imports/Data/AnimationState.AnimationState' and '/Game/Data/AnimationState.AnimationState'
+[2017.10.26-22.38.26:816][180]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2017.10.26-22.38.27:589][180]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.26-22.38.28:028][181]LogSlate: Took 0.017922 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.26-22.38.48:539][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blue/PlayerBlue" FILE="../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset" SILENT=true
+[2017.10.26-22.38.48:897][ 33]LogSavePackage: Save=268.61ms
+[2017.10.26-22.38.48:897][ 33]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/PlayerBlue79ACE23546C612A084DD8C9240038D81.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset'
+[2017.10.26-22.38.48:905][ 33]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset
+[2017.10.26-22.38.49:406][ 59]BlueprintLog: New page: Compile PlayerBlue
+[2017.10.26-22.38.51:751][168]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.26-22.38.51:781][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-22.38.51:781][168]PIE: New page: PIE session: My2DMap (26/10/2017 18:38:51)
+[2017.10.26-22.38.51:781][168]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.26-22.38.51:784][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002298s)
+[2017.10.26-22.38.51:784][168]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-22.38.51:784][168]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2017.10.26-22.38.51:784][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003307s)
+[2017.10.26-22.38.51:815][168]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-22.38.51:825][168]LogInit: FAudioDevice initialized.
+[2017.10.26-22.38.51:862][168]LogLoad: Game class is '2DGame_C'
+[2017.10.26-22.38.51:865][168]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-20.38.51
+[2017.10.26-22.38.51:865][168]LogWorld: Bringing up level for play took: 0.003102
+[2017.10.26-22.38.51:867][168]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,801
+[2017.10.26-22.38.55:870][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-22.38.55:870][369]PIE: New page: PIE session: My2DMap (26/10/2017 18:38:55)
+[2017.10.26-22.38.55:870][369]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.26-22.38.55:873][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002679s)
+[2017.10.26-22.38.55:874][369]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-22.38.55:874][369]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2017.10.26-22.38.55:874][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003958s)
+[2017.10.26-22.38.55:908][369]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-22.38.55:918][369]LogInit: FAudioDevice initialized.
+[2017.10.26-22.38.55:967][369]LogLoad: Game class is '2DGame_C'
+[2017.10.26-22.38.55:970][369]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-20.38.55
+[2017.10.26-22.38.55:971][369]LogWorld: Bringing up level for play took: 0.003325
+[2017.10.26-22.38.55:981][369]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,687
+[2017.10.26-22.39.25:675][588]BlueprintLog: New page: Compile PlayerBlue
+[2017.10.26-22.39.27:931][697]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.26-22.39.27:960][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-22.39.27:960][697]PIE: New page: PIE session: My2DMap (26/10/2017 18:39:27)
+[2017.10.26-22.39.27:960][697]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.26-22.39.27:962][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002002s)
+[2017.10.26-22.39.27:963][697]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-22.39.27:963][697]LogPlayLevel: PIE: World Init took: (0.001216s)
+[2017.10.26-22.39.27:964][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003469s)
+[2017.10.26-22.39.27:986][697]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-22.39.27:996][697]LogInit: FAudioDevice initialized.
+[2017.10.26-22.39.28:035][697]LogLoad: Game class is '2DGame_C'
+[2017.10.26-22.39.28:038][697]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-20.39.28
+[2017.10.26-22.39.28:039][697]LogWorld: Bringing up level for play took: 0.003254
+[2017.10.26-22.39.28:045][697]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,623
+[2017.10.26-22.39.38:109][995]LogEditorTransaction: Undo Rename Component Variable
+[2017.10.26-22.39.39:804][ 21]LogEditorTransaction: Undo Attach Component
+[2017.10.26-22.39.41:574][ 49]LogEditorTransaction: Undo Paste Component(s)
+[2017.10.26-22.39.42:594][ 61]LogEditorTransaction: Undo Cut Component
+[2017.10.26-22.39.44:265][ 85]BlueprintLog: New page: Compile PlayerBlue
+[2017.10.26-22.39.44:357][ 85]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: World_1, Actor: /Engine/Transient.World_1:PersistentLevel.REINST_PlayerBlue_C_0
+[2017.10.26-22.39.44:369][ 85]LogWorld: --- Actors Currently in /Engine/Transient.World_1:PersistentLevel ---
+[2017.10.26-22.39.44:369][ 85]LogWorld:   /Engine/Transient.World_1:PersistentLevel.WorldSettings
+[2017.10.26-22.39.44:369][ 85]LogWorld:   /Engine/Transient.World_1:PersistentLevel.Brush_1
+[2017.10.26-22.39.44:369][ 85]LogWorld:   /Engine/Transient.World_1:PersistentLevel.DefaultPhysicsVolume_1
+[2017.10.26-22.39.44:369][ 85]LogWorld:   /Engine/Transient.World_1:PersistentLevel.ParticleEventManager_1
+[2017.10.26-22.39.44:370][ 85]LogWorld:   NONE
+[2017.10.26-22.39.44:370][ 85]LogWorld:   NONE
+[2017.10.26-22.39.44:370][ 85]LogWorld:   NONE
+[2017.10.26-22.39.44:370][ 85]LogWorld:   /Engine/Transient.World_1:PersistentLevel.PlayerBlue_C_0
+[2017.10.26-22.39.45:244][ 85]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.874 s
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: === Handled ensure: ===
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: 
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\World.cpp] [Line: 1487]
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: Could not remove actor /Engine/Transient.World_1:PersistentLevel.REINST_PlayerBlue_C_0 from world (check level is /Engine/Transient.World_1:PersistentLevel)
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: Stack: 
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000070093E36
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000006FE1C2D2
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000006FE34746
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Engine.dll!0x0000000064232AE6
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Engine.dll!0x0000000063981608
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Engine.dll!0x0000000063984D23
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000678544A7
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000678558E7
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x0000000067818CFF
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000625E9D7F
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x000000006258852E
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000678207FE
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x0000000062587CD2
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000625D9451
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000625DE1B6
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006DC053FF
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006DD09652
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006DC667B2
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006DC67B69
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006DCE66F5
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006DD9B967
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006DDC74D4
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006DBE42BC
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006DBB7145
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006DC51452
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006DC39C92
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Slate.dll!0x000000006DC2B68F
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000007006B759
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Core.dll!0x0000000070053EE1
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000007006D5BB
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000007004F042
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: USER32.dll!0x00000000A7D4BC50
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: USER32.dll!0x00000000A7D4B5CF
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor-Core.dll!0x000000007006DCC6
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor.exe!0x00000000DA3E4BE2
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor.exe!0x00000000DA3F3970
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor.exe!0x00000000DA3F39EA
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor.exe!0x00000000DA4002D9
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: UE4Editor.exe!0x00000000DA401C47
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: KERNEL32.DLL!0x00000000A6392774
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: ntdll.dll!0x00000000A8DB0D51
+[2017.10.26-22.39.45:244][ 85]LogOutputDevice: Error: 
+[2017.10.26-22.39.45:254][ 85]LogStats:                SubmitErrorReport -  0.000 s
+[2017.10.26-22.39.51:382][ 85]LogStats:                    SendNewReport -  6.128 s
+[2017.10.26-22.39.51:382][ 85]LogStats:             FDebug::EnsureFailed -  7.013 s
+[2017.10.26-22.41.12:790][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blue/PlayerBlue" FILE="../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset" SILENT=true
+[2017.10.26-22.41.13:083][415]LogSavePackage: Save=267.77ms
+[2017.10.26-22.41.13:083][415]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/PlayerBlue1E19DF1848B803C4CCF64BBF900E8F57.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset'
+[2017.10.26-22.41.13:087][415]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/PlayerBlue.uasset
+[2017.10.26-22.41.26:084][258]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (BG_Sprite)
+[2017.10.26-22.41.28:674][351]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.10.26-22.41.29:275][419]LogEditorViewport: Clicking on Actor (context menu): CameraActor (CameraActor)
+[2017.10.26-22.43.34:725][313]BlueprintLog: New page: Compile My2DMap
+[2017.10.26-22.43.35:320][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My2DMap" FILE="../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/My2DMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.26-22.43.35:443][334]LogSavePackage: Save=73.31ms
+[2017.10.26-22.43.35:443][334]LogSavePackage: Moving '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Saved/My2DMapF57C4EE1441F13F0981D7DA6EB796D91.tmp' to '../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/My2DMap.umap'
+[2017.10.26-22.43.35:463][334]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Felippe/Desktop/New folder/MyPaper2D/MyPaper2D/Content/My2DMap.umap
+[2017.10.26-22.43.35:698][334]LogFileHelpers: Saving map 'My2DMap' took 0.470
+[2017.10.26-22.43.39:276][642]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.26-22.43.39:327][642]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/My2DMap.My2DMap:PersistentLevel' has LevelScriptBlueprint '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap' with GeneratedClass '/Game/My2DMap.My2DMap_C' with ClassGeneratedBy '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap'
+[2017.10.26-22.43.39:327][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-22.43.39:327][642]PIE: New page: PIE session: My2DMap (26/10/2017 18:43:39)
+[2017.10.26-22.43.39:327][642]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.26-22.43.39:330][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002937s)
+[2017.10.26-22.43.39:331][642]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-22.43.39:331][642]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2017.10.26-22.43.39:331][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004057s)
+[2017.10.26-22.43.39:357][642]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-22.43.39:369][642]LogInit: FAudioDevice initialized.
+[2017.10.26-22.43.39:408][642]LogLoad: Game class is '2DGame_C'
+[2017.10.26-22.43.39:412][642]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-20.43.39
+[2017.10.26-22.43.39:413][642]LogWorld: Bringing up level for play took: 0.003622
+[2017.10.26-22.43.39:437][642]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,768
+[2017.10.26-22.43.39:437][642]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/My2DMap.My2DMap:PersistentLevel' has LevelScriptBlueprint '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap' with GeneratedClass '/Game/My2DMap.My2DMap_C' with ClassGeneratedBy '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap'
+[2017.10.26-22.43.39:468][642]LogRenderer: Reallocating scene render targets to support 1128x784 Format 9 NumSamples 1 (Frame:1).
+[2017.10.26-22.44.01:269][395]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/My2DMap.My2DMap:PersistentLevel' has LevelScriptBlueprint '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap' with GeneratedClass '/Game/My2DMap.My2DMap_C' with ClassGeneratedBy '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap'
+[2017.10.26-22.44.01:394][395]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/My2DMap.My2DMap:PersistentLevel' has LevelScriptBlueprint '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap' with GeneratedClass '/Game/My2DMap.My2DMap_C' with ClassGeneratedBy '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap'
+[2017.10.26-22.44.03:139][499]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2017.10.26-22.44.03:163][499]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/My2DMap.My2DMap:PersistentLevel' has LevelScriptBlueprint '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap' with GeneratedClass '/Game/My2DMap.My2DMap_C' with ClassGeneratedBy '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap'
+[2017.10.26-22.44.03:163][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-22.44.03:163][499]PIE: New page: PIE session: My2DMap (26/10/2017 18:44:03)
+[2017.10.26-22.44.03:163][499]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.26-22.44.03:166][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002580s)
+[2017.10.26-22.44.03:166][499]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-22.44.03:167][499]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2017.10.26-22.44.03:167][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.003708s)
+[2017.10.26-22.44.03:194][499]LogInit: XAudio2 using 'Realtek Digital Output(Optical) (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-22.44.03:204][499]LogInit: FAudioDevice initialized.
+[2017.10.26-22.44.03:244][499]LogLoad: Game class is '2DGame_C'
+[2017.10.26-22.44.03:247][499]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.26-20.44.03
+[2017.10.26-22.44.03:248][499]LogWorld: Bringing up level for play took: 0.003450
+[2017.10.26-22.44.03:253][499]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,584
+[2017.10.26-22.44.03:253][499]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/My2DMap.My2DMap:PersistentLevel' has LevelScriptBlueprint '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap' with GeneratedClass '/Game/My2DMap.My2DMap_C' with ClassGeneratedBy '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap'
+[2017.10.26-22.44.10:049][727]Cmd: LevelEditor.ToggleImmersive
+[2017.10.26-22.44.10:191][727]LogRenderer: Reallocating scene render targets to support 1312x880 Format 9 NumSamples 1 (Frame:47971).
+[2017.10.26-22.44.10:262][728]LogRenderer: Reallocating scene render targets to support 1440x900 Format 9 NumSamples 1 (Frame:47973).
+[2017.10.26-22.45.03:746][575]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/My2DMap.My2DMap:PersistentLevel' has LevelScriptBlueprint '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap' with GeneratedClass '/Game/My2DMap.My2DMap_C' with ClassGeneratedBy '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap'
+[2017.10.26-22.45.03:853][575]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/My2DMap.My2DMap:PersistentLevel' has LevelScriptBlueprint '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap' with GeneratedClass '/Game/My2DMap.My2DMap_C' with ClassGeneratedBy '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap'
