@@ -1,0 +1,1242 @@
+﻿Log file open, 10/25/17 23:19:13
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: MyPaper2D
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-973736101) SRandInit(-973736101).
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.158958
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.26-01.19.14:689][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.26-01.19.14:689][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.26-01.19.14:710][  0]LogInit: Computer: WELTALL
+[2017.10.26-01.19.14:710][  0]LogInit: User: YuriMeitzen
+[2017.10.26-01.19.14:710][  0]LogInit: CPU Page size=4096, Cores=3
+[2017.10.26-01.19.14:710][  0]LogInit: High frequency timer resolution =3.433663 MHz
+[2017.10.26-01.19.14:710][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2017.10.26-01.19.14:710][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.26-01.19.14:710][  0]LogMemory: Process Physical Memory: 279.29 MB used, 279.29 MB peak
+[2017.10.26-01.19.14:710][  0]LogMemory: Process Virtual Memory: 281.09 MB used, 281.09 MB peak
+[2017.10.26-01.19.14:710][  0]LogMemory: Physical Memory: 4550.34 MB used,  3600.23 MB free, 8150.58 MB total
+[2017.10.26-01.19.14:710][  0]LogMemory: Virtual Memory: 674.18 MB used,  3600.23 MB free, 134217728.00 MB total
+[2017.10.26-01.19.14:922][  0]LogInit: Using OS detected language (en-US).
+[2017.10.26-01.19.14:922][  0]LogInit: Using OS detected locale (pt-BR).
+[2017.10.26-01.19.14:925][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.26-01.19.15:801][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.26-01.19.15:825][  0]LogD3D11RHI:    0. 'AMD Radeon R7 200 Series' (Feature Level 11_0)
+[2017.10.26-01.19.15:825][  0]LogD3D11RHI:       2024/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.10.26-01.19.15:827][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.26-01.19.15:827][  0]LogD3D11RHI:       0/0/4075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.26-01.19.15:827][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.26-01.19.15:835][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.26-01.19.15:835][  0]LogD3D11RHI:     GPU DeviceId: 0x6658 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.26-01.19.15:835][  0]LogWindows: EnumDisplayDevices:
+[2017.10.26-01.19.15:835][  0]LogWindows:    0. 'AMD Radeon R7 200 Series' (P:1 D:1)
+[2017.10.26-01.19.15:836][  0]LogWindows:    1. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.10.26-01.19.15:836][  0]LogWindows:    2. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.10.26-01.19.15:836][  0]LogWindows:    3. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.10.26-01.19.15:836][  0]LogWindows:    4. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.10.26-01.19.15:836][  0]LogWindows:    5. 'AMD Radeon R7 200 Series' (P:0 D:0)
+[2017.10.26-01.19.15:837][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.10.26-01.19.15:837][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 200 Series
+[2017.10.26-01.19.15:837][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7.2 (internal:22.19.662.4, unified:22.19.662.4)
+[2017.10.26-01.19.15:837][  0]LogD3D11RHI:      Driver Date: 7-20-2017
+[2017.10.26-01.19.15:837][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.26-01.19.15:863][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.26-01.19.15:877][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.10.26-01.19.15:877][  0]LogD3D11RHI: HDR output is supported on display 0 (AMD Device: 0x0, Display: 0x0).
+[2017.10.26-01.19.15:877][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Intermediate/Shaders/WorkingDirectory/5216/).
+[2017.10.26-01.19.15:878][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Yuri Meitzen/AppData/Local/Temp/UnrealShaderWorkingDir/4BDD15634EF14FC220CC2DB952F83AC8/'.
+[2017.10.26-01.19.15:878][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.26-01.19.17:241][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.26-01.19.17:304][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.26-01.19.17:368][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.26-01.19.17:428][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.26-01.19.17:491][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.26-01.19.17:552][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.26-01.19.17:613][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.26-01.19.17:673][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.26-01.19.17:724][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.26-01.19.17:785][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.26-01.19.17:846][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.26-01.19.17:906][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.26-01.19.17:966][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.26-01.19.18:028][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.26-01.19.18:087][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.26-01.19.18:207][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.26-01.19.18:207][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.26-01.19.18:254][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.26-01.19.18:363][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.26-01.19.18:402][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.26-01.19.18:463][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.26-01.19.18:523][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.26-01.19.18:583][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.26-01.19.18:644][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.26-01.19.18:644][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.26-01.19.19:235][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.26-01.19.19:417][  0]LogDerivedDataCache: Loaded boot cache 0.18s 93MB C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.26-01.19.19:417][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.26-01.19.19:417][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.26-01.19.19:417][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.26-01.19.19:417][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.26-01.19.19:417][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.26-01.19.19:444][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.26-01.19.19:457][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.26-01.19.19:473][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.26-01.19.19:474][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.26-01.19.19:474][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.26-01.19.19:474][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.26-01.19.19:829][  0]LogAssetRegistry: FAssetRegistry took 0.0283 seconds to start up
+[2017.10.26-01.19.20:014][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.26-01.19.20:629][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.26-01.19.20:686][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.26-01.19.20:686][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.26-01.19.20:686][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.26-01.19.20:686][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.26-01.19.20:686][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.26-01.19.20:701][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.26-01.19.21:306][  0]LogNetVersion: MyPaper2D , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 640952014)
+[2017.10.26-01.19.21:605][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.067834 seconds
+[2017.10.26-01.19.21:615][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.26-01.19.21:615][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.26-01.19.21:615][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.26-01.19.21:702][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.26-01.19.25:152][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.26-01.19.25:197][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.26-01.19.25:916][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.26-01.19.26:396][  0]SourceControl: Source control is disabled
+[2017.10.26-01.19.26:397][  0]SourceControl: Source control is disabled
+[2017.10.26-01.19.26:455][  0]SourceControl: Source control is disabled
+[2017.10.26-01.19.26:512][  0]SourceControl: Source control is disabled
+[2017.10.26-01.19.27:234][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.26-01.19.27:520][  0]LogOcInput: OculusInput pre-init called
+[2017.10.26-01.19.27:806][  0]LogEngine: Initializing Engine...
+[2017.10.26-01.19.27:808][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.26-01.19.28:198][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.26-01.19.28:198][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.26-01.19.28:337][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.26-01.19.28:358][  0]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-01.19.28:372][  0]LogInit: FAudioDevice initialized.
+[2017.10.26-01.19.28:642][  0]LogDerivedDataCache: Saved boot cache 0.27s 93MB C:/Users/Yuri Meitzen/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.26-01.19.28:691][  0]LogInit: Texture streaming: Enabled
+[2017.10.26-01.19.28:826][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.26-01.19.29:089][  0]LogInit: Transaction tracking system initialized
+[2017.10.26-01.19.29:486][  0]BlueprintLog: New page: Editor Load
+[2017.10.26-01.19.30:523][  0]LocalizationService: Localization service is disabled
+[2017.10.26-01.19.31:323][  0]LogConsoleResponse: Display: 
+[2017.10.26-01.19.31:537][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.26-01.19.31:537][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.26-01.19.31:537][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.26-01.19.31:546][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/' took 0.01s
+[2017.10.26-01.19.32:824][  0]SourceControl: Source control is disabled
+[2017.10.26-01.19.32:824][  0]Cmd: MAP LOAD FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/My2DMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.26-01.19.32:825][  0]LightingResults: New page: Lighting Build
+[2017.10.26-01.19.32:871][  0]MapCheck: New page: Map Check
+[2017.10.26-01.19.32:871][  0]LightingResults: New page: Lighting Build
+[2017.10.26-01.19.33:293][  0]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-01.19.33:300][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.26-01.19.33:320][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.26-01.19.33:383][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62,748ms to complete.
+[2017.10.26-01.19.33:383][  0]LogFileHelpers: Loading map 'My2DMap' took 0.559
+[2017.10.26-01.19.33:450][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.26-01.19.33:570][  0]LogCollectionManager: Loaded 0 collections in 0.001295 seconds
+[2017.10.26-01.19.33:657][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/Collections/' took 0.01s
+[2017.10.26-01.19.33:657][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Developers/YuriMeitzen/Collections/' took 0.01s
+[2017.10.26-01.19.33:657][  0]LogFileCache: Scanning file cache for directory 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Collections/' took 0.01s
+[2017.10.26-01.19.33:657][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.26-01.19.33:672][  0]LogContentBrowser: Native class hierarchy populated in 0.0149 seconds. Added 2386 classes and 500 folders.
+[2017.10.26-01.19.33:750][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.10.26-01.19.33:802][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.10.26-01.19.33:853][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.26-01.19.33:936][  0]LogSlate: Took 0.000334 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.26-01.19.33:940][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.26-01.19.33:947][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.26-01.19.34:059][  0]LogRenderer: Reallocating scene render targets to support 1036x576 Format 9 NumSamples 1 (Frame:1).
+[2017.10.26-01.19.34:122][  0]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.26-01.19.34:308][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.10.26-01.19.34:309][  0]LogLoad: (Engine Initialization) Total time: 21.39 seconds
+[2017.10.26-01.19.34:309][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.26-01.19.34:309][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.26-01.19.34:309][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.26-01.19.34:342][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.10.26-01.19.34:449][  1]LogAssetRegistry: Asset discovery search completed in 14.6429 seconds
+[2017.10.26-01.19.34:451][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.26-01.19.34:451][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
+[2017.10.26-01.19.37:891][380]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.26-01.19.38:431][380]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 113 classes and 0 folders.
+[2017.10.26-01.19.39:296][380]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.26-01.19.39:445][380]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.26-01.19.39:619][381]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.26-01.26.18:516][115]BlueprintLog: New page: Compile 2DCharacter
+[2017.10.26-01.26.19:948][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/2DCharacter" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset" SILENT=true
+[2017.10.26-01.26.20:193][142]LogSavePackage: Save=223.80ms
+[2017.10.26-01.26.20:194][142]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacter00406B8E440ADE3E1808229ACFD237A2.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset'
+[2017.10.26-01.26.20:199][142]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset
+[2017.10.26-01.26.29:199][499]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.26-01.26.29:257][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-01.26.29:258][499]PIE: New page: PIE session: My2DMap (25/10/2017 21:26:29)
+[2017.10.26-01.26.29:258][499]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.26-01.26.29:261][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003051s)
+[2017.10.26-01.26.29:262][499]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-01.26.29:262][499]LogPlayLevel: PIE: World Init took: (0.001095s)
+[2017.10.26-01.26.29:262][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004498s)
+[2017.10.26-01.26.29:396][499]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-01.26.29:407][499]LogInit: FAudioDevice initialized.
+[2017.10.26-01.26.29:453][499]LogLoad: Game class is '2DGame_C'
+[2017.10.26-01.26.29:460][499]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.25-23.26.29
+[2017.10.26-01.26.29:461][499]LogWorld: Bringing up level for play took: 0.003280
+[2017.10.26-01.26.29:524][499]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.10.26-01.26.29:526][499]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,031
+[2017.10.26-01.26.31:188][692]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:188][692]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:196][693]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:205][694]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:213][695]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:222][696]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:230][697]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:238][698]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:247][699]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:255][700]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:265][701]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:273][702]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:282][703]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:290][704]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:298][705]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:307][706]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:315][707]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:323][708]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:333][709]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:341][710]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:349][711]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:357][712]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:367][713]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:376][714]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:384][715]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:394][716]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:404][717]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:413][718]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:422][719]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:430][720]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:612][741]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:612][741]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:620][742]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:630][743]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:639][744]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:648][745]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:657][746]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:666][747]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:674][748]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:684][749]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:693][750]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:702][751]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:711][752]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:719][753]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:729][754]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:737][755]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:746][756]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:755][757]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:764][758]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:773][759]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:782][760]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:790][761]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:799][762]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:807][763]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:817][764]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:826][765]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:835][766]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:844][767]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:852][768]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.31:861][769]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:009][786]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:009][786]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:017][787]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:026][788]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:036][789]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:044][790]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:052][791]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:062][792]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:071][793]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:079][794]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:087][795]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:097][796]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:106][797]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:114][798]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:124][799]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:133][800]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:142][801]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:151][802]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:160][803]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:169][804]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:177][805]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:186][806]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:195][807]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:203][808]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:211][809]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:219][810]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:229][811]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:238][812]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:246][813]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.32:255][814]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:043][904]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:043][904]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:051][905]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:061][906]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:070][907]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:079][908]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:087][909]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:096][910]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:106][911]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:114][912]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:123][913]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:132][914]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:140][915]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:149][916]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:158][917]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:167][918]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:176][919]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:185][920]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:195][921]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:203][922]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:212][923]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:220][924]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:229][925]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:239][926]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:247][927]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:256][928]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:264][929]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:273][930]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:281][931]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:290][932]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:290][932]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:299][933]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:308][934]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:317][935]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:325][936]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:334][937]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:342][938]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:351][939]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:360][940]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:369][941]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:379][942]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:387][943]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:396][944]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:404][945]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:414][946]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:424][947]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:433][948]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:442][949]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:450][950]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:459][951]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:468][952]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:477][953]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:485][954]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:485][954]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:495][955]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:503][956]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:512][957]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:520][958]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:529][959]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:537][960]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:546][961]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:554][962]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:564][963]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:572][964]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:581][965]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:590][966]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:599][967]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:608][968]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:617][969]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:625][970]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:634][971]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:634][971]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:642][972]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:651][973]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:660][974]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:669][975]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:678][976]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:686][977]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:695][978]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:704][979]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:712][980]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:720][981]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:729][982]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:738][983]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:746][984]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:755][985]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:764][986]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:773][987]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:781][988]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:789][989]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:798][990]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:808][991]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:816][992]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:825][993]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:825][993]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:834][994]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:842][995]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:851][996]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:859][997]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:868][998]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:877][999]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:885][  0]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:894][  1]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:903][  2]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:911][  3]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:920][  4]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:930][  5]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:938][  6]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:947][  7]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:955][  8]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:965][  9]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:974][ 10]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:982][ 11]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.33:991][ 12]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:002][ 13]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:011][ 14]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:020][ 15]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:029][ 16]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:038][ 17]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:046][ 18]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:055][ 19]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:065][ 20]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:073][ 21]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:292][ 46]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:293][ 46]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:301][ 47]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:310][ 48]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:319][ 49]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:328][ 50]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:337][ 51]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:345][ 52]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:354][ 53]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:365][ 54]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:373][ 55]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:382][ 56]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:391][ 57]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:400][ 58]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:408][ 59]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:417][ 60]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:427][ 61]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:436][ 62]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:444][ 63]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:453][ 64]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:462][ 65]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:471][ 66]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:480][ 67]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:488][ 68]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:498][ 69]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:507][ 70]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:515][ 71]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:524][ 72]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:533][ 73]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:541][ 74]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:673][ 89]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:673][ 89]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:681][ 90]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:689][ 91]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:699][ 92]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:708][ 93]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:717][ 94]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:726][ 95]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:735][ 96]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:743][ 97]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:752][ 98]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:761][ 99]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:770][100]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:778][101]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:786][102]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:796][103]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:804][104]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:813][105]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:821][106]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:831][107]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:840][108]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:848][109]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:857][110]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:866][111]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:875][112]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:883][113]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:892][114]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:901][115]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:910][116]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.34:919][117]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.35:865][225]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.35:865][225]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.35:874][226]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.35:882][227]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.35:892][228]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.35:901][229]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.35:911][230]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.35:919][231]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.35:928][232]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.35:938][233]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.35:947][234]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.35:956][235]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.35:964][236]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.35:973][237]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.35:982][238]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.35:991][239]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.36:000][240]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.36:009][241]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.36:018][242]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.36:027][243]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.36:036][244]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.36:044][245]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.36:053][246]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.36:063][247]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.36:071][248]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.36:080][249]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.36:089][250]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.36:098][251]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.36:107][252]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:845][453]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:846][453]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:855][454]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:864][455]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:873][456]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:883][457]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:892][458]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:900][459]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:909][460]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:917][461]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:926][462]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:936][463]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:945][464]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:954][465]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:963][466]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:972][467]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:981][468]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.37:991][469]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.38:001][470]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.38:009][471]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.38:018][472]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.38:027][473]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.38:036][474]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.38:044][475]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.38:053][476]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.38:062][477]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.38:070][478]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.38:079][479]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.38:089][480]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:119][758]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:120][758]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:130][759]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:141][760]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:152][761]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:163][762]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:174][763]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:185][764]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:196][765]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:208][766]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:219][767]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:230][768]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:241][769]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:252][770]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:263][771]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:274][772]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:286][773]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:296][774]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:308][775]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:319][776]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:330][777]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:341][778]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:353][779]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:365][780]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:714][811]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:714][811]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:725][812]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:736][813]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:748][814]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:759][815]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:771][816]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:783][817]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:795][818]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:806][819]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:818][820]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:830][821]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:842][822]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:853][823]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:865][824]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:877][825]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:888][826]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:900][827]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:911][828]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:923][829]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:935][830]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:947][831]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.41:958][832]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:041][839]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:041][839]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:053][840]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:065][841]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:076][842]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:088][843]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:100][844]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:112][845]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:123][846]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:135][847]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:147][848]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:159][849]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:171][850]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:183][851]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:195][852]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:206][853]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:218][854]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:229][855]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:241][856]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:253][857]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:264][858]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:276][859]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.42:288][860]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:329][950]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:329][950]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:340][951]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:351][952]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:363][953]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:375][954]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:386][955]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:398][956]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:409][957]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:420][958]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:431][959]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:444][960]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:455][961]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:466][962]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:478][963]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:490][964]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:501][965]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:514][966]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:526][967]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:538][968]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:550][969]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:561][970]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.43:573][971]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:269][ 31]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:270][ 31]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:281][ 32]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:292][ 33]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:304][ 34]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:316][ 35]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:327][ 36]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:340][ 37]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:351][ 38]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:362][ 39]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:375][ 40]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:386][ 41]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:397][ 42]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:409][ 43]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:420][ 44]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:432][ 45]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:444][ 46]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:455][ 47]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:466][ 48]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:478][ 49]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:489][ 50]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:500][ 51]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.44:512][ 52]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:691][154]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:691][154]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:703][155]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:714][156]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:726][157]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:738][158]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:749][159]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:760][160]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:773][161]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:784][162]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:796][163]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:807][164]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:819][165]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:830][166]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:841][167]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:852][168]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:863][169]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:874][170]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:886][171]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:898][172]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:909][173]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:920][174]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.45:931][175]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:227][377]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:228][377]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:239][378]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:250][379]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:261][380]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:271][381]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:282][382]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:293][383]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:305][384]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:315][385]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:327][386]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:338][387]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:349][388]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:360][389]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:372][390]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:383][391]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:395][392]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:406][393]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:417][394]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:428][395]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:439][396]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:450][397]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:462][398]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:474][399]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:990][445]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.48:990][445]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:003][446]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:014][447]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:026][448]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:038][449]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:049][450]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:062][451]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:074][452]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:085][453]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:097][454]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:108][455]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:120][456]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:132][457]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:144][458]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:155][459]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:167][460]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:178][461]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:190][462]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:202][463]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:214][464]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:225][465]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:237][466]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:606][498]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:607][498]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:618][499]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:631][500]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:643][501]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:654][502]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:666][503]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:678][504]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:689][505]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:701][506]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:712][507]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:724][508]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:736][509]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:748][510]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:759][511]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:771][512]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:783][513]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:794][514]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:806][515]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:817][516]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:830][517]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:842][518]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.49:853][519]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:481][573]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:481][573]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:493][574]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:505][575]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:516][576]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:527][577]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:539][578]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:550][579]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:563][580]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:576][581]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:588][582]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:600][583]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:611][584]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:622][585]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:634][586]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:645][587]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:657][588]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:668][589]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:680][590]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:692][591]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:704][592]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:715][593]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.50:727][594]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.52:830][779]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.52:830][779]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.52:841][780]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.52:851][781]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.52:862][782]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.52:873][783]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.52:884][784]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.52:895][785]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.52:906][786]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.52:916][787]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.52:927][788]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.52:938][789]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.52:948][790]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.52:960][791]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.52:971][792]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.52:982][793]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.52:994][794]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.53:005][795]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.53:017][796]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.53:028][797]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.53:039][798]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.53:051][799]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.53:062][800]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.53:073][801]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:211][901]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:212][901]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:224][902]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:235][903]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:246][904]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:258][905]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:269][906]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:280][907]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:292][908]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:303][909]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:314][910]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:326][911]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:338][912]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:350][913]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:361][914]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:373][915]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:386][916]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:397][917]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:408][918]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:421][919]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:432][920]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:443][921]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.26.54:456][922]LogBlueprintUserMessages: [2DCharacter_C_0] X=0.000 Y=0.000 Z=0.000
+[2017.10.26-01.29.56:198][611]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.26-01.30.05:087][690]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2DMap' took 0.162
+[2017.10.26-01.30.05:090][690]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/2DCharacter] ([1] browsable assets)...
+[2017.10.26-01.30.05:090][690]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/2DCharacter]
+[2017.10.26-01.30.05:317][690]LogSavePackage: Save=214.54ms
+[2017.10.26-01.30.05:317][690]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacter_Auto12C93B60D4171A371B6519CBB2E66D5FB.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/Autosaves/Game/Blueprints/2DCharacter_Auto1.uasset'
+[2017.10.26-01.30.05:318][690]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/Autosaves/Game/Blueprints/2DCharacter_Auto1.uasset
+[2017.10.26-01.30.05:318][690]LogFileHelpers: Auto-saving content packages took 0.230
+[2017.10.26-01.30.36:313][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/2DCharacter" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset" SILENT=true
+[2017.10.26-01.30.36:521][410]LogSavePackage: Save=196.17ms
+[2017.10.26-01.30.36:521][410]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacter5984A43140F48520CFAD68B8D440861E.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset'
+[2017.10.26-01.30.36:524][410]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset
+[2017.10.26-01.30.37:797][439]BlueprintLog: New page: Compile 2DCharacter
+[2017.10.26-01.30.37:873][439]LogBlueprint: Error: [Compiler 2DCharacter] This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2017.10.26-01.30.38:255][439]LogBlueprint: Warning: [Compiler 2DCharacter] [0685,34] Compile of 2DCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 457 ms] (/Game/Blueprints/2DCharacter.2DCharacter)
+[2017.10.26-01.30.54:461][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/2DCharacter" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset" SILENT=true
+[2017.10.26-01.30.54:668][797]LogSavePackage: Save=198.93ms
+[2017.10.26-01.30.54:668][797]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacterBC4CDFD545BB538444E23FA44F850542.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset'
+[2017.10.26-01.30.54:671][797]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset
+[2017.10.26-01.30.55:335][811]BlueprintLog: New page: Compile 2DCharacter
+[2017.10.26-01.31.47:576][158]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.26-01.31.47:611][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-01.31.47:611][158]PIE: New page: PIE session: My2DMap (25/10/2017 21:31:47)
+[2017.10.26-01.31.47:611][158]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.26-01.31.47:615][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003463s)
+[2017.10.26-01.31.47:616][158]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-01.31.47:617][158]LogPlayLevel: PIE: World Init took: (0.001781s)
+[2017.10.26-01.31.47:617][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.005898s)
+[2017.10.26-01.31.47:821][158]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-01.31.47:830][158]LogInit: FAudioDevice initialized.
+[2017.10.26-01.31.47:862][158]LogLoad: Game class is '2DGame_C'
+[2017.10.26-01.31.47:864][158]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.25-23.31.47
+[2017.10.26-01.31.47:864][158]LogWorld: Bringing up level for play took: 0.001565
+[2017.10.26-01.31.47:866][158]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap 0,309
+[2017.10.26-01.32.30:225][ 71]Cmd: SELECT NONE
+[2017.10.26-01.40.14:287][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/2DCharacter" FILE="../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset" SILENT=true
+[2017.10.26-01.40.14:525][683]LogSavePackage: Save=218.46ms
+[2017.10.26-01.40.14:525][683]LogSavePackage: Moving '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/2DCharacter9535769940AFCBE60FC2C5907C9AA55D.tmp' to '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset'
+[2017.10.26-01.40.14:528][683]LogSavePackage: Display: Finished SavePackage ../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Blueprints/2DCharacter.uasset
+[2017.10.26-01.40.15:724][705]BlueprintLog: New page: Compile 2DCharacter
+[2017.10.26-01.40.19:089][826]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.26-01.40.19:127][826]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.26-01.40.19:127][826]PIE: New page: PIE session: My2DMap (25/10/2017 21:40:19)
+[2017.10.26-01.40.19:127][826]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_My2DMap
+[2017.10.26-01.40.19:130][826]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002747s)
+[2017.10.26-01.40.19:131][826]LogAIModule: Creating AISystem for world My2DMap
+[2017.10.26-01.40.19:131][826]LogPlayLevel: PIE: World Init took: (0.001129s)
+[2017.10.26-01.40.19:132][826]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/My2DMap.My2DMap to /Game/UEDPIE_0_My2DMap.My2DMap (0.004405s)
+[2017.10.26-01.40.19:180][826]LogInit: XAudio2 using '5 - SAMSUNG (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.26-01.40.19:190][826]LogInit: FAudioDevice initialized.
+[2017.10.26-01.40.19:221][826]LogLoad: Game class is '2DGame_C'
+[2017.10.26-01.40.19:223][826]LogWorld: Bringing World /Game/UEDPIE_0_My2DMap.My2DMap up for play (max tick rate 0) at 2017.10.25-23.40.19
+[2017.10.26-01.40.19:224][826]LogWorld: Bringing up level for play took: 0.001518
+[2017.10.26-01.40.19:225][826]PIE: Play in editor start time for /Game/UEDPIE_0_My2DMap -0,332
+[2017.10.26-01.41.13:623][740]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.26-01.41.13:857][741]Cmd: QUIT_EDITOR
+[2017.10.26-01.41.14:239][741]LogExit: Preparing to exit.
+[2017.10.26-01.41.14:782][741]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/' was aborted.
+[2017.10.26-01.41.14:835][741]LogExit: Editor shut down
+[2017.10.26-01.41.14:844][741]LogExit: Transaction tracking system shut down
+[2017.10.26-01.41.15:008][741]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.26-01.41.15:008][741]LogDirectoryWatcher: A directory notification for '../../../../../MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/' was aborted.
+[2017.10.26-01.41.15:008][741]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.26-01.41.15:008][741]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.10.26-01.41.15:008][741]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.10.26-01.41.15:205][741]LogExit: Object subsystem successfully closed.
+[2017.10.26-01.41.15:227][741]LogD3D11RHI: Shutdown
+[2017.10.26-01.41.15:227][741]LogD3D11RHI: CleanupD3DDevice
+[2017.10.26-01.41.15:317][741]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.26-01.41.15:329][741]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2017.10.26-01.41.15:329][741]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.10.26-01.41.15:329][741]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.10.26-01.41.15:330][741]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.10.26-01.41.15:330][741]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.10.26-01.41.15:330][741]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.10.26-01.41.15:330][741]LogDirectoryWatcher: A directory notification for 'D:/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.10.26-01.41.15:331][741]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.10.26-01.41.15:331][741]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.10.26-01.41.15:331][741]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.10.26-01.41.15:331][741]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Collections/' was aborted.
+[2017.10.26-01.41.15:331][741]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Content/Developers/YuriMeitzen/Collections/' was aborted.
+[2017.10.26-01.41.15:331][741]LogDirectoryWatcher: A directory notification for 'D:/MyDocuments/Unreal Projects/Mypaper2D/MyPaper2D/Saved/Collections/' was aborted.
+[2017.10.26-01.41.15:331][741]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.10.26-01.41.15:332][741]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.10.26-01.41.15:333][741]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.10.26-01.41.15:333][741]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.10.26-01.41.15:333][741]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.10.26-01.41.15:333][741]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.10.26-01.41.15:333][741]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.10.26-01.41.15:333][741]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.10.26-01.41.15:333][741]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.10.26-01.41.15:333][741]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.10.26-01.41.15:333][741]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.10.26-01.41.15:473][741]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.10.26-01.41.15:473][741]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.10.26-01.41.15:473][741]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.10.26-01.41.15:473][741]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.10.26-01.41.15:473][741]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.10.26-01.41.15:475][741]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.10.26-01.41.15:475][741]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.10.26-01.41.15:475][741]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.10.26-01.41.15:476][741]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.10.26-01.41.15:476][741]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.10.26-01.41.15:476][741]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.10.26-01.41.15:477][741]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.10.26-01.41.15:477][741]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.10.26-01.41.15:477][741]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.10.26-01.41.15:477][741]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.10.26-01.41.15:477][741]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.10.26-01.41.15:477][741]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.10.26-01.41.15:478][741]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.10.26-01.41.15:478][741]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.10.26-01.41.15:479][741]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.10.26-01.41.15:480][741]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.10.26-01.41.15:480][741]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.10.26-01.41.15:480][741]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.10.26-01.41.15:480][741]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.10.26-01.41.15:533][741]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.10.26-01.41.15:533][741]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.10.26-01.41.15:533][741]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.10.26-01.41.15:533][741]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.10.26-01.41.15:533][741]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.10.26-01.41.15:533][741]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.10.26-01.41.15:534][741]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.10.26-01.41.15:534][741]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.10.26-01.41.15:534][741]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.10.26-01.41.15:534][741]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.10.26-01.41.15:550][741]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.10.26-01.41.15:550][741]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.10.26-01.41.15:550][741]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.10.26-01.41.15:550][741]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.10.26-01.41.15:550][741]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.10.26-01.41.15:550][741]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.10.26-01.41.15:550][741]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.10.26-01.41.15:550][741]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.10.26-01.41.15:550][741]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.10.26-01.41.15:550][741]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.10.26-01.41.15:551][741]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.10.26-01.41.15:551][741]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.10.26-01.41.15:551][741]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.10.26-01.41.15:551][741]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.10.26-01.41.15:551][741]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.10.26-01.41.15:551][741]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.10.26-01.41.15:551][741]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.10.26-01.41.15:551][741]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.10.26-01.41.15:551][741]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.10.26-01.41.15:551][741]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.10.26-01.41.15:551][741]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.10.26-01.41.15:571][741]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.10.26-01.41.15:571][741]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.10.26-01.41.15:571][741]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.10.26-01.41.15:571][741]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.10.26-01.41.15:571][741]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.10.26-01.41.15:571][741]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.10.26-01.41.15:571][741]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.10.26-01.41.15:571][741]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.10.26-01.41.15:571][741]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.10.26-01.41.15:571][741]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.10.26-01.41.15:572][741]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.10.26-01.41.15:573][741]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.10.26-01.41.15:573][741]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.10.26-01.41.15:573][741]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.10.26-01.41.15:574][741]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.10.26-01.41.15:574][741]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.10.26-01.41.15:574][741]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.10.26-01.41.15:574][741]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.10.26-01.41.15:574][741]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.10.26-01.41.15:574][741]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.10.26-01.41.15:574][741]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.10.26-01.41.15:574][741]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.10.26-01.41.15:675][741]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.10.26-01.41.15:776][741]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.10.26-01.41.15:776][741]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.10.26-01.41.15:776][741]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.10.26-01.41.15:776][741]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.10.26-01.41.15:776][741]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.10.26-01.41.15:776][741]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.10.26-01.41.15:777][741]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.10.26-01.41.15:777][741]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.10.26-01.41.15:777][741]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.10.26-01.41.15:777][741]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.10.26-01.41.15:777][741]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.10.26-01.41.15:777][741]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.10.26-01.41.15:777][741]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.10.26-01.41.15:778][741]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.10.26-01.41.15:778][741]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.10.26-01.41.15:778][741]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.10.26-01.41.15:778][741]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.10.26-01.41.15:778][741]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.10.26-01.41.15:778][741]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.10.26-01.41.15:778][741]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.10.26-01.41.15:778][741]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.10.26-01.41.15:778][741]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.10.26-01.41.15:778][741]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.10.26-01.41.15:778][741]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.10.26-01.41.15:778][741]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.10.26-01.41.15:778][741]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.10.26-01.41.15:778][741]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.10.26-01.41.15:778][741]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.10.26-01.41.15:778][741]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.10.26-01.41.15:778][741]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.10.26-01.41.15:781][741]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.10.26-01.41.15:781][741]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.10.26-01.41.15:781][741]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.10.26-01.41.15:781][741]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.10.26-01.41.15:781][741]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.10.26-01.41.15:781][741]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.10.26-01.41.15:781][741]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.10.26-01.41.15:781][741]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.10.26-01.41.15:781][741]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.10.26-01.41.15:781][741]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.10.26-01.41.15:781][741]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.10.26-01.41.15:781][741]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.10.26-01.41.15:781][741]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.10.26-01.41.15:781][741]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.10.26-01.41.15:781][741]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.10.26-01.41.15:781][741]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.10.26-01.41.15:782][741]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.26-01.41.15:791][741]LogDerivedDataCache: Shutdown
+[2017.10.26-01.41.15:791][741]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.26-01.41.15:791][741]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.26-01.41.15:791][741]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.26-01.41.15:791][741]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.26-01.41.15:791][741]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.26-01.41.15:791][741]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.26-01.41.15:791][741]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.26-01.41.15:791][741]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.26-01.41.15:791][741]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.26-01.41.15:791][741]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.26-01.41.15:791][741]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.26-01.41.15:791][741]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.26-01.41.15:791][741]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.26-01.41.15:791][741]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.26-01.41.15:791][741]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.26-01.41.15:791][741]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.26-01.41.15:792][741]LogOnline: Display: Unloading online subsystem: NULL
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.26-01.41.15:792][741]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.26-01.41.15:792][741]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.26-01.41.15:792][741]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B420D4E11-4FF1-FEFE-60D0-498A11327A59%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=4d336c304cb600f3833bee9ec6324b6b%7C97e6c6ec20b34e1681bb9ded12457367%7Cea9e9fd9-3d7e-4d9a-8813-872780a612b3&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.26-01.41.15:816][741]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.26-01.41.15:818][741]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.10.26-01.41.15:818][741]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.10.26-01.41.15:818][741]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.10.26-01.41.15:818][741]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.10.26-01.41.15:818][741]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.10.26-01.41.15:818][741]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.10.26-01.41.15:818][741]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.10.26-01.41.15:820][741]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.10.26-01.41.15:820][741]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.10.26-01.41.15:820][741]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.10.26-01.41.15:820][741]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.10.26-01.41.15:820][741]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.10.26-01.41.15:820][741]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.10.26-01.41.15:820][741]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.10.26-01.41.15:820][741]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.10.26-01.41.15:820][741]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.26-01.41.15:820][741]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.26-01.41.15:820][741]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.26-01.41.15:823][741]LogExit: Exiting.
+[2017.10.26-01.41.15:851][741]Log file closed, 10/25/17 23:41:15
