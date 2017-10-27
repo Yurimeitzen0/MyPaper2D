@@ -3410,3 +3410,25 @@ Scale3D: 1.000000 1.000000 1.000000
 [2017.10.27-05.10.49:670][307]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/My2DMap.My2DMap:PersistentLevel' has LevelScriptBlueprint '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap' with GeneratedClass '/Game/My2DMap.My2DMap_C' with ClassGeneratedBy '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap'
 [2017.10.27-05.11.18:089][294]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/My2DMap.My2DMap:PersistentLevel' has LevelScriptBlueprint '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap' with GeneratedClass '/Game/My2DMap.My2DMap_C' with ClassGeneratedBy '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap'
 [2017.10.27-05.11.18:198][294]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/My2DMap.My2DMap:PersistentLevel' has LevelScriptBlueprint '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap' with GeneratedClass '/Game/My2DMap.My2DMap_C' with ClassGeneratedBy '/Game/My2DMap.My2DMap:PersistentLevel.My2DMap'
+[2017.10.27-05.15.26:168][366]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.MyPaper2D
+[2017.10.27-05.15.26:168][366]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.27-05.15.26:168][366]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.10.27-05.15.26:168][366]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.10.27-05.15.26:168][366]LogTemp: BranchPath = ALEXSANDER-PC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = ALEXSANDER-PC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.10.27-05.15.26:256][367]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Alexsander\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.10.27-05.16.36:253][578]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My2DMap' took 0.344
+[2017.10.27-05.16.36:255][578]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Blue/BlueProjectile] ([1] browsable assets)...
+[2017.10.27-05.16.36:255][578]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Blue/BlueProjectile]
+[2017.10.27-05.16.36:342][578]LogSavePackage: Save=45.39ms
+[2017.10.27-05.16.36:342][578]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/BlueProjectile_Auto6F5942BF44E05018820899585C0929274.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Autosaves/Game/Blueprints/Blue/BlueProjectile_Auto6.uasset'
+[2017.10.27-05.16.36:344][578]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/Autosaves/Game/Blueprints/Blue/BlueProjectile_Auto6.uasset
+[2017.10.27-05.16.36:344][578]LogFileHelpers: Auto-saving content packages took 0.090
+[2017.10.27-05.16.37:319][581]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.10.27-05.16.41:287][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Blue/BlueProjectile" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/BlueProjectile.uasset" SILENT=true
+[2017.10.27-05.16.41:361][718]LogSavePackage: Save=40.83ms
+[2017.10.27-05.16.41:361][718]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/BlueProjectileA2A4187F4B467F28524EB38728413C15.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/BlueProjectile.uasset'
+[2017.10.27-05.16.41:365][718]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Blueprints/Blue/BlueProjectile.uasset
+[2017.10.27-05.16.41:372][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/2DInkBulletBigBlack" FILE="../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/2DInkBulletBigBlack.uasset" SILENT=true
+[2017.10.27-05.16.41:382][718]LogSavePackage: Save=7.55ms
+[2017.10.27-05.16.41:382][718]LogSavePackage: Moving '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Saved/2DInkBulletBigBlackFBF13A0A4B8F14D66B87259598DC69EB.tmp' to '../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/2DInkBulletBigBlack.uasset'
+[2017.10.27-05.16.41:386][718]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Alexsander/Projetos/Unreal/MyPaper2D/MyPaper2D/Content/Textures/2DInkBulletBigBlack.uasset
